@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <tableData xmlns="http://www.EFIAnalytics.com/:table">
-<bibliography author="EFI Analytics - philip.tobin@yahoo.com" company="EFI Analytics, copyright 2010, All Rights Reserved." writeDate="Sun Aug 17 16:40:25 EDT 2014"/>
+<bibliography author="EFI Analytics - philip.tobin@yahoo.com" company="EFI Analytics, copyright 2010, All Rights Reserved." writeDate="Fri Mar 13 19:25:36 EDT 2015"/>
 <versionInfo fileFormat="1.0"/>
 <table cols="3" rows="3">
 <xAxis cols="3" name="rpm">
@@ -14,9 +14,9 @@
          250.0 
       </yAxis>
 <zValues cols="3" rows="3">
-         180.0 160.0 160.0 
-         150.0 130.0 140.0 
-         135.0 130.0 120.0 
+         150.0 140.0 120.0 
+         130.0 110.0 120.0 
+         115.0 110.0 100.0 
       </zValues>
 </table>
 </tableData>
