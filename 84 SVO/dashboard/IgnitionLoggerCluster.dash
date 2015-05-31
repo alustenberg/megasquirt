@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dsh xmlns="http://www.EFIAnalytics.com/:dsh">
-<bibliography author="TunerStudio 2.6.14 - EFI Analytics - philip.tobin@yahoo.com" company="EFI Analytics, © 2007 - 2012, All Rights Reserved." writeDate="Wed May 20 11:21:09 EDT 2015"/>
+<bibliography author="TunerStudio 2.6.14 - EFI Analytics - philip.tobin@yahoo.com" company="EFI Analytics, © 2007 - 2012, All Rights Reserved." writeDate="Fri May 29 20:25:24 EDT 2015"/>
 <versionInfo fileFormat="2.0" firmwareSignature="MS3 Format 0435.05 "/>
 <gaugeCluster antiAliasing="false" backgroundDitherColor="-8355712" clusterBackgroundColor="-16777216" clusterBackgroundImageFileName="" clusterBackgroundImageStyle="Tile">
 <dashComp type="com.efiAnalytics.tunerStudio.Gauge">
@@ -10,13 +10,8 @@
 <GoingDead type="boolean">false</GoingDead>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<ValueDigits type="int">0</ValueDigits>
-<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
-<ShowHistory type="boolean">false</ShowHistory>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">1</BorderWidth>
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
 <DisplayValue type="String">0</DisplayValue>
@@ -40,23 +35,28 @@
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
-<BackgroundImageFileName type="String">null</BackgroundImageFileName>
+<ValueDigits type="int">0</ValueDigits>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<ShowHistory type="boolean">false</ShowHistory>
 <Title type="String">Engine Speed</Title>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">0.0</Value>
 <OutputChannel type="String">rpm</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">0.0</Value>
-<RelativeX type="double">0.0</RelativeX>
-<RelativeY type="double">0.0</RelativeY>
-<MustPaint type="boolean">true</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.2</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
 <AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<EcuConfigurationName type="String"/>
-<FontFamily type="String"/>
+<RelativeX type="double">0.0</RelativeX>
+<RelativeY type="double">0.0</RelativeY>
+<MustPaint type="boolean">true</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
 </dashComp>
@@ -67,13 +67,8 @@
 <GoingDead type="boolean">false</GoingDead>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<ValueDigits type="int">0</ValueDigits>
-<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
-<ShowHistory type="boolean">false</ShowHistory>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">0</BorderWidth>
 <CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
 <DisplayValue type="String">0</DisplayValue>
@@ -97,23 +92,28 @@
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
-<BackgroundImageFileName type="String">null</BackgroundImageFileName>
+<ValueDigits type="int">0</ValueDigits>
+<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<ShowHistory type="boolean">false</ShowHistory>
 <Title type="String"/>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">0.0</Value>
 <OutputChannel type="String">rpm</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">0.0</Value>
-<RelativeX type="double">0.6699999999999999</RelativeX>
-<RelativeY type="double">0.060606060606060615</RelativeY>
-<MustPaint type="boolean">true</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.05</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
 <AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<EcuConfigurationName type="String"/>
-<FontFamily type="String"/>
+<RelativeX type="double">0.6699999999999999</RelativeX>
+<RelativeY type="double">0.060606060606060615</RelativeY>
+<MustPaint type="boolean">true</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
 </dashComp>
@@ -124,13 +124,8 @@
 <GoingDead type="boolean">false</GoingDead>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<ValueDigits type="int">1</ValueDigits>
-<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
-<ShowHistory type="boolean">true</ShowHistory>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">1</BorderWidth>
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
 <DisplayValue type="String">0.0</DisplayValue>
@@ -154,23 +149,28 @@
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
-<BackgroundImageFileName type="String">null</BackgroundImageFileName>
+<ValueDigits type="int">1</ValueDigits>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<ShowHistory type="boolean">true</ShowHistory>
 <Title type="String">Engine MAP</Title>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">0.0</Value>
 <OutputChannel type="String">map</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">0.0</Value>
-<RelativeX type="double">0.0</RelativeX>
-<RelativeY type="double">0.2</RelativeY>
-<MustPaint type="boolean">true</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.2</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
 <AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<EcuConfigurationName type="String"/>
-<FontFamily type="String"/>
+<RelativeX type="double">0.0</RelativeX>
+<RelativeY type="double">0.2</RelativeY>
+<MustPaint type="boolean">true</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
 </dashComp>
@@ -181,13 +181,8 @@
 <GoingDead type="boolean">false</GoingDead>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<ValueDigits type="int">1</ValueDigits>
-<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
-<ShowHistory type="boolean">true</ShowHistory>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">0</BorderWidth>
 <CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
 <DisplayValue type="String">0.0</DisplayValue>
@@ -211,23 +206,28 @@
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
-<BackgroundImageFileName type="String">null</BackgroundImageFileName>
+<ValueDigits type="int">1</ValueDigits>
+<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<ShowHistory type="boolean">true</ShowHistory>
 <Title type="String"/>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">0.0</Value>
 <OutputChannel type="String">map</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">0.0</Value>
-<RelativeX type="double">0.6699999999999999</RelativeX>
-<RelativeY type="double">0.2606060606060606</RelativeY>
-<MustPaint type="boolean">true</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.05</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
 <AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<EcuConfigurationName type="String"/>
-<FontFamily type="String"/>
+<RelativeX type="double">0.6699999999999999</RelativeX>
+<RelativeY type="double">0.2606060606060606</RelativeY>
+<MustPaint type="boolean">true</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
 </dashComp>
@@ -238,13 +238,8 @@
 <GoingDead type="boolean">false</GoingDead>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<ValueDigits type="int">2</ValueDigits>
-<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
-<ShowHistory type="boolean">false</ShowHistory>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">1</BorderWidth>
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
 <DisplayValue type="String">10.00</DisplayValue>
@@ -268,23 +263,28 @@
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
-<BackgroundImageFileName type="String">null</BackgroundImageFileName>
+<ValueDigits type="int">2</ValueDigits>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<ShowHistory type="boolean">false</ShowHistory>
 <Title type="String">Air:Fuel Ratio 1</Title>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">10.0</Value>
 <OutputChannel type="String">afr1</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">10.0</Value>
-<RelativeX type="double">0.0</RelativeX>
-<RelativeY type="double">0.4</RelativeY>
-<MustPaint type="boolean">true</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.2</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
 <AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<EcuConfigurationName type="String"/>
-<FontFamily type="String"/>
+<RelativeX type="double">0.0</RelativeX>
+<RelativeY type="double">0.4</RelativeY>
+<MustPaint type="boolean">true</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
 </dashComp>
@@ -295,13 +295,8 @@
 <GoingDead type="boolean">false</GoingDead>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<ValueDigits type="int">2</ValueDigits>
-<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
-<ShowHistory type="boolean">false</ShowHistory>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">0</BorderWidth>
 <CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
 <DisplayValue type="String">10.00</DisplayValue>
@@ -325,23 +320,28 @@
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
-<BackgroundImageFileName type="String">null</BackgroundImageFileName>
+<ValueDigits type="int">2</ValueDigits>
+<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<ShowHistory type="boolean">false</ShowHistory>
 <Title type="String"/>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">10.0</Value>
 <OutputChannel type="String">afr1</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">10.0</Value>
-<RelativeX type="double">0.6699999999999999</RelativeX>
-<RelativeY type="double">0.46060606060606063</RelativeY>
-<MustPaint type="boolean">true</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.05</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
 <AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<EcuConfigurationName type="String"/>
-<FontFamily type="String"/>
+<RelativeX type="double">0.6699999999999999</RelativeX>
+<RelativeY type="double">0.46060606060606063</RelativeY>
+<MustPaint type="boolean">true</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
 </dashComp>
@@ -352,13 +352,8 @@
 <GoingDead type="boolean">false</GoingDead>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<ValueDigits type="int">1</ValueDigits>
-<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
-<ShowHistory type="boolean">false</ShowHistory>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">1</BorderWidth>
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
 <DisplayValue type="String">50.0</DisplayValue>
@@ -382,23 +377,28 @@
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
-<BackgroundImageFileName type="String">null</BackgroundImageFileName>
+<ValueDigits type="int">1</ValueDigits>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<ShowHistory type="boolean">false</ShowHistory>
 <Title type="String">EGO Correction 1</Title>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">50.0</Value>
 <OutputChannel type="String">egocor1</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">50.0</Value>
-<RelativeX type="double">0.0</RelativeX>
-<RelativeY type="double">0.6000000000000001</RelativeY>
-<MustPaint type="boolean">true</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.2</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
 <AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<EcuConfigurationName type="String"/>
-<FontFamily type="String"/>
+<RelativeX type="double">0.0</RelativeX>
+<RelativeY type="double">0.6000000000000001</RelativeY>
+<MustPaint type="boolean">true</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
 </dashComp>
@@ -409,13 +409,8 @@
 <GoingDead type="boolean">false</GoingDead>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<ValueDigits type="int">1</ValueDigits>
-<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
-<ShowHistory type="boolean">false</ShowHistory>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">0</BorderWidth>
 <CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
 <DisplayValue type="String">50.0</DisplayValue>
@@ -439,23 +434,28 @@
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
-<BackgroundImageFileName type="String">null</BackgroundImageFileName>
+<ValueDigits type="int">1</ValueDigits>
+<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<ShowHistory type="boolean">false</ShowHistory>
 <Title type="String"/>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">50.0</Value>
 <OutputChannel type="String">egocor1</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">50.0</Value>
-<RelativeX type="double">0.6699999999999999</RelativeX>
-<RelativeY type="double">0.6606060606060608</RelativeY>
-<MustPaint type="boolean">true</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.05</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
 <AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<EcuConfigurationName type="String"/>
-<FontFamily type="String"/>
+<RelativeX type="double">0.6699999999999999</RelativeX>
+<RelativeY type="double">0.6606060606060608</RelativeY>
+<MustPaint type="boolean">true</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
 </dashComp>
@@ -466,13 +466,8 @@
 <GoingDead type="boolean">false</GoingDead>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<ValueDigits type="int">1</ValueDigits>
-<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
-<ShowHistory type="boolean">false</ShowHistory>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">1</BorderWidth>
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
 <DisplayValue type="String">0.0</DisplayValue>
@@ -496,23 +491,28 @@
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
-<BackgroundImageFileName type="String">null</BackgroundImageFileName>
+<ValueDigits type="int">1</ValueDigits>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<ShowHistory type="boolean">false</ShowHistory>
 <Title type="String">Idle PWM%</Title>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">0.0</Value>
 <OutputChannel type="String">idleDC</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">0.0</Value>
-<RelativeX type="double">0.0</RelativeX>
-<RelativeY type="double">0.8</RelativeY>
-<MustPaint type="boolean">true</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.2</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
 <AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<EcuConfigurationName type="String"/>
-<FontFamily type="String"/>
+<RelativeX type="double">0.0</RelativeX>
+<RelativeY type="double">0.8</RelativeY>
+<MustPaint type="boolean">true</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
 </dashComp>
@@ -523,13 +523,8 @@
 <GoingDead type="boolean">false</GoingDead>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<ValueDigits type="int">1</ValueDigits>
-<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
-<ShowHistory type="boolean">false</ShowHistory>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">0</BorderWidth>
 <CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
 <DisplayValue type="String">0.0</DisplayValue>
@@ -553,23 +548,28 @@
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
-<BackgroundImageFileName type="String">null</BackgroundImageFileName>
+<ValueDigits type="int">1</ValueDigits>
+<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<ShowHistory type="boolean">false</ShowHistory>
 <Title type="String">Idle PWM%</Title>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">0.0</Value>
 <OutputChannel type="String">idleDC</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">0.0</Value>
-<RelativeX type="double">0.670076726342711</RelativeX>
-<RelativeY type="double">0.8615384615384616</RelativeY>
-<MustPaint type="boolean">true</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.05</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
 <AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
-<EcuConfigurationName type="String"/>
-<FontFamily type="String"/>
+<RelativeX type="double">0.670076726342711</RelativeX>
+<RelativeY type="double">0.8615384615384616</RelativeY>
+<MustPaint type="boolean">true</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
 </dashComp>
