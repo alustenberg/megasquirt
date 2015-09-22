@@ -1,0 +1,5 @@
+*.swp
+DataLogs/
+restorePoints/
+TunerStudioAppDebug.txt
+*ref/

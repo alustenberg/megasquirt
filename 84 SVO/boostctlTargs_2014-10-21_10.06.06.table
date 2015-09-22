@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tableData xmlns="http://www.EFIAnalytics.com/:table">
+<bibliography author="EFI Analytics - philip.tobin@yahoo.com" company="EFI Analytics, copyright 2010, All Rights Reserved." writeDate="Tue Oct 21 10:06:10 EDT 2014"/>
+<versionInfo fileFormat="1.0"/>
+<table cols="8" rows="8">
+<xAxis cols="8" name="rpm">
+         1000 
+         2000 
+         3000 
+         4000 
+         5000 
+         5500 
+         6000 
+         7000 
+      </xAxis>
+<yAxis name="throttle" rows="8">
+         0.0 
+         20.0 
+         40.0 
+         60.0 
+         70.0 
+         80.0 
+         90.0 
+         100.0 
+      </yAxis>
+<zValues cols="8" rows="8">
+         100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
+         100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
+         100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
+         100.0 100.0 150.0 180.0 180.0 180.0 180.0 180.0 
+         100.0 100.0 150.0 180.0 220.0 220.0 220.0 220.0 
+         100.0 100.0 150.0 180.0 220.0 220.0 220.0 220.0 
+         100.0 100.0 150.0 200.0 220.0 220.0 220.0 220.0 
+         100.0 100.0 150.0 220.0 220.0 220.0 220.0 220.0 
+      </zValues>
+</table>
+</tableData>
