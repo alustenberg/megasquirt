@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dsh xmlns="http://www.EFIAnalytics.com/:dsh">
-<bibliography author="TunerStudio 2.6.14 - EFI Analytics - philip.tobin@yahoo.com" company="EFI Analytics, © 2007 - 2012, All Rights Reserved." writeDate="Wed Apr 13 15:24:53 EDT 2016"/>
+<bibliography author="TunerStudio 2.6.14 - EFI Analytics - philip.tobin@yahoo.com" company="EFI Analytics, © 2007 - 2012, All Rights Reserved." writeDate="Tue Apr 19 17:30:07 EDT 2016"/>
 <versionInfo fileFormat="2.0" firmwareSignature="MS3 Format 0435.05 "/>
 <gaugeCluster antiAliasing="false" backgroundDitherColor="-8355712" clusterBackgroundColor="-16777216" clusterBackgroundImageFileName="" clusterBackgroundImageStyle="Tile">
 <dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Title type="String">Engine Speed</Title>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">true</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">true</ShapeLockedToAspect>
+<Max type="double">8000.0</Max>
+<Min type="double">0.0</Min>
+<Units type="String">RPM</Units>
+<GoingDead type="boolean">false</GoingDead>
+<MustPaint type="boolean">false</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<ShowHistory type="boolean">true</ShowHistory>
 <BackColor alpha="255" blue="255" green="255" red="255" type="Color">-1</BackColor>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">6</BorderWidth>
@@ -15,7 +27,7 @@
 <GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.RoundAnalogGaugePainter</GaugePainter>
 <HighCritical type="double">5000.0</HighCritical>
 <HighWarning type="double">3000.0</HighWarning>
-<HistoricalPeakValue type="double">1484.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">1131.0</HistoricalPeakValue>
 <HistoryDelay type="int">15000</HistoryDelay>
 <LabelDigits type="int">0</LabelDigits>
 <LowCritical type="double">300.0</LowCritical>
@@ -24,43 +36,43 @@
 <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
 <NeedleSmoothing type="int">1</NeedleSmoothing>
 <RelativeBorderWidth type="int">6</RelativeBorderWidth>
-<SmoothedValue type="double">1135.2638698371593</SmoothedValue>
+<SmoothedValue type="double">1114.5927280346336</SmoothedValue>
 <StartAngle type="int">0</StartAngle>
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
 <ValueDigits type="int">0</ValueDigits>
-<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">true</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">true</ShapeLockedToAspect>
-<ShowHistory type="boolean">true</ShowHistory>
-<Max type="double">8000.0</Max>
-<Min type="double">0.0</Min>
-<Units type="String">RPM</Units>
-<GoingDead type="boolean">false</GoingDead>
-<MustPaint type="boolean">false</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
-<Title type="String">Engine Speed</Title>
 <Value type="double">0.0</Value>
 <OutputChannel type="String">rpm</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">0.0</Value>
 <RelativeHeight type="double">0.3303333333333333</RelativeHeight>
-<RelativeWidth type="double">0.497</RelativeWidth>
-<AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
+<EcuConfigurationName type="String"/>
+<AntialiasingOn type="boolean">false</AntialiasingOn>
+<RelativeWidth type="double">0.497</RelativeWidth>
 <RelativeX type="double">0.0015</RelativeX>
 <RelativeY type="double">0.0015</RelativeY>
 <MustPaint type="boolean">false</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<EcuConfigurationName type="String"/>
 <FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
 </dashComp>
 <dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Title type="String">Engine MAP</Title>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">true</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">true</ShapeLockedToAspect>
+<Max type="double">255.0</Max>
+<Min type="double">0.0</Min>
+<Units type="String">kPa</Units>
+<GoingDead type="boolean">false</GoingDead>
+<MustPaint type="boolean">false</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<ShowHistory type="boolean">true</ShowHistory>
 <BackColor alpha="255" blue="255" green="255" red="255" type="Color">-1</BackColor>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">6</BorderWidth>
@@ -72,7 +84,7 @@
 <GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.RoundAnalogGaugePainter</GaugePainter>
 <HighCritical type="double">245.0</HighCritical>
 <HighWarning type="double">200.0</HighWarning>
-<HistoricalPeakValue type="double">41.800000000000004</HistoricalPeakValue>
+<HistoricalPeakValue type="double">34.800000000000004</HistoricalPeakValue>
 <HistoryDelay type="int">15000</HistoryDelay>
 <LabelDigits type="int">0</LabelDigits>
 <LowCritical type="double">0.0</LowCritical>
@@ -81,43 +93,43 @@
 <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
 <NeedleSmoothing type="int">1</NeedleSmoothing>
 <RelativeBorderWidth type="int">6</RelativeBorderWidth>
-<SmoothedValue type="double">28.36896268539385</SmoothedValue>
+<SmoothedValue type="double">31.386834957435223</SmoothedValue>
 <StartAngle type="int">0</StartAngle>
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
 <ValueDigits type="int">1</ValueDigits>
-<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">true</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">true</ShapeLockedToAspect>
-<ShowHistory type="boolean">true</ShowHistory>
-<Max type="double">255.0</Max>
-<Min type="double">0.0</Min>
-<Units type="String">kPa</Units>
-<GoingDead type="boolean">false</GoingDead>
-<MustPaint type="boolean">false</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
-<Title type="String">Engine MAP</Title>
 <Value type="double">0.0</Value>
 <OutputChannel type="String">map</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">0.0</Value>
 <RelativeHeight type="double">0.3303333333333333</RelativeHeight>
-<RelativeWidth type="double">0.497</RelativeWidth>
-<AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
+<EcuConfigurationName type="String"/>
+<AntialiasingOn type="boolean">false</AntialiasingOn>
+<RelativeWidth type="double">0.497</RelativeWidth>
 <RelativeX type="double">0.5015</RelativeX>
 <RelativeY type="double">0.0015</RelativeY>
 <MustPaint type="boolean">false</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<EcuConfigurationName type="String"/>
 <FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
 </dashComp>
 <dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Title type="String">Air:Fuel Ratio 1</Title>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">true</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">true</ShapeLockedToAspect>
+<Max type="double">19.4</Max>
+<Min type="double">10.0</Min>
+<Units type="String"/>
+<GoingDead type="boolean">false</GoingDead>
+<MustPaint type="boolean">false</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<ShowHistory type="boolean">true</ShowHistory>
 <BackColor alpha="255" blue="255" green="255" red="255" type="Color">-1</BackColor>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">6</BorderWidth>
@@ -129,7 +141,7 @@
 <GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.RoundAnalogGaugePainter</GaugePainter>
 <HighCritical type="double">16.0</HighCritical>
 <HighWarning type="double">15.0</HighWarning>
-<HistoricalPeakValue type="double">13.5</HistoricalPeakValue>
+<HistoricalPeakValue type="double">14.0</HistoricalPeakValue>
 <HistoryDelay type="int">15000</HistoryDelay>
 <LabelDigits type="int">2</LabelDigits>
 <LowCritical type="double">12.0</LowCritical>
@@ -138,43 +150,43 @@
 <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
 <NeedleSmoothing type="int">1</NeedleSmoothing>
 <RelativeBorderWidth type="int">6</RelativeBorderWidth>
-<SmoothedValue type="double">12.1915998082961</SmoothedValue>
+<SmoothedValue type="double">13.987719405829878</SmoothedValue>
 <StartAngle type="int">0</StartAngle>
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
 <ValueDigits type="int">2</ValueDigits>
-<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">true</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">true</ShapeLockedToAspect>
-<ShowHistory type="boolean">true</ShowHistory>
-<Max type="double">19.4</Max>
-<Min type="double">10.0</Min>
-<Units type="String"/>
-<GoingDead type="boolean">false</GoingDead>
-<MustPaint type="boolean">false</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
-<Title type="String">Air:Fuel Ratio 1</Title>
 <Value type="double">10.0</Value>
 <OutputChannel type="String">afr1</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">10.0</Value>
 <RelativeHeight type="double">0.3303333333333333</RelativeHeight>
-<RelativeWidth type="double">0.497</RelativeWidth>
-<AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
+<EcuConfigurationName type="String"/>
+<AntialiasingOn type="boolean">false</AntialiasingOn>
+<RelativeWidth type="double">0.497</RelativeWidth>
 <RelativeX type="double">0.0015</RelativeX>
 <RelativeY type="double">0.3348333333333333</RelativeY>
 <MustPaint type="boolean">false</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<EcuConfigurationName type="String"/>
 <FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
 </dashComp>
 <dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Title type="String">EGO Correction 1</Title>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">true</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">true</ShapeLockedToAspect>
+<Max type="double">110.0</Max>
+<Min type="double">90.0</Min>
+<Units type="String">%</Units>
+<GoingDead type="boolean">false</GoingDead>
+<MustPaint type="boolean">false</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<ShowHistory type="boolean">true</ShowHistory>
 <BackColor alpha="255" blue="255" green="255" red="255" type="Color">-1</BackColor>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">6</BorderWidth>
@@ -201,37 +213,37 @@
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
 <ValueDigits type="int">1</ValueDigits>
-<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">true</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">true</ShapeLockedToAspect>
-<ShowHistory type="boolean">true</ShowHistory>
-<Max type="double">110.0</Max>
-<Min type="double">90.0</Min>
-<Units type="String">%</Units>
-<GoingDead type="boolean">false</GoingDead>
-<MustPaint type="boolean">false</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
-<Title type="String">EGO Correction 1</Title>
 <Value type="double">90.0</Value>
 <OutputChannel type="String">egocor1</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">90.0</Value>
 <RelativeHeight type="double">0.3303333333333333</RelativeHeight>
-<RelativeWidth type="double">0.497</RelativeWidth>
-<AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
+<EcuConfigurationName type="String"/>
+<AntialiasingOn type="boolean">false</AntialiasingOn>
+<RelativeWidth type="double">0.497</RelativeWidth>
 <RelativeX type="double">0.5012987012987012</RelativeX>
 <RelativeY type="double">0.33534743202416917</RelativeY>
 <MustPaint type="boolean">false</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<EcuConfigurationName type="String"/>
 <FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
 </dashComp>
 <dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Title type="String">VE Value</Title>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">true</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">true</ShapeLockedToAspect>
+<Max type="double">120.0</Max>
+<Min type="double">0.0</Min>
+<Units type="String">%</Units>
+<GoingDead type="boolean">false</GoingDead>
+<MustPaint type="boolean">false</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<ShowHistory type="boolean">true</ShowHistory>
 <BackColor alpha="255" blue="255" green="255" red="255" type="Color">-1</BackColor>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">6</BorderWidth>
@@ -243,7 +255,7 @@
 <GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.RoundAnalogGaugePainter</GaugePainter>
 <HighCritical type="double">999.0</HighCritical>
 <HighWarning type="double">999.0</HighWarning>
-<HistoricalPeakValue type="double">77.7</HistoricalPeakValue>
+<HistoricalPeakValue type="double">99.80000000000001</HistoricalPeakValue>
 <HistoryDelay type="int">15000</HistoryDelay>
 <LabelDigits type="int">1</LabelDigits>
 <LowCritical type="double">-1.0</LowCritical>
@@ -258,37 +270,37 @@
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
 <ValueDigits type="int">0</ValueDigits>
-<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">true</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">true</ShapeLockedToAspect>
-<ShowHistory type="boolean">true</ShowHistory>
-<Max type="double">120.0</Max>
-<Min type="double">0.0</Min>
-<Units type="String">%</Units>
-<GoingDead type="boolean">false</GoingDead>
-<MustPaint type="boolean">false</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
-<Title type="String">VE Value</Title>
 <Value type="double">0.0</Value>
 <OutputChannel type="String">veTuneValue</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">0.0</Value>
 <RelativeHeight type="double">0.3303333333333333</RelativeHeight>
-<RelativeWidth type="double">0.497</RelativeWidth>
-<AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
+<EcuConfigurationName type="String"/>
+<AntialiasingOn type="boolean">false</AntialiasingOn>
+<RelativeWidth type="double">0.497</RelativeWidth>
 <RelativeX type="double">0.0025974025974025974</RelativeX>
 <RelativeY type="double">0.6676737160120846</RelativeY>
 <MustPaint type="boolean">false</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<EcuConfigurationName type="String"/>
 <FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
 </dashComp>
 <dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Title type="String">AFR 1 Error</Title>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<DisplayValueAt180 type="boolean">true</DisplayValueAt180>
+<ShapeLockedToAspect type="boolean">true</ShapeLockedToAspect>
+<Max type="double">5.0</Max>
+<Min type="double">-5.0</Min>
+<Units type="String"/>
+<GoingDead type="boolean">false</GoingDead>
+<MustPaint type="boolean">false</MustPaint>
+<RunDemo type="boolean">false</RunDemo>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<ShowHistory type="boolean">true</ShowHistory>
 <BackColor alpha="255" blue="255" green="255" red="255" type="Color">-1</BackColor>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <BorderWidth type="int">6</BorderWidth>
@@ -300,7 +312,7 @@
 <GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.RoundAnalogGaugePainter</GaugePainter>
 <HighCritical type="double">4.0</HighCritical>
 <HighWarning type="double">3.0</HighWarning>
-<HistoricalPeakValue type="double">-0.9000000000000004</HistoricalPeakValue>
+<HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
 <HistoryDelay type="int">15000</HistoryDelay>
 <LabelDigits type="int">2</LabelDigits>
 <LowCritical type="double">-4.0</LowCritical>
@@ -309,38 +321,26 @@
 <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
 <NeedleSmoothing type="int">1</NeedleSmoothing>
 <RelativeBorderWidth type="int">6</RelativeBorderWidth>
-<SmoothedValue type="double">-1.8087330214694786</SmoothedValue>
+<SmoothedValue type="double">-0.012304923850973277</SmoothedValue>
 <StartAngle type="int">0</StartAngle>
 <SweepAngle type="int">300</SweepAngle>
 <SweepBeginDegree type="int">300</SweepBeginDegree>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
 <ValueDigits type="int">2</ValueDigits>
-<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
-<CounterClockwise type="boolean">false</CounterClockwise>
-<DisplayValueAt180 type="boolean">true</DisplayValueAt180>
-<ShapeLockedToAspect type="boolean">true</ShapeLockedToAspect>
-<ShowHistory type="boolean">true</ShowHistory>
-<Max type="double">5.0</Max>
-<Min type="double">-5.0</Min>
-<Units type="String"/>
-<GoingDead type="boolean">false</GoingDead>
-<MustPaint type="boolean">false</MustPaint>
-<RunDemo type="boolean">false</RunDemo>
 <Dirty type="boolean">true</Dirty>
-<Title type="String">AFR 1 Error</Title>
 <Value type="double">-5.0</Value>
 <OutputChannel type="String">afr1err</OutputChannel>
 <Dirty type="boolean">true</Dirty>
 <Value type="double">-5.0</Value>
 <RelativeHeight type="double">0.3303333333333333</RelativeHeight>
-<RelativeWidth type="double">0.497</RelativeWidth>
-<AntialiasingOn type="boolean">false</AntialiasingOn>
 <InvalidState type="boolean">false</InvalidState>
+<EcuConfigurationName type="String"/>
+<AntialiasingOn type="boolean">false</AntialiasingOn>
+<RelativeWidth type="double">0.497</RelativeWidth>
 <RelativeX type="double">0.5012987012987012</RelativeX>
 <RelativeY type="double">0.6676737160120846</RelativeY>
 <MustPaint type="boolean">false</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<EcuConfigurationName type="String"/>
 <FontFamily type="String"/>
 <Dirty type="boolean">true</Dirty>
 <Id type="String"/>
