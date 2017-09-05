@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Tue Sep 05 10:15:34 EDT 2017
-#Tue Sep 05 10:15:34 EDT 2017
+#Last Saved on: Wed Aug 30 07:30:30 EDT 2017
+#Wed Aug 30 07:30:30 EDT 2017
 pwmidle_cl_initialvaluesClosed-Loop\ Idle\ Initial\ Values_height=272
 hpteHigh\ Power\ Time\ Enrichment_width=388
 Triggers.ActiveTriggers=
@@ -12,7 +12,6 @@ AEtime_settingsTime-Based\ Accel\ Enrichment_X=288
 generalsettings2General\ Settings_height=681
 MAFtableMAF\ Flow\ Curve_Y=0
 MAFtableMAF\ Flow\ Curve_X=0
-CommSettingtuner-wifiCommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
 ShiftSettingsSequential\ Shift\ Cut_Y=59
 ego_auth_TblEGO\ Authority\ Table_width=563
 ShiftSettingsSequential\ Shift\ Cut_X=456
@@ -68,10 +67,10 @@ veTable1TblFuel\ VE\ Table\ 1_X=196
 MAFtable1_Show\ baseline\ graph\ (CTRL+B)=true
 VeAnalyzeConsole.veTable1Tbl_verticalSplitPos=410
 pitlimiterPit\ Lane\ Limiter_height=511
-CommSettingtunerCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=false
 injsettingsInjector\ Dead-Time/PWM_Y=31
-commPort=/dev/ttyUSB0
+CommSettingtunerCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=false
 injsettingsInjector\ Dead-Time/PWM_X=147
+commPort=/dev/ttyUSB0
 idlebinsIdle\ Warmup\ Duty/Steps_Y=-24
 idlebinsIdle\ Warmup\ Duty/Steps_X=600
 pwmidle_crank_dutyorsteps_curveIdle\ Cranking\ Duty/Steps_height=429
@@ -86,8 +85,7 @@ AEtime_settingsTime-Based\ Accel\ Enrichment_width=663
 ssShaft\ Speed\ Sensors_Y=209
 ssShaft\ Speed\ Sensors_X=480
 tableswTable\ Switch/Dual\ Fuel_width=801
-CommSettingtuner-wifiCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=false
-CommSettingMSCommDriver.RS232\ Serial\ InterfaceCom\ Port=/dev/ttyUSB0
+CommSettingMSCommDriver.RS232\ Serial\ InterfaceCom\ Port=/dev/ttyUSB1
 combinedignitionIgnition\ Options\ /\ Wheel\ Decoder_Y=21
 disabledLogFields.basic=VE2|PW2|Duty Cycle2|Seq PW8|Seq PW7|Seq PW6|Seq PW5|Seq PW4|Seq PW3|Seq PW2|Seq PW1|SPK\: Traction retard|SPK\: External advance|SPK\: Flex Advance|SPK\: Spark Table 4|SPK\: Spark Table 3|SPK\: Spark Table 2|SPK\: Spark Table 1|SPK\: Launch VSS Retard|SPK\: 3-step Timing|SPK\: Launch Timing|SPK\: ALS Timing|AFR 2 Target|AFR 2 Error|Injector timing sec|canout9_16|canout1_8|canin1_8| Sensor 16 | Sensor 15 | Sensor 14 | Sensor 13 | Sensor 12 | Sensor 11 | Sensor 10 | Sensor 09 | Sensor 08 | Sensor 07 | Sensor 06 | Sensor 05 | Sensor 04 | Sensor 03 | Sensor 02 | Sensor 01 |portt|portp|portmj|portk|porteh|portb|porta|SPK\: Knock retard|Knock in|SPK\: CEL retard|SPK\: Idle Correction Advance|SDcard error|SDcard phase|SDcard status|SDcard file number|Gear|CEL status|TC slip * time|Fuel pressure cor|Fuel temperature cor|Fuel Pressure2_bar|Fuel Pressure2_psi|Fuel Pressure2_kPa|Fuel Temp2|CEL error code|CEL status2|Torque|Power|Trip Meter|Fuel Consumption|Instant Economy|Trip Economy|CAN error count|CAN error bits|Status8|Status7|Status6|Status5s|Status5|Status4|Status3|Status2|Status1|Fuel flow cc/min|
 combinedignitionIgnition\ Options\ /\ Wheel\ Decoder_X=212
@@ -121,7 +119,6 @@ crsettingsCranking\ /\ Startup\ Settings_Y=117
 crsettingsCranking\ /\ Startup\ Settings_X=420
 cl_idle_timing_curveIdle\ RPM\ Timing\ Correction\ Curve_Y=194
 cl_idle_timing_curveIdle\ RPM\ Timing\ Correction\ Curve_X=435
-CommSettingtuner-wifiCommDriver.RS232\ Serial\ InterfaceCom\ Port=/dev/ttyUSB0
 2DTable_veTable1Tbl_Smooth\ Cells\ -\ Key\:\ s=0.2
 pwmidle_target_curve_showText=true
 refTable_001_chkFahrenheit=false
@@ -155,7 +152,6 @@ combinedidleIdle\ Control_X=228
 selectedDatalogProfiles=basic
 overrunOver-Run\ Fuel\ Cut_width=433
 2DTable_ignitionTbl1_History\ Tail\ Length=15
-CommSettingtuner-wifiCommDriver.controllerInterfaceId=RS232 Serial Interface
 crsettingsCranking\ /\ Startup\ Settings_height=428
 logTuningPanel_selectionTable2=inj_trim1Tbl
 generalsettings2General\ Settings_Y=20
@@ -182,8 +178,8 @@ refTable_002_txtY2=20
 refTable_002_txtY1=10
 CommSettingMSCommDriver.controllerInterfaceId=RS232 Serial Interface
 ego_delay_TblEGO\ Delay\ Table_Y=107
-ego_delay_TblEGO\ Delay\ Table_X=389
 sdcard_datalogSD\ Card\ Datalogging_height=738
+ego_delay_TblEGO\ Delay\ Table_X=389
 Triggers.EventTrigger\:Stop\ Data\ log\:triggerExpression=0 && AppEvent.dataLoggingActive \!\= 0
 Triggers.EventTrigger\:Stop\ Data\ log\:resetExpression=AppEvent.dataLoggingActive \!\= 0
 idleVeIdle\ VE_Y=36
@@ -295,14 +291,14 @@ Triggers.EventTrigger\:Stop\ Data\ log\:active=false
 revlimiter2Rev\ Limiter_height=510
 nestedwarmup_curveWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_width=630
 sdcard_datalogSD\ Card\ Datalogging_width=424
-maxafrAFR\ Safety\ System_Y=166
 veGenerator_txtPkTq=350
+maxafrAFR\ Safety\ System_Y=166
 maxafrAFR\ Safety\ System_X=309
 VeAnalyzePanel_veTable1Tbl_minChangeThreshold=0.0
 mafdialogMAF\ Settings_Y=170
 mafdialogMAF\ Settings_X=377
-dashBoardFile=/dashboard//dashboard.dash
 ecuConfigFile=mainController.ini
+dashBoardFile=/dashboard//dashboard.dash
 ignitionTbl1Ignition\ Table\ 1\ (Spark\ Advance)_Y=0
 ignitionTbl1Ignition\ Table\ 1\ (Spark\ Advance)_X=0
 Triggers.EventTrigger\:Data\ log\:triggerExpression=0 && AppEvent.dataLoggingActive \=\= 0
