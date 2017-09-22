@@ -3,3 +3,5 @@ DataLogs/
 restorePoints/
 TunerStudioAppDebug.txt
 *ref/
+*.zip
+*~
