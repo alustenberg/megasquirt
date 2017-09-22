@@ -1,0 +1,27 @@
+#Project Attributes.
+#TunerStudio by EFI Analytics, Inc
+#Last Saved on: Fri Sep 22 09:07:02 EDT 2017
+#Fri Sep 22 09:07:02 EDT 2017
+Triggers.ActiveTriggers=
+commPort=COM1
+canId=0
+ecuSettings=CAN_COMMANDS_OFF|EGTFULL_OFF|FAHRENHEIT|OUTMSG_EDITING_OFF|PORT_STATUS_OFF|
+selectedComDriver=Multi Interface MegaSquirt Driver
+CommSettingprometheusCommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
+projectDescription=
+projectName=bruce
+CommSettingCom\ Port=COM1
+CommSettingprometheusCommDriver.RS232\ Serial\ InterfaceCom\ Port=/dev/ttyUSB0
+PersistedAccumulatedValue_(\ (\ tsInputSpeedMPH\ *\ 1.60934\ )\ /\ 3600.0\ *\ deltatime\ )=0.0
+ecuConfigFile=mainController.ini
+CommSettingBaud\ Rate=115200
+CommSettingMSCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=false
+CommSettingMSCommDriver.controllerInterfaceId=RS232 Serial Interface
+CommSettingprometheusCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=false
+dashBoardFile=/dashboard//dashboard.dash
+CommSettingMSCommDriver.RS232\ Serial\ InterfaceCom\ Port=/dev/ttyUSB0
+PersistedAccumulatedValue_(\ (\ tsFuelFlowGph\ *\ deltatime\ /\ 3600.0\ )\ )=-0.0
+CommSettingprometheusCommDriver.controllerInterfaceId=RS232 Serial Interface
+CommSettingMSCommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
+baudRate=115200
+PersistedAccumulatedValue_(\ tsInputSpeedMPH\ /\ 3600.0\ *\ deltatime\ )=0.0
