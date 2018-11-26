@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<msq xmlns="http://www.msefi.com/:msq">
+<bibliography author="TunerStudio MS(Beta) 1.51 - EFI Analytics, Inc." tuneComment="    &lt;br&gt;  " writeDate="Thu Jun 07 17:23:43 EDT 2012"/>
+<versionInfo fileFormat="4.0" firmwareInfo="" nPages="1" signature="20"/>
+<page number="0" size="125">
+<constant digits="0" name="taeColdM" units="%">0.0</constant>
+<constant digits="0" name="egoRPM" units="RPM">1100.0</constant>
+<constant digits="1" name="reqFuel" units="ms">8.4</constant>
+<constant digits="1" name="taeBins1" units="ms">0.9</constant>
+<constant digits="1" name="taeBins2" units="ms">2.0</constant>
+<constant name="nCylinders">"5"</constant>
+<constant digits="1" name="taeBins3" units="ms">4.0</constant>
+<constant digits="0" name="tdePct" units="%">100.0</constant>
+<constant name="algorithm">"Speed Density"</constant>
+<constant cols="1" digits="0" name="wueBins" rows="10" units="%">
+         144.0 
+         136.0 
+         124.0 
+         120.0 
+         118.0 
+         116.0 
+         114.0 
+         112.0 
+         106.0 
+         100.0 
+      </constant>
+<constant digits="1" name="injOpen" units="ms">1.0</constant>
+<constant digits="1" name="taeColdA" units="ms">8.0</constant>
+<constant digits="1" name="taeBins4" units="ms">8.0</constant>
+<constant digits="1" name="taeTime" units="ms">1.2</constant>
+<constant name="egoType">"Wide band"</constant>
+<constant cols="1" digits="1" name="taeBins" rows="4" units="ms">
+         0.9 
+         2.0 
+         4.0 
+         8.0 
+      </constant>
+<constant digits="0" name="injOCfuel" units="ms">0.0</constant>
+<constant name="cltType">"GM"</constant>
+<constant digits="3" name="egoSwitch" units="v">2.5088</constant>
+<constant cols="1" digits="0" name="mapBins" rows="8" units="kPa">
+         25.0 
+         35.0 
+         40.0 
+         50.0 
+         60.0 
+         70.0 
+         90.0 
+         100.0 
+      </constant>
+<constant name="mapType">"250 kPa"</constant>
+<constant digits="0" name="asePct" units="%">30.0</constant>
+<constant digits="0" name="egoDelta" units="%">1.0</constant>
+<constant name="alternate">"Simultaneous"</constant>
+<constant name="baroCorr">"Off"</constant>
+<constant cols="1" digits="0" name="rpmBins" rows="8" units="RPM">
+         700.0 
+         1000.0 
+         2000.0 
+         3000.0 
+         4000.0 
+         5000.0 
+         6000.0 
+         7000.0 
+      </constant>
+<constant digits="0" name="injPwmP" units="%">100.0</constant>
+<constant digits="1" name="primePulse" units="ms">2.0</constant>
+<constant digits="1" name="crankCold" units="ms">13.0</constant>
+<constant name="twoStroke">"Four-stroke"</constant>
+<constant digits="0" name="divider">5.0</constant>
+<constant digits="1" name="crankHot" units="ms">3.0</constant>
+<constant digits="0" name="egoCount">40.0</constant>
+<constant digits="0" name="fastIdleT" units="°F">-40.0</constant>
+<constant name="engineType">"Even fire"</constant>
+<constant digits="2" name="battFac" units="ms/v">0.1000002</constant>
+<constant digits="0" name="egoTemp" units="°F">90.0</constant>
+<constant name="nInjectors">"5"</constant>
+<constant cols="8" digits="0" name="veTable" rows="8" units="%">
+         35.0 35.0 36.0 39.0 42.0 44.0 44.0 41.0 
+         35.0 36.0 42.0 48.0 52.0 54.0 52.0 50.0 
+         36.0 37.0 46.0 53.0 57.0 59.0 57.0 54.0 
+         38.0 41.0 55.0 63.0 67.0 68.0 66.0 63.0 
+         41.0 48.0 64.0 73.0 77.0 78.0 75.0 72.0 
+         47.0 56.0 74.0 82.0 87.0 88.0 85.0 81.0 
+         65.0 75.0 92.0 102.0 106.0 108.0 104.0 99.0 
+         75.0 84.0 101.0 112.0 117.0 118.0 113.0 108.0 
+      </constant>
+<constant digits="0" name="egoLimit" units="%">5.0</constant>
+<constant digits="0" name="aseCount">254.0</constant>
+<constant digits="0" name="rpmk">2400.0</constant>
+<constant name="injType">"Port"</constant>
+<constant digits="3" name="tpsThresh" units="v/s">40.0390625</constant>
+<constant digits="1" name="injPwmT" units="ms">25.4</constant>
+<constant name="matType">"GM"</constant>
+</page>
+<settings Comment="These setting are only used if this msq is opened without a project.">
+<setting name="OLD_STYLE_FRONT_PAGE_OFF" value="OLD_STYLE_FRONT_PAGE_OFF"/>
+<setting name="NARROW_BAND_EGO" value="NARROW_BAND_EGO"/>
+<setting name="SPEED_DENSITY" value="SPEED_DENSITY"/>
+<setting name="FAHRENHEIT" value="FAHRENHEIT"/>
+<setting name="MPX4250" value="MPX4250"/>
+</settings>
+<userComments Comment="These are user comments that can be related to a particular setting or dialog.">
+<userComment name="taeBins1" value=""/>
+</userComments>
+</msq>

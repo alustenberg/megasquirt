@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS Ultra 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Sep 22 00:50:05 EDT 2017"/>
+<bibliography author="TunerStudio MS Ultra 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Nov 22 01:06:01 EST 2018"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS3+1.4.1+release+++++20160421+12%3A21BST+%28c%29+JSM%2FKC+********" nPages="19" signature="MS3 Format 0524.05 "/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -48,7 +48,7 @@
          120.0 
          115.0 
          110.0 
-         104.0 
+         103.0 
          100.0 
          100.0 
          100.0 
@@ -65,7 +65,7 @@
 <constant digits="1" name="max_spk_dur" units="ms">0.7</constant>
 <constant digits="0" name="crankingRPM" units="RPM">300.0</constant>
 <constant digits="1" name="triggerOffset" units="deg">-3.0</constant>
-<constant digits="1" name="TpsBypassCLTRevlim" units="TPS %">110.0</constant>
+<constant digits="1" name="TpsBypassCLTRevlim" units="TPS %">90.0</constant>
 <constant digits="1" name="map0" units="%">1.1</constant>
 <constant digits="1" name="mapmax" units="%">315.5</constant>
 <constant digits="1" name="clt0" units="°F">0.0</constant>
@@ -88,7 +88,7 @@
 <constant digits="0" name="asTolerance" units="%">70.0</constant>
 <constant digits="0" name="pulseTolerance" units="%">25.0</constant>
 <constant name="IdleCtl">"PWM valve (2 or 3 wire)"</constant>
-<constant name="IdleCtl_alg">"Open-loop (warmup)"</constant>
+<constant name="IdleCtl_alg">"Closed-loop"</constant>
 <constant name="IdleCtl_vss">"Standard"</constant>
 <constant name="IdleCtl_home">"Closed"</constant>
 <constant digits="0" name="IACtstep" units="ms">3.0</constant>
@@ -117,12 +117,12 @@
 <constant digits="0" name="mapThresh" units="kPa/s">100.0</constant>
 <constant digits="0" name="taeColdA" units="%ReqFuel">0.0</constant>
 <constant digits="0" name="taeColdM" units="%">105.0</constant>
-<constant digits="2" name="taeTime" units="s">0.08</constant>
-<constant digits="0" name="tpsasync_events" units="events">8.0</constant>
+<constant digits="2" name="taeTime" units="s">0.12</constant>
+<constant digits="0" name="tpsasync_events" units="events">12.0</constant>
 <constant digits="0" name="tdePct">80.0</constant>
 <constant digits="1" name="floodClear" units="%">70.0</constant>
-<constant digits="1" name="TPSOXLimit" units="%">110.0</constant>
-<constant digits="0" name="tpsProportion" units="%">100.0</constant>
+<constant digits="1" name="TPSOXLimit" units="%">120.0</constant>
+<constant digits="0" name="tpsProportion" units="%">0.0</constant>
 <constant name="baroCorr">"Two Independent Sensors"</constant>
 <constant name="egoType">"Wide Band"</constant>
 <constant digits="0" name="egoCount">5.0</constant>
@@ -133,8 +133,8 @@
 <constant digits="0" name="egonum">1.0</constant>
 <constant digits="0" name="rtc_trim" units="ppm">0.0</constant>
 <constant digits="1" name="fastIdleT" units="°F">140.0</constant>
-<constant digits="1" name="egoTemp" units="°F">120.0</constant>
-<constant digits="0" name="egoRPM" units="RPM">800.0</constant>
+<constant digits="1" name="egoTemp" units="°F">100.0</constant>
+<constant digits="0" name="egoRPM" units="RPM">750.0</constant>
 <constant digits="2" name="reqFuel" units="ms">6.7</constant>
 <constant digits="0" name="divider">4.0</constant>
 <constant name="alternate">"Simultaneous"</constant>
@@ -146,13 +146,13 @@
 <constant name="twoStroke">"Four-stroke"</constant>
 <constant name="nInjectors">"4"</constant>
 <constant digits="0" name="OddFireang">90.0</constant>
-<constant digits="0" name="rpmLF">80.0</constant>
-<constant digits="0" name="mapLF">80.0</constant>
-<constant digits="0" name="tpsLF">80.0</constant>
-<constant digits="0" name="egoLF">80.0</constant>
-<constant digits="0" name="adcLF">80.0</constant>
+<constant digits="0" name="rpmLF">40.0</constant>
+<constant digits="0" name="mapLF">40.0</constant>
+<constant digits="0" name="tpsLF">40.0</constant>
+<constant digits="0" name="egoLF">40.0</constant>
+<constant digits="0" name="adcLF">40.0</constant>
 <constant name="knk_pin_out">"Tacho"</constant>
-<constant digits="0" name="mafLF">80.0</constant>
+<constant digits="0" name="mafLF">40.0</constant>
 <constant name="algorithm">"MAF"</constant>
 <constant name="algorithm2">"Disabled"</constant>
 <constant name="IgnAlgorithm">"Speed Density"</constant>
@@ -160,12 +160,12 @@
 <constant digits="0" name="AfrAlgorithm">1.0</constant>
 <constant digits="1" name="dwelltime" units="ms">1.0</constant>
 <constant digits="1" name="trigret_ang" units="deg">50.0</constant>
-<constant name="RevLimOption_retard">"Off"</constant>
+<constant name="RevLimOption_retard">"Progressive retard"</constant>
 <constant name="RevLimOption_spkcut">"On"</constant>
-<constant name="RevLimCLTbased">"Normal"</constant>
+<constant name="RevLimCLTbased">"CLT based"</constant>
 <constant name="RevLimOption_fuelprog">"Off"</constant>
 <constant name="RevLimOption_fuelcut">"Off"</constant>
-<constant digits="0" name="RevLimMaxRtd" units="deg">6.0</constant>
+<constant digits="0" name="RevLimMaxRtd" units="deg">10.0</constant>
 <constant digits="0" name="ego_startdelay" units="s">10.0</constant>
 <constant name="can_poll2_ego">"Disable"</constant>
 <constant name="can_poll2_ego2">"Disable"</constant>
@@ -193,21 +193,21 @@
 <constant name="loadMult2">"multiply"</constant>
 <constant name="loadopts_oldbaro">"Off"</constant>
 <constant digits="0" name="baud">115200.0</constant>
-<constant digits="2" name="MAPOXLimit" units="%">250.0</constant>
+<constant digits="2" name="MAPOXLimit" units="%">300.0</constant>
 <constant digits="0" name="can_poll_id_rtc">5.0</constant>
 <constant digits="0" name="mycan_id">0.0</constant>
 <constant digits="0" name="mapsample_percent" units="%">50.0</constant>
 <constant digits="0" name="can_poll_id_ports">5.0</constant>
 <constant digits="0" name="can_poll_id">5.0</constant>
-<constant digits="2" name="aeTaperTime" units="s">0.04</constant>
-<constant digits="0" name="tpsasync2_events" units="events">4.0</constant>
+<constant digits="2" name="aeTaperTime" units="s">0.08</constant>
+<constant digits="0" name="tpsasync2_events" units="events">8.0</constant>
 <constant digits="0" name="aeEndPW" units="%ReqFuel">0.0</constant>
 <constant name="egoAlgorithm">"PID"</constant>
 <constant name="egoAlgorithm_auth">"Off"</constant>
 <constant name="egoAlgorithm_delay_table">"Use IGN events"</constant>
-<constant digits="0" name="egoKP" units="%">50.0</constant>
-<constant digits="0" name="egoKI" units="%">100.0</constant>
-<constant digits="0" name="egoKD" units="%">10.0</constant>
+<constant digits="0" name="egoKP" units="%">20.0</constant>
+<constant digits="0" name="egoKI" units="%">30.0</constant>
+<constant digits="0" name="egoKD" units="%">120.0</constant>
 <constant digits="0" name="ac_idleup_vss_offpoint" units="MPH">24.82959</constant>
 <constant digits="0" name="ac_idleup_vss_hyst" units="MPH">3.13166</constant>
 <constant name="flexFuel">"Disabled"</constant>
@@ -254,7 +254,7 @@
 <constant digits="1" name="Miss_ang" units="deg BTDC">84.0</constant>
 <constant digits="1" name="ICISR_tmask" units="ms">0.1</constant>
 <constant digits="0" name="ICISR_pmask" units="%">10.0</constant>
-<constant digits="0" name="ae_lorpm" units="rpm">2000.0</constant>
+<constant digits="0" name="ae_lorpm" units="rpm">2500.0</constant>
 <constant digits="0" name="ae_hirpm" units="rpm">3500.0</constant>
 <constant cols="1" digits="1" name="fuelSpkDel" rows="2" units="deg">
          0.0 
@@ -285,10 +285,10 @@
 <constant name="mapport_f">"PT4"</constant>
 <constant name="knkport_an">"EGO2 (ADC12)"</constant>
 <constant name="OvrRunC">"On"</constant>
-<constant name="OvrRunC_progcut">"On"</constant>
-<constant name="OvrRunC_progret">"On"</constant>
-<constant name="OvrRunC_progign">"On"</constant>
-<constant name="OvrRunC_retign">"On"</constant>
+<constant name="OvrRunC_progcut">"Off"</constant>
+<constant name="OvrRunC_progret">"Off"</constant>
+<constant name="OvrRunC_progign">"Off"</constant>
+<constant name="OvrRunC_retign">"Off"</constant>
 <constant digits="0" name="poll_level_tooth">0.0</constant>
 <constant name="feature4_0igntrig">"Off"</constant>
 <constant name="feature4_0maxdwl">"On"</constant>
@@ -311,13 +311,13 @@
 <constant name="f5_0_tss">"Off"</constant>
 <constant name="f5_0_tss_opt">"Hardware"</constant>
 <constant name="tsw_pin_s">"Tableswitch"</constant>
-<constant digits="0" name="pwmidlecranktaper" units="s">10.0</constant>
+<constant digits="0" name="pwmidlecranktaper" units="s">5.0</constant>
 <constant digits="1" name="knk_step_adv" units="deg">2.0</constant>
-<constant digits="0" name="fc_rpm" units="rpm">1500.0</constant>
+<constant digits="0" name="fc_rpm" units="rpm">1700.0</constant>
 <constant digits="1" name="fc_kpa" units="kPa">25.0</constant>
-<constant digits="1" name="fc_tps" units="%">1.0</constant>
+<constant digits="1" name="fc_tps" units="%">0.5</constant>
 <constant digits="1" name="fc_clt" units="°F">120.0</constant>
-<constant digits="1" name="fc_delay" units="s">0.5</constant>
+<constant digits="1" name="fc_delay" units="s">1.0</constant>
 <constant name="tacho_opt3f">"Idle"</constant>
 <constant digits="0" name="fc_ego_delay" units="s">2.0</constant>
 <constant name="tacho_opt80">"Off"</constant>
@@ -395,24 +395,24 @@
 <constant name="N2Oopt_pins">"Nitrous In"</constant>
 <constant digits="1" name="RevLimRtdAng" units="deg">10.0</constant>
 <constant digits="0" name="vss4_can_offset">0.0</constant>
-<constant digits="0" name="RevLimNormal2_hyst" units="RPM">200.0</constant>
+<constant digits="0" name="RevLimNormal2_hyst" units="RPM">300.0</constant>
 <constant name="pwmidleset_inv">"Normal, 0%=off"</constant>
 <constant digits="0" name="trig_init">1.0</constant>
-<constant digits="0" name="pwmidle_ms" units="ms">100.0</constant>
+<constant digits="0" name="pwmidle_ms" units="ms">10.0</constant>
 <constant digits="0" name="pwmidle_close_delay" units="s">0.0</constant>
 <constant digits="1" name="pwmidle_open_duty" units="%">39.984</constant>
 <constant digits="0" name="pwmidle_open_steps" units="steps">102.0</constant>
 <constant digits="1" name="pwmidle_closed_duty" units="%">14.896</constant>
 <constant digits="0" name="pwmidle_closed_steps" units="steps">38.0</constant>
-<constant digits="0" name="pwmidle_pid_wait_timer" units="s">2.0</constant>
+<constant digits="0" name="pwmidle_pid_wait_timer" units="s">1.0</constant>
 <constant name="pwmidle_freq_pin3">"Off"</constant>
 <constant name="pwmidle_freq_koeo">"Off"</constant>
 <constant digits="0" name="ac_idleup_min_rpm" units="rpm">300.0</constant>
 <constant digits="1" name="pwmidle_tps_threshold" units="%">1.0</constant>
-<constant digits="1" name="pwmidle_dp_adder" units="%">3.136</constant>
-<constant digits="0" name="pwmidle_dp_adder_steps" units="steps">8.0</constant>
-<constant digits="0" name="pwmidle_rpmdot_threshold" units="rpm/sec">150.0</constant>
-<constant digits="1" name="pwmidle_decelload_threshold" units="%">25.0</constant>
+<constant digits="1" name="pwmidle_dp_adder" units="%">0.0</constant>
+<constant digits="0" name="pwmidle_dp_adder_steps" units="steps">0.0</constant>
+<constant digits="0" name="pwmidle_rpmdot_threshold" units="rpm/sec">500.0</constant>
+<constant digits="1" name="pwmidle_decelload_threshold" units="%">20.0</constant>
 <constant digits="1" name="pwmidle_Kp_new" units="%">30.0</constant>
 <constant digits="1" name="pwmidle_Ki_new" units="%">30.0</constant>
 <constant digits="1" name="pwmidle_Kd_new" units="%">0.0</constant>
@@ -435,17 +435,17 @@
 <constant name="NoiseFilterOpts2">"Off"</constant>
 <constant name="NoiseFilterOpts3">"Off"</constant>
 <constant digits="1" name="launchcuttiming" units="deg">9.0</constant>
-<constant digits="0" name="pwmidle_max_rpm_new">1008.0</constant>
-<constant digits="0" name="pwmidle_targ_ramptime" units="s">2.0</constant>
+<constant digits="0" name="pwmidle_max_rpm_new">800.0</constant>
+<constant digits="0" name="pwmidle_targ_ramptime" units="s">0.0</constant>
 <constant name="boost_ctl_pins_pwm">"Boost"</constant>
 <constant name="secondtrigopts">"Off"</constant>
 <constant name="secondtrigopts1">"Off"</constant>
 <constant name="secondtrigopts2">"Off"</constant>
 <constant name="secondtrigopts3">"Off"</constant>
 <constant digits="0" name="TC5_required_width" units="uSec">416.0</constant>
-<constant digits="0" name="egoLimit" units="%">15.0</constant>
+<constant digits="0" name="egoLimit" units="%">10.0</constant>
 <constant digits="1" name="stoich" units="AFR">14.7</constant>
-<constant digits="2" name="MAPOXMin" units="%">25.0</constant>
+<constant digits="2" name="MAPOXMin" units="%">20.0</constant>
 <constant digits="1" name="IC2ISR_tmask" units="ms">0.2</constant>
 <constant digits="0" name="IC2ISR_pmask" units="%">20.0</constant>
 <constant name="afrload">"MAP"</constant>
@@ -456,37 +456,37 @@
 <constant digits="1" name="primedelay" units="s">0.5</constant>
 <constant name="pwmidle_cl_opts_initvaluetable">"Use last value"</constant>
 <constant name="pwmidle_cl_opts_initval_clt">"Use CLT"</constant>
-<constant name="pwmidle_cl_opts_display_pid">"Advanced"</constant>
+<constant name="pwmidle_cl_opts_display_pid">"Basic"</constant>
 <constant name="boost_ctl_flags">"Basic Mode"</constant>
 <constant name="boost_ctl_flags2">"Basic Mode"</constant>
-<constant name="idleveadv_to_pid_idleadv">"Use normal activation"</constant>
+<constant name="idleveadv_to_pid_idleadv">"Use PID idle activation"</constant>
 <constant name="idleveadv_to_pid_idleve">"Use PID idle activation"</constant>
 <constant digits="1" name="boost_ctl_sensitivity">160.0</constant>
 <constant digits="1" name="boost_ctl_sensitivity2">200.0</constant>
-<constant digits="0" name="fuelcut_fuelon_upper_rpmdot" units="rpmdot">1000.0</constant>
-<constant digits="0" name="fuelcut_fuelon_lower_rpmdot" units="rpmdot">300.0</constant>
+<constant digits="0" name="fuelcut_fuelon_upper_rpmdot" units="rpmdot">2500.0</constant>
+<constant digits="0" name="fuelcut_fuelon_lower_rpmdot" units="rpmdot">500.0</constant>
 <constant digits="3" name="staged_secondary_enrichment" units="ms">0.0</constant>
 <constant digits="0" name="staged_primary_delay" units="ign events">0.0</constant>
 <constant name="idleadvance_on">"On"</constant>
 <constant name="idleve_on">"Off"</constant>
 <constant name="idleve_vsson">"Off"</constant>
 <constant name="idleadv_vsson">"Off"</constant>
-<constant name="idle_special_ops_timing_assist">"Off"</constant>
+<constant name="idle_special_ops_timing_assist">"On"</constant>
 <constant digits="1" name="idleadvance_tps" units="%">1.0</constant>
-<constant digits="0" name="idleadvance_rpm" units="rpm">1500.0</constant>
-<constant digits="0" name="idleadvance_load" units="%">20.0</constant>
+<constant digits="0" name="idleadvance_rpm" units="rpm">1700.0</constant>
+<constant digits="0" name="idleadvance_load" units="%">25.0</constant>
 <constant digits="1" name="idleadvance_clt" units="°F">60.0</constant>
-<constant digits="0" name="idleadvance_delay" units="s">1.0</constant>
+<constant digits="0" name="idleadvance_delay" units="s">0.0</constant>
 <constant cols="1" digits="1" name="idleadvance_curve" rows="4" units="deg">
          25.0 
          25.0 
          25.0 
-         30.0 
+         25.0 
       </constant>
 <constant cols="1" digits="1" name="idleadvance_loads" rows="4" units="%">
+         15.0 
          20.0 
-         31.0 
-         36.0 
+         25.0 
          40.0 
       </constant>
 <constant name="log_style2_but">"Datalog In"</constant>
@@ -494,17 +494,16 @@
 <constant name="log_style_gps">"Off"</constant>
 <constant name="log_style_on">"Insertion"</constant>
 <constant name="log_style_on2">"Always"</constant>
-<constant name="log_style2_samp">"Timed"</constant>
+<constant name="log_style2_samp">"every cycle"</constant>
 <constant name="log_style2_clg">"Off"</constant>
 <constant name="log_style3_adc">"JS4 (ADC7)"</constant>
-<constant digits="0" name="log_length" units="mins">10.0</constant>
-<constant digits="1" name="log_int" units="ms">19.968</constant>
-<constant digits="0" name="log_rate">50.0801282</constant>
+<constant digits="0" name="log_length" units="mins">30.0</constant>
+<constant digits="1" name="log_int" units="ms">9.984</constant>
+<constant digits="0" name="log_rate">100.1602564</constant>
 <constant cols="1" digits="0" name="logFieldOffset" rows="64">
          0.0 
          2.0 
          6.0 
-         8.0 
          11.0 
          12.0 
          16.0 
@@ -513,7 +512,6 @@
          22.0 
          24.0 
          26.0 
-         42.0 
          48.0 
          50.0 
          54.0 
@@ -521,13 +519,15 @@
          60.0 
          66.0 
          90.0 
+         96.0 
          210.0 
-         220.0 
          234.0 
          252.0 
          300.0 
+         382.0 
+         384.0 
          408.0 
-         0.0 
+         434.0 
          0.0 
          0.0 
          0.0 
@@ -570,7 +570,6 @@
          2.0 
          2.0 
          2.0 
-         2.0 
          1.0 
          1.0 
          2.0 
@@ -586,14 +585,15 @@
          2.0 
          2.0 
          2.0 
-         2.0 
-         2.0 
+         4.0 
          2.0 
          2.0 
          1.0 
          2.0 
          2.0 
-         0.0 
+         2.0 
+         2.0 
+         2.0 
          0.0 
          0.0 
          0.0 
@@ -649,7 +649,7 @@
 <constant digits="0" name="fireo">0.0</constant>
 <constant digits="0" name="firep">0.0</constant>
 <constant name="sequential">"Fully Sequential"</constant>
-<constant name="sequential_angle_spec">"Beginning of squirt"</constant>
+<constant name="sequential_angle_spec">"End of squirt"</constant>
 <constant name="sequential_trim_on_off">"Off"</constant>
 <constant digits="0" name="boost_launch_duty" units="%">0.0</constant>
 <constant digits="1" name="boost_launch_target" units="kPa">100.0</constant>
@@ -832,11 +832,11 @@
 <constant digits="0" name="canpwm_pre">16.0</constant>
 <constant digits="0" name="canpwm_div">3.0</constant>
 <constant digits="0" name="vss1_can_table">7.0</constant>
-<constant name="feature7_mafmat">"Off"</constant>
+<constant name="feature7_mafmat">"On"</constant>
 <constant name="feature7_maftrim">"On"</constant>
 <constant name="feature7_mafcalib">"Off"</constant>
-<constant name="feature7_aeevents">"Time"</constant>
-<constant name="feature7_aetpswot">"Off"</constant>
+<constant name="feature7_aeevents">"Events"</constant>
+<constant name="feature7_aetpswot">"On"</constant>
 <constant name="feature7_batchcrank">"Off"</constant>
 <constant name="feature7_cranktaper">"Off"</constant>
 <constant name="feature7_crtpunits">"Events"</constant>
@@ -877,8 +877,8 @@
 <constant digits="0" name="fanctl_idleup_delay" units="ms">100.0</constant>
 <constant digits="1" name="fanctl_idleup_adder_duty" units="%">1.568</constant>
 <constant digits="0" name="fanctl_idleup_adder_steps" units="steps">4.0</constant>
-<constant digits="1" name="fanctl_ontemp" units="°F">180.0</constant>
-<constant digits="1" name="fanctl_offtemp" units="°F">170.0</constant>
+<constant digits="1" name="fanctl_ontemp" units="°F">185.0</constant>
+<constant digits="1" name="fanctl_offtemp" units="°F">180.0</constant>
 <constant name="canadc_opt1">"Off"</constant>
 <constant name="canadc_opt2">"Off"</constant>
 <constant name="canadc_opt3">"Off"</constant>
@@ -905,7 +905,7 @@
 <constant digits="0" name="canadc_off5">34.0</constant>
 <constant digits="0" name="canadc_off6">42.0</constant>
 <constant digits="0" name="ac_idleup_cl_targetadder" units="rpm">300.0</constant>
-<constant digits="0" name="fan_idleup_cl_targetadder" units="rpm">0.0</constant>
+<constant digits="0" name="fan_idleup_cl_targetadder" units="rpm">20.0</constant>
 <constant digits="1" name="boost_ctl_clt_threshold" units="°F">140.0</constant>
 <constant name="fan_ctl_settings_acfan">"Leave Fan off"</constant>
 <constant digits="1" name="ego_upper_bound" units="AFR">18.0</constant>
@@ -924,9 +924,9 @@
 <constant digits="0" name="can_pwmout_id">5.0</constant>
 <constant digits="0" name="can_pwmout_tab">7.0</constant>
 <constant digits="0" name="can_pwmout_offset" units="bytes">94.0</constant>
-<constant digits="1" name="idleve_tps" units="%">5.0</constant>
-<constant digits="0" name="idleve_rpm" units="rpm">1400.0</constant>
-<constant digits="1" name="idleve_load" units="%">25.0</constant>
+<constant digits="1" name="idleve_tps" units="%">1.0</constant>
+<constant digits="0" name="idleve_rpm" units="rpm">1500.0</constant>
+<constant digits="1" name="idleve_load" units="%">30.0</constant>
 <constant digits="1" name="idleve_clt" units="°F">80.0</constant>
 <constant digits="0" name="idleve_delay" units="s">1.0</constant>
 <constant digits="0" name="ac_idleup_cl_lockout_mapadder" units="%">0.0</constant>
@@ -1176,22 +1176,22 @@
 <constant name="tc_led_out">"Off"</constant>
 <constant digits="1" name="accel_CLT_multiplier" units="%">105.0</constant>
 <constant cols="1" digits="0" name="cl_idle_timing_target_deltas" rows="8" units="rpm">
-         -300.0 
-         -200.0 
+         -500.0 
+         -250.0 
          -100.0 
-         -25.0 
-         25.0 
+         -50.0 
+         50.0 
          100.0 
-         200.0 
-         300.0 
+         250.0 
+         500.0 
       </constant>
 <constant cols="1" digits="0" name="cl_idle_timing_advance_deltas" rows="8" units="deg">
          4.0 
          2.0 
-         0.0 
+         1.0 
          0.3 
          0.0 
-         0.0 
+         -1.0 
          -2.0 
          -4.0 
       </constant>
@@ -1356,9 +1356,9 @@
 <constant digits="0" name="idleminvss" units="MPH">0.0</constant>
 <constant digits="1" name="flex_baseline" units="%">0.0</constant>
 <constant digits="1" name="fc_transition_time" units="s">0.5</constant>
-<constant digits="2" name="fc_ae_time" units="s">0.0</constant>
-<constant digits="2" name="fc_timing" units="deg">25.0</constant>
-<constant digits="0" name="fc_ae_pct" units="%ReqFuel">0.0</constant>
+<constant digits="2" name="fc_ae_time" units="s">0.25</constant>
+<constant digits="2" name="fc_timing" units="deg">20.0</constant>
+<constant digits="0" name="fc_ae_pct" units="%ReqFuel">15.0</constant>
 <constant digits="1" name="fp_off_duty" units="%">0.0</constant>
 <constant digits="1" name="fp_min_duty" units="%">0.0</constant>
 <constant digits="1" name="fp_max_duty" units="%">99.96</constant>
@@ -2281,21 +2281,21 @@
 <constant cols="1" digits="0" name="pwmidle_target_rpms" rows="8" units="rpms">
          1500.0 
          1500.0 
-         1300.0 
-         1200.0 
-         1200.0 
-         1200.0 
-         1200.0 
-         1200.0 
+         1213.0 
+         1172.0 
+         1104.0 
+         1100.0 
+         1000.0 
+         1000.0 
       </constant>
 <constant cols="1" digits="1" name="pwmidle_clt_temps" rows="8" units="°F">
          32.0 
          60.0 
-         100.0 
+         80.0 
          120.0 
          140.0 
          160.0 
-         180.0 
+         170.0 
          220.0 
       </constant>
 <constant cols="1" digits="1" name="RevLimLookup" rows="8" units="°F">
@@ -2309,7 +2309,7 @@
          200.0 
       </constant>
 <constant cols="1" digits="0" name="RevLimRpm1" rows="8" units="RPM">
-         4000.0 
+         4500.0 
          5000.0 
          5500.0 
          6000.0 
@@ -2656,18 +2656,18 @@
          200.0 
       </constant>
 <constant cols="12" digits="1" name="inj_timing" rows="12" units="deg">
-         150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 
-         150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 
-         150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 
-         150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 
-         150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 
-         150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 
-         150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 
-         150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 
-         150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 
-         150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 
-         150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 
-         150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 150.0 
+         270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 
+         270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 
+         270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 
+         270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 
+         270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 
+         270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 270.0 
+         240.0 240.0 240.0 240.0 240.0 240.0 240.0 240.0 240.0 240.0 240.0 240.0 
+         220.0 220.0 220.0 220.0 220.0 220.0 220.0 220.0 220.0 220.0 220.0 220.0 
+         200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 
+         200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 
+         200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 
+         200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 200.0 
       </constant>
 <constant cols="1" digits="0" name="inj_timing_rpm" rows="12" units="rpm">
          300.0 
@@ -2872,18 +2872,18 @@
          10.0 
       </constant>
 <constant cols="12" digits="1" name="afrTable1" rows="12" units="AFR">
-         14.0 14.0 14.0 14.0 14.5 14.7 14.7 14.7 14.7 14.6 14.5 14.4 
-         14.0 14.0 14.0 14.0 14.5 14.7 14.7 14.7 14.7 14.6 14.5 14.4 
-         14.0 14.0 14.0 14.0 14.5 14.7 14.7 14.7 14.7 14.6 14.5 14.4 
-         13.5 13.5 13.5 13.9 14.2 14.7 14.7 14.7 14.7 14.6 14.5 14.4 
-         13.5 13.5 13.5 13.7 14.1 14.7 14.5 14.5 14.5 14.4 14.3 14.2 
-         13.5 13.5 13.5 13.5 13.5 13.5 13.5 13.5 13.5 13.5 13.5 13.5 
-         12.8 12.8 12.8 12.8 12.8 12.8 12.8 12.8 12.8 12.7 12.6 12.6 
-         12.5 12.5 12.5 12.5 12.5 12.5 12.5 12.5 12.4 12.3 12.2 12.1 
-         12.1 12.1 12.1 12.1 12.1 12.1 12.1 12.1 12.1 12.0 11.9 11.8 
-         11.8 11.8 11.8 11.8 11.8 11.8 11.8 11.8 11.8 11.7 11.6 11.5 
-         11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.4 11.4 
-         11.2 11.2 11.2 11.2 11.2 11.2 11.2 11.2 11.2 11.2 11.2 11.2 
+         14.0 14.0 14.0 14.7 14.7 14.7 14.7 14.7 14.7 14.6 14.5 14.4 
+         14.0 14.0 14.0 14.7 14.7 14.7 14.7 14.7 14.7 14.6 14.5 14.4 
+         14.0 14.0 14.0 14.7 14.7 14.7 14.7 14.7 14.7 14.6 14.5 14.4 
+         14.0 14.0 14.0 14.5 14.5 14.7 14.7 14.7 14.7 14.6 14.5 14.4 
+         14.0 14.0 14.0 14.3 14.3 14.3 14.3 14.3 14.3 14.3 14.3 14.1 
+         14.0 14.0 14.0 14.0 14.0 14.0 14.0 14.0 14.0 14.0 14.0 14.0 
+         13.3 13.3 13.3 13.3 13.3 13.3 13.3 13.3 13.3 13.3 13.3 13.3 
+         12.5 12.5 12.5 12.5 12.5 12.5 12.5 12.5 12.5 12.5 12.5 12.5 
+         12.0 12.0 12.0 12.0 12.0 12.0 12.0 12.0 12.0 12.0 12.0 12.0 
+         11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 
+         11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 
+         11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 
       </constant>
 <constant cols="12" digits="1" name="afrTable2" rows="12" units="AFR">
          13.0 13.5 16.0 16.0 16.0 14.9 14.3 13.2 13.1 13.2 13.1 13.0 
@@ -2906,7 +2906,7 @@
          120.0 
          115.0 
          110.0 
-         104.0 
+         103.0 
          100.0 
          100.0 
          100.0 
@@ -2988,7 +2988,7 @@
          60.0 
          80.0 
          100.0 
-         120.0 
+         140.0 
          180.0 
       </constant>
 <constant cols="1" digits="1" name="dwellvolts" rows="6" units="V">
@@ -3025,10 +3025,10 @@
          40.768 
          40.768 
          38.024 
-         34.888 
-         31.36 
-         28.616 
-         24.696 
+         32.536 
+         29.008 
+         26.264 
+         22.736 
          19.992 
       </constant>
 <constant cols="1" digits="1" name="opentimepct0" rows="6" units="%">
@@ -3312,9 +3312,9 @@
          200.0 
       </constant>
 <constant cols="1" digits="1" name="XAcc" rows="5" units="%">
-         30.0 
-         30.0 
-         30.0 
+         40.0 
+         40.0 
+         35.0 
          30.0 
          30.0 
       </constant>
@@ -3360,12 +3360,12 @@
       </constant>
 <constant cols="1" digits="0" name="TauClt" rows="10" units="%">
          200.0 
-         190.0 
          180.0 
-         180.0 
-         170.0 
+         174.0 
+         167.0 
          160.0 
-         141.0 
+         151.0 
+         140.0 
          125.0 
          110.0 
          100.0 
@@ -3384,12 +3384,12 @@
       </constant>
 <constant cols="1" digits="1" name="TauClt_temps" rows="10" units="°F">
          -40.0 
-         -20.0 
          0.0 
          20.0 
          40.0 
          60.0 
          80.0 
+         100.0 
          120.0 
          140.0 
          160.0 
@@ -3645,22 +3645,22 @@
 </page>
 <page number="7" size="1024">
 <constant cols="16" digits="1" name="advanceTable1" rows="16" units="deg">
-         25.0 30.0 30.0 30.0 33.0 34.0 36.0 39.0 40.0 41.0 41.0 41.0 41.0 42.0 42.0 43.0 
-         25.0 30.0 30.0 30.0 33.0 34.0 36.0 39.0 40.0 41.0 41.0 41.0 41.0 42.0 42.5 43.0 
-         25.0 30.0 30.0 30.0 33.0 35.5 37.0 39.0 40.0 41.0 41.0 41.0 41.0 42.0 42.5 43.0 
-         25.0 30.0 30.0 30.0 33.0 36.0 37.0 39.0 40.0 41.0 41.0 41.0 41.0 42.0 42.5 43.0 
-         25.0 30.0 30.0 30.0 33.0 35.0 36.0 37.0 40.0 40.0 40.0 40.0 41.0 42.0 42.5 43.0 
-         25.0 30.0 30.0 30.0 32.0 35.0 36.0 37.0 39.0 39.0 39.0 39.0 40.0 41.0 42.0 42.5 
-         25.0 30.0 30.0 30.0 31.0 34.0 35.0 36.0 37.5 38.0 38.0 38.0 39.0 39.5 40.0 40.5 
-         25.0 29.0 29.0 29.0 30.5 33.0 34.0 34.5 36.0 36.0 36.5 37.0 37.5 38.0 38.5 38.5 
-         25.0 26.0 26.0 27.0 29.0 31.0 32.0 32.0 33.0 34.0 34.5 35.0 35.5 36.0 36.5 37.0 
-         20.0 20.5 22.0 23.5 24.5 26.0 27.0 27.5 29.0 30.0 31.0 31.0 32.0 33.0 34.0 34.0 
-         16.0 18.0 19.5 20.0 21.0 22.5 23.5 24.5 25.5 26.5 27.0 28.0 28.0 28.5 29.0 29.5 
-         15.0 16.0 17.0 18.0 18.0 20.0 21.0 22.0 22.0 22.5 23.0 24.0 25.0 25.5 26.0 26.5 
-         12.0 12.0 13.0 14.0 14.0 17.0 19.0 20.0 21.0 22.0 22.0 22.5 23.0 23.5 24.0 24.5 
-         11.0 11.0 11.0 12.0 13.0 15.0 17.0 18.0 19.0 19.0 19.5 20.0 20.5 21.0 21.5 22.0 
-         11.0 11.0 11.0 11.0 12.0 14.0 16.0 17.0 17.5 18.0 18.5 19.0 19.5 20.0 20.5 21.0 
-         11.0 11.0 11.0 11.0 11.0 12.0 14.0 15.0 15.5 16.0 16.5 17.0 17.5 18.0 18.5 19.0 
+         20.0 27.0 30.0 34.0 36.0 37.0 38.0 39.0 39.0 40.0 40.0 40.0 40.0 40.0 40.0 40.0 
+         20.0 27.0 30.0 34.0 36.0 37.0 38.0 39.0 39.0 40.0 40.0 40.0 40.0 40.0 40.0 40.0 
+         20.0 27.0 30.0 34.0 35.0 37.0 38.0 39.0 39.0 40.0 40.0 40.0 40.0 40.0 40.0 40.0 
+         20.0 27.0 30.0 34.0 35.0 36.0 37.0 38.0 38.5 40.0 40.0 40.0 40.0 40.0 40.0 40.0 
+         20.0 26.0 29.0 33.0 35.0 36.0 36.0 37.0 38.0 40.0 40.0 40.0 40.0 40.0 40.0 40.0 
+         20.0 25.0 27.0 31.0 33.0 34.0 36.0 37.0 37.0 38.4 38.9 39.5 40.0 40.0 40.0 40.0 
+         20.0 22.5 25.0 28.0 31.0 31.0 33.5 35.0 36.0 36.0 37.0 37.5 38.0 38.0 38.0 38.0 
+         20.0 21.0 23.5 24.0 28.0 28.0 31.0 33.5 34.5 35.0 35.5 36.0 36.5 36.0 36.0 36.0 
+         20.0 20.0 22.5 24.0 26.0 27.0 30.0 32.0 32.0 32.0 32.0 32.0 32.0 32.0 32.0 32.0 
+         18.0 18.5 20.0 21.5 23.0 25.5 27.0 28.0 29.0 29.5 29.5 30.0 30.0 30.0 30.0 30.0 
+         16.0 16.5 18.0 19.5 20.0 20.0 22.5 24.5 25.0 25.5 26.0 26.0 26.0 26.0 26.0 26.0 
+         14.5 15.0 16.0 17.0 18.0 18.0 19.0 21.0 22.0 23.0 23.5 24.0 24.0 24.0 24.0 24.0 
+         12.0 12.0 13.0 14.0 15.0 16.0 18.0 19.5 20.5 21.5 22.0 22.5 22.5 23.0 23.5 23.5 
+         11.0 11.0 11.0 12.0 13.0 13.0 16.5 18.0 19.5 20.0 20.5 21.0 21.5 22.0 22.5 23.0 
+         11.0 11.0 11.0 11.0 12.0 13.0 15.0 16.0 16.5 17.0 17.5 18.0 18.5 19.0 19.5 20.0 
+         11.0 11.0 11.0 11.0 11.0 11.0 13.0 14.0 14.5 15.0 15.5 16.0 16.5 17.0 17.5 18.0 
       </constant>
 <constant cols="16" digits="1" name="advanceTable2" rows="16" units="deg">
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
@@ -3721,22 +3721,22 @@
 </page>
 <page number="9" size="1024">
 <constant cols="1" digits="0" name="frpm_table1" rows="16" units="RPM">
-         500.0 
-         800.0 
-         900.0 
+         750.0 
          1000.0 
-         1100.0 
-         1200.0 
+         1250.0 
          1500.0 
+         1750.0 
          2000.0 
+         2250.0 
          2500.0 
+         2750.0 
          3000.0 
          3500.0 
-         4000.0 
          4500.0 
          5000.0 
+         5500.0 
          6000.0 
-         7000.0 
+         6500.0 
       </constant>
 <constant cols="1" digits="0" name="frpm_table2" rows="16" units="RPM">
          500.0 
@@ -3780,17 +3780,17 @@
          30.0 
          35.0 
          40.0 
-         45.0 
          50.0 
          60.0 
+         70.0 
          80.0 
+         90.0 
          100.0 
+         110.0 
          120.0 
          140.0 
          160.0 
          180.0 
-         200.0 
-         220.0 
       </constant>
 <constant cols="1" digits="1" name="fmap_table2" rows="16" units="%">
          20.0 
@@ -4147,10 +4147,10 @@
          7000.0 
       </constant>
 <constant cols="4" digits="1" name="idleve_table1" rows="4" units="%">
-         74.0 75.3 76.7 74.5 
-         74.0 74.6 73.6 77.2 
-         74.0 71.9 74.6 78.6 
-         72.9 72.7 75.8 79.0 
+         85.0 85.0 85.0 85.0 
+         85.0 85.0 85.0 85.0 
+         85.0 85.0 85.0 85.0 
+         85.0 85.0 85.0 85.0 
       </constant>
 <constant cols="4" digits="1" name="idleve_table2" rows="4" units="%">
          30.0 32.0 34.0 36.0 
@@ -4159,10 +4159,10 @@
          36.0 38.0 40.0 42.0 
       </constant>
 <constant cols="1" digits="1" name="idleve_loads1" rows="4" units="%">
-         31.0 
+         20.0 
+         25.0 
+         30.0 
          35.0 
-         40.0 
-         45.0 
       </constant>
 <constant cols="1" digits="1" name="idleve_loads2" rows="4" units="%">
          30.0 
@@ -4171,10 +4171,10 @@
          45.0 
       </constant>
 <constant cols="1" digits="0" name="idleve_rpms1" rows="4" units="rpm">
+         750.0 
          1000.0 
-         1100.0 
-         1200.0 
-         1300.0 
+         1250.0 
+         1500.0 
       </constant>
 <constant cols="1" digits="0" name="idleve_rpms2" rows="4" units="rpm">
          800.0 
@@ -5203,6 +5203,10 @@
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
       </constant>
+<constant name="vvt_softout1">"IAC1"</constant>
+<constant name="vvt_softout2">"IAC1"</constant>
+<constant name="vvt_softout3">"IAC1"</constant>
+<constant name="vvt_softout4">"IAC1"</constant>
 </page>
 <page number="13" size="1024">
 <constant cols="12" digits="3" name="narrowband_tgts" rows="12" units="V">
@@ -5471,10 +5475,32 @@
 </page>
 <page number="14" size="1024">
 <constant cols="1" digits="3" name="mafv" rows="64" units="V">
-         0.5 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.001 
+         0.6 
          0.7 
+         0.8 
          0.9 
+         1.0 
          1.1 
+         1.2 
          1.3 
          1.4 
          1.5 
@@ -5491,56 +5517,56 @@
          2.6 
          2.7 
          2.8 
-         2.85 
          2.9 
-         2.95 
          3.0 
-         3.05 
          3.1 
-         3.15 
          3.2 
-         3.25 
          3.3 
-         3.35 
          3.4 
-         3.45 
          3.5 
-         3.55 
          3.6 
-         3.65 
          3.7 
-         3.75 
          3.8 
-         3.85 
          3.9 
-         3.95 
          4.0 
-         4.05 
          4.1 
-         4.15 
          4.2 
-         4.25 
          4.3 
-         4.35 
          4.4 
-         4.45 
          4.5 
-         4.55 
          4.6 
-         4.65 
          4.7 
-         4.75 
          4.8 
-         4.85 
          4.9 
-         4.95 
          5.0 
       </constant>
 <constant cols="1" digits="0" name="maff" rows="64" units="Hz">
-         658.75 
+         37.5 
+         37.5 
+         37.5 
+         37.5 
+         37.5 
+         37.5 
+         37.5 
+         37.5 
+         37.5 
+         37.5 
+         37.5 
+         37.5 
+         37.5 
+         37.5 
+         37.5 
+         37.5 
+         37.5 
+         37.5 
+         38.7425 
+         783.0 
          907.25 
+         1031.5 
          1155.75 
+         1280.0 
          1404.25 
+         1528.5 
          1652.75 
          1777.0 
          1901.25 
@@ -5557,116 +5583,94 @@
          3268.0 
          3392.25 
          3516.5 
-         3578.625 
          3640.75 
-         3702.875 
          3765.0 
-         3827.125 
          3889.25 
-         3951.375 
          4013.5 
-         4075.625 
          4137.75 
-         4199.875 
          4262.0 
-         4324.125 
          4386.25 
-         4448.375 
          4510.5 
-         4572.625 
          4634.75 
-         4696.875 
          4759.0 
-         4821.125 
          4883.25 
-         4945.375 
          5007.5 
-         5069.625 
          5131.75 
-         5193.875 
          5256.0 
-         5318.125 
          5380.25 
-         5442.375 
          5504.5 
-         5566.625 
          5628.75 
-         5690.875 
          5753.0 
-         5815.125 
          5877.25 
-         5939.375 
          6001.5 
-         6063.625 
          6125.75 
-         6187.875 
          6250.0 
       </constant>
 <constant cols="1" digits="2" name="mafflow" rows="64" units="g/sec">
-         3.8 
-         5.9 
-         7.5 
-         10.0 
-         12.5 
-         13.8 
-         15.4 
-         18.0 
-         20.0 
-         22.0 
-         24.55 
-         27.0 
-         30.0 
-         33.0 
-         36.5 
-         40.3 
-         44.0 
-         49.0 
-         53.0 
-         58.0 
-         61.0 
-         63.0 
-         65.0 
-         67.2 
-         71.0 
-         74.0 
-         77.0 
-         81.0 
-         85.0 
-         88.0 
-         92.0 
-         95.0 
-         100.0 
-         104.0 
-         108.0 
-         112.0 
-         116.5 
-         121.0 
-         125.0 
-         130.0 
-         135.0 
-         140.0 
-         145.17 
-         150.33 
-         155.5 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         4.7 
+         5.25 
+         5.71 
+         6.66 
+         8.1 
+         9.6 
+         10.75 
+         12.0 
+         14.0 
+         15.9 
+         18.3 
+         20.4 
+         22.85 
+         25.0 
+         27.8 
+         30.7 
+         34.05 
+         37.7 
+         41.2 
+         44.9 
+         49.5 
+         54.2 
+         58.9 
+         63.7 
+         69.0 
+         75.25 
+         82.3 
+         88.5 
+         96.0 
+         103.5 
+         112.3 
+         121.4 
+         130.5 
+         140.5 
+         150.0 
          161.0 
-         167.0 
          173.0 
-         179.0 
          185.0 
-         192.0 
          199.0 
-         205.5 
          212.0 
-         219.0 
          226.0 
-         233.0 
          240.0 
-         247.5 
          255.0 
-         263.0 
          271.0 
-         280.49 
-         289.98 
+         289.0 
       </constant>
 <constant cols="6" digits="1" name="alphaMAPtable" rows="6" units="kPa">
          100.0 40.0 35.0 30.0 25.0 20.0 
@@ -5693,16 +5697,16 @@
          6000.0 
       </constant>
 <constant cols="1" digits="1" name="tpswot_tps" rows="6" units="%">
-         20.0 
          25.0 
-         50.0 
-         70.0 
-         90.0 
+         25.0 
+         30.0 
+         45.0 
+         60.0 
          100.0 
       </constant>
 <constant cols="1" digits="0" name="tpswot_rpm" rows="6" units="RPM">
          500.0 
-         1000.0 
+         1500.0 
          2000.0 
          2500.0 
          3000.0 
@@ -6096,55 +6100,55 @@
 </page>
 <page number="15" size="1024">
 <constant cols="1" digits="0" name="UNALLOCATED_TOP_15" rows="41" units="RAW">
-         31.0 
+         1.0 
          120.0 
-         222.0 
+         158.0 
          64.0 
          177.0 
-         76.0 
-         49.0 
-         0.0 
+         72.0 
+         48.0 
+         64.0 
          84.0 
-         10.0 
+         8.0 
          136.0 
          0.0 
          134.0 
          0.0 
-         110.0 
+         78.0 
          6.0 
-         184.0 
+         152.0 
          0.0 
          66.0 
-         65.0 
+         1.0 
          2.0 
          48.0 
-         14.0 
-         168.0 
+         0.0 
+         136.0 
          9.0 
          45.0 
          3.0 
-         5.0 
-         37.0 
+         1.0 
+         1.0 
          3.0 
          35.0 
-         192.0 
-         170.0 
-         50.0 
+         64.0 
+         130.0 
+         0.0 
          138.0 
-         239.0 
-         247.0 
-         188.0 
-         102.0 
+         71.0 
+         150.0 
+         28.0 
+         68.0 
          128.0 
          85.0 
       </constant>
 </page>
 <page number="16" size="1024">
 <constant cols="12" digits="1" name="ego_auth_table" rows="12" units="%">
-         2.0 2.0 2.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 
-         2.0 2.0 2.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 
-         2.0 2.0 2.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 
-         2.0 2.0 2.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 
+         10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 
+         10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 
+         10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 
+         10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 
          10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 
          10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 
          10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 
@@ -6219,22 +6223,23 @@
          0.0 
       </constant>
 <constant cols="12" digits="0" name="ego_delay_table" rows="12" units="ms">
-         50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 
-         50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 
-         50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 
-         50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 
-         50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 
-         50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 
-         50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 
-         50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 
-         50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 
-         50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 
-         50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 
-         50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 
+         500.0 500.0 500.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 
+         500.0 500.0 500.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 
+         500.0 500.0 500.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 
+         500.0 500.0 500.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 
+         20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 
+         20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 
+         20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 
+         20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 
+         20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 
+         20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 
+         20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 
+         20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 
       </constant>
 <constant cols="1" digits="0" name="ego_delay_rpms" rows="12" units="rpm">
          500.0 
          1000.0 
+         1500.0 
          2000.0 
          2500.0 
          3000.0 
@@ -6242,9 +6247,8 @@
          4000.0 
          4500.0 
          5000.0 
-         5500.0 
          6000.0 
-         6500.0 
+         7000.0 
       </constant>
 <constant cols="1" digits="0" name="ego_delay_loads" rows="12" units="%">
          20.0 
@@ -6725,15 +6729,15 @@
 <constant digits="0" name="pitlim_rpm_range" units="RPM">200.0</constant>
 <constant cols="1" digits="0" name="taeBins" rows="4" units="%">
          1.0 
-         2.0 
          4.0 
-         10.0 
+         7.0 
+         14.0 
       </constant>
 <constant cols="1" digits="0" name="maeBins" rows="4" units="%">
-         0.0 
-         10.0 
+         2.0 
          15.0 
          25.0 
+         35.0 
       </constant>
 <constant cols="1" digits="1" name="taeRates" rows="4" units="%/s">
          50.0 
@@ -6743,7 +6747,7 @@
       </constant>
 <constant cols="1" digits="0" name="maeRates" rows="4" units="kPa/s">
          0.0 
-         250.0 
+         251.0 
          400.0 
          800.0 
       </constant>
@@ -6775,40 +6779,40 @@
          0.0 
          50.0 
          100.0 
+         150.0 
          200.0 
-         400.0 
-         600.0 
-         800.0 
-         1000.0 
+         250.0 
+         300.0 
+         500.0 
       </constant>
 <constant cols="1" digits="1" name="accel_tpsdots" rows="8" units="%/sec">
          0.0 
          25.0 
-         50.0 
-         100.0 
-         150.0 
-         200.0 
-         250.0 
+         54.5 
+         98.1 
+         143.8 
+         203.8 
+         251.7 
          500.0 
       </constant>
 <constant cols="1" digits="1" name="accel_mapdot_amts" rows="8" units="%">
          0.0 
-         0.0 
-         2.0 
          3.0 
-         4.0 
          5.0 
-         7.0 
+         6.0 
+         8.0 
          9.0 
+         10.2 
+         13.5 
       </constant>
 <constant cols="1" digits="1" name="accel_tpsdot_amts" rows="8" units="%">
          0.0 
          0.0 
-         1.5 
-         3.0 
-         4.0 
-         5.0 
-         6.0 
+         3.2 
+         5.1 
+         6.3 
+         8.1 
+         9.2 
          10.0 
       </constant>
 <constant cols="1" digits="0" name="accel_mapdots2" rows="8" units="kpa/sec">

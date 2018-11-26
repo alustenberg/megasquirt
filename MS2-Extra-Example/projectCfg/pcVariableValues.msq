@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<msq xmlns="http://www.msefi.com/:msq">
+<bibliography author="TunerStudio MS(Beta) 1.51 - EFI Analytics, Inc." writeDate="Thu Jun 07 23:25:26 EDT 2012"/>
+<versionInfo fileFormat="4.0" firmwareInfo="MS2/Extra beta   3.2.3  20120605 21:14BST (c)KC/JSM/JB MS2" signature="MS2Extra Serial323 "/>
+<page number="-1">
+<constant name="tsCanId">"0"</constant>
+</page>
+</msq>

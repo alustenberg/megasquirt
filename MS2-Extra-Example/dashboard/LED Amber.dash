@@ -1,0 +1,1695 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dsh xmlns="http://www.EFIAnalytics.com/:dsh">
+<bibliography author="TunerStudio 1.51 - EFI Analytics - philip.tobin@yahoo.com" company="EFI Analytics, © 2007 - 2012, All Rights Reserved." writeDate="Thu Jun 07 17:28:57 EDT 2012"/>
+<versionInfo fileFormat="1.1" firmwareSignature="MS2Extra Serial323 "/>
+<gaugeCluster antiAliasing="true" backgroundDitherColor="" clusterBackgroundColor="-16777216" clusterBackgroundImageFileName="" clusterBackgroundImageStyle="Tile">
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">0.0</Value>
+<Title type="String">Engine RPM</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">5</BorderWidth>
+<Units type="String">RPM</Units>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">8000.0</Max>
+<Min type="double">0.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">300.0</LowWarning>
+<HighWarning type="double">6000.0</HighWarning>
+<HighCritical type="double">7000.0</HighCritical>
+<ValueDigits type="int">0</ValueDigits>
+<LabelDigits type="int">0</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.AnalogGaugePainter</GaugePainter>
+<StartAngle type="int">360</StartAngle>
+<FaceAngle type="int">180</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">170</SweepAngle>
+<SweepBeginDegree type="int">5</SweepBeginDegree>
+<GaugeStyle type="String">Analog Gauge</GaugeStyle>
+<DisplayValue type="String">0</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">798.4890847942025</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">5</RelativeBorderWidth>
+<FontSizeAdjustment type="int">4</FontSizeAdjustment>
+<HistoricalPeakValue type="double">2744.0</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String">SansSerif</FontFamily>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">rpm</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.07892976588628763</RelativeX>
+<RelativeY type="double">0.04488778054862843</RelativeY>
+<RelativeWidth type="double">0.8417721518987342</RelativeWidth>
+<RelativeHeight type="double">0.695859872611465</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">10.0</Value>
+<Title type="String">AFR</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">0</BorderWidth>
+<Units type="String">:1</Units>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">20.0</Max>
+<Min type="double">10.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">13.0</LowWarning>
+<HighWarning type="double">15.0</HighWarning>
+<HighCritical type="double">16.0</HighCritical>
+<ValueDigits type="int">2</ValueDigits>
+<LabelDigits type="int">2</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.BasicReadoutGaugePainter</GaugePainter>
+<StartAngle type="int">168</StartAngle>
+<FaceAngle type="int">360</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
+<CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">182</SweepAngle>
+<SweepBeginDegree type="int">54</SweepBeginDegree>
+<GaugeStyle type="String">Basic Readout</GaugeStyle>
+<DisplayValue type="String">10.00</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">11.0</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">0</RelativeBorderWidth>
+<FontSizeAdjustment type="int">1</FontSizeAdjustment>
+<HistoricalPeakValue type="double">11.0</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">10.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String">LCD</FontFamily>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">afr1</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.00959409594095941</RelativeX>
+<RelativeY type="double">0.5523076923076923</RelativeY>
+<RelativeWidth type="double">0.20448877805486285</RelativeWidth>
+<RelativeHeight type="double">0.10243055555555555</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">-40.0</Value>
+<Title type="String">Coolant Temp</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">0</BorderWidth>
+<Units type="String">°F</Units>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">300.0</Max>
+<Min type="double">-40.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">-100.0</LowWarning>
+<HighWarning type="double">200.0</HighWarning>
+<HighCritical type="double">220.0</HighCritical>
+<ValueDigits type="int">0</ValueDigits>
+<LabelDigits type="int">0</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.BasicReadoutGaugePainter</GaugePainter>
+<StartAngle type="int">0</StartAngle>
+<FaceAngle type="int">360</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
+<CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">294</SweepAngle>
+<SweepBeginDegree type="int">300</SweepBeginDegree>
+<GaugeStyle type="String">Basic Readout</GaugeStyle>
+<DisplayValue type="String">-40</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">222.88167294134277</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">0</RelativeBorderWidth>
+<FontSizeAdjustment type="int">1</FontSizeAdjustment>
+<HistoricalPeakValue type="double">223.5</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">-40.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String">LCD</FontFamily>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">coolant</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.04398563734290844</RelativeX>
+<RelativeY type="double">0.43525741029641185</RelativeY>
+<RelativeWidth type="double">0.1770573566084788</RelativeWidth>
+<RelativeHeight type="double">0.10243055555555555</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">-40.0</Value>
+<Title type="String">Air Temp</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">0</BorderWidth>
+<Units type="String">°F</Units>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">215.0</Max>
+<Min type="double">-40.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">30.0</LowWarning>
+<HighWarning type="double">200.0</HighWarning>
+<HighCritical type="double">210.0</HighCritical>
+<ValueDigits type="int">0</ValueDigits>
+<LabelDigits type="int">0</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.BasicReadoutGaugePainter</GaugePainter>
+<StartAngle type="int">180</StartAngle>
+<FaceAngle type="int">180</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
+<CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">160</SweepAngle>
+<SweepBeginDegree type="int">186</SweepBeginDegree>
+<GaugeStyle type="String">Basic Readout</GaugeStyle>
+<DisplayValue type="String">-40</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">77.87119108918769</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">0</RelativeBorderWidth>
+<FontSizeAdjustment type="int">0</FontSizeAdjustment>
+<HistoricalPeakValue type="double">78.30000000000001</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">-40.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String">LCD</FontFamily>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">mat</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.03616236162361624</RelativeX>
+<RelativeY type="double">0.672752808988764</RelativeY>
+<RelativeWidth type="double">0.185785536159601</RelativeWidth>
+<RelativeHeight type="double">0.10243055555555555</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">0.0</Value>
+<Title type="String">Duty Cycle</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">0</BorderWidth>
+<Units type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">100.0</Max>
+<Min type="double">0.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">-1.0</LowWarning>
+<HighWarning type="double">85.0</HighWarning>
+<HighCritical type="double">90.0</HighCritical>
+<ValueDigits type="int">1</ValueDigits>
+<LabelDigits type="int">1</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.BasicReadoutGaugePainter</GaugePainter>
+<StartAngle type="int">90</StartAngle>
+<FaceAngle type="int">360</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
+<CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">265</SweepAngle>
+<SweepBeginDegree type="int">317</SweepBeginDegree>
+<GaugeStyle type="String">Basic Readout</GaugeStyle>
+<DisplayValue type="String">0.0</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">13.66816897520328</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">0</RelativeBorderWidth>
+<FontSizeAdjustment type="int">1</FontSizeAdjustment>
+<HistoricalPeakValue type="double">47.13132816000001</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String">LCD</FontFamily>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">dutyCycle1</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.05565529622980251</RelativeX>
+<RelativeY type="double">0.797191887675507</RelativeY>
+<RelativeWidth type="double">0.15586034912718205</RelativeWidth>
+<RelativeHeight type="double">0.10243055555555555</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">0.0</Value>
+<Title type="String">Pulse Width 1</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">0</BorderWidth>
+<Units type="String">mSec</Units>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">25.5</Max>
+<Min type="double">0.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">1.2</LowWarning>
+<HighWarning type="double">20.0</HighWarning>
+<HighCritical type="double">25.0</HighCritical>
+<ValueDigits type="int">3</ValueDigits>
+<LabelDigits type="int">1</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.BasicReadoutGaugePainter</GaugePainter>
+<StartAngle type="int">270</StartAngle>
+<FaceAngle type="int">180</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
+<CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">141</SweepAngle>
+<SweepBeginDegree type="int">292</SweepBeginDegree>
+<GaugeStyle type="String">Basic Readout</GaugeStyle>
+<DisplayValue type="String">0.000</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">20.536098390981437</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">0</RelativeBorderWidth>
+<FontSizeAdjustment type="int">2</FontSizeAdjustment>
+<HistoricalPeakValue type="double">20.653326</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String">LCD</FontFamily>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">pulseWidth1</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.47217235188509876</RelativeX>
+<RelativeY type="double">0.6755070202808112</RelativeY>
+<RelativeWidth type="double">0.1970074812967581</RelativeWidth>
+<RelativeHeight type="double">0.09895833333333333</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">0.0</Value>
+<Title type="String"/>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">0</BorderWidth>
+<Units type="String">%TPS</Units>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">100.0</Max>
+<Min type="double">0.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">1.0</LowWarning>
+<HighWarning type="double">90.0</HighWarning>
+<HighCritical type="double">100.0</HighCritical>
+<ValueDigits type="int">0</ValueDigits>
+<LabelDigits type="int">0</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.BasicReadoutGaugePainter</GaugePainter>
+<StartAngle type="int">0</StartAngle>
+<FaceAngle type="int">180</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
+<CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">160</SweepAngle>
+<SweepBeginDegree type="int">10</SweepBeginDegree>
+<GaugeStyle type="String">Basic Readout</GaugeStyle>
+<DisplayValue type="String">0</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">42.80006051168211</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">0</RelativeBorderWidth>
+<FontSizeAdjustment type="int">0</FontSizeAdjustment>
+<HistoricalPeakValue type="double">42.900000000000006</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String">LCD</FontFamily>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">throttle</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.5547576301615799</RelativeX>
+<RelativeY type="double">0.7862714508580343</RelativeY>
+<RelativeWidth type="double">0.09850374064837905</RelativeWidth>
+<RelativeHeight type="double">0.10243055555555555</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">0.0</Value>
+<Title type="String">MAP</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">0</BorderWidth>
+<Units type="String">kPa</Units>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">100.0</Max>
+<Min type="double">0.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">20.0</LowWarning>
+<HighWarning type="double">100.0</HighWarning>
+<HighCritical type="double">250.0</HighCritical>
+<ValueDigits type="int">1</ValueDigits>
+<LabelDigits type="int">0</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.BasicReadoutGaugePainter</GaugePainter>
+<StartAngle type="int">343</StartAngle>
+<FaceAngle type="int">360</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
+<CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">184</SweepAngle>
+<SweepBeginDegree type="int">304</SweepBeginDegree>
+<GaugeStyle type="String">Basic Readout</GaugeStyle>
+<DisplayValue type="String">0.0</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">98.39998956188775</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">0</RelativeBorderWidth>
+<FontSizeAdjustment type="int">0</FontSizeAdjustment>
+<HistoricalPeakValue type="double">98.60000000000001</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String">LCD</FontFamily>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">map</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.49012567324955114</RelativeX>
+<RelativeY type="double">0.44305772230889234</RelativeY>
+<RelativeWidth type="double">0.20698254364089774</RelativeWidth>
+<RelativeHeight type="double">0.10243055555555555</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">0.0</Value>
+<Title type="String">Spark Advance</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">0</BorderWidth>
+<Units type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">50.0</Max>
+<Min type="double">0.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">0.0</LowWarning>
+<HighWarning type="double">35.0</HighWarning>
+<HighCritical type="double">45.0</HighCritical>
+<ValueDigits type="int">1</ValueDigits>
+<LabelDigits type="int">0</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.BasicReadoutGaugePainter</GaugePainter>
+<StartAngle type="int">0</StartAngle>
+<FaceAngle type="int">360</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="0" blue="0" green="0" red="0" type="Color">0</WarnColor>
+<CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">277</SweepAngle>
+<SweepBeginDegree type="int">217</SweepBeginDegree>
+<GaugeStyle type="String">Basic Readout</GaugeStyle>
+<DisplayValue type="String">0.0</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">34.29999999995983</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">0</RelativeBorderWidth>
+<FontSizeAdjustment type="int">3</FontSizeAdjustment>
+<HistoricalPeakValue type="double">34.300000000000004</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String">LCD</FontFamily>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">advance</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.48487084870848707</RelativeX>
+<RelativeY type="double">0.5575842696629213</RelativeY>
+<RelativeWidth type="double">0.20698254364089774</RelativeWidth>
+<RelativeHeight type="double">0.09895833333333333</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">-40.0</Value>
+<Title type="String">Coolant Temp</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">1</BorderWidth>
+<Units type="String">°F</Units>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">300.0</Max>
+<Min type="double">-40.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">-100.0</LowWarning>
+<HighWarning type="double">200.0</HighWarning>
+<HighCritical type="double">220.0</HighCritical>
+<ValueDigits type="int">0</ValueDigits>
+<LabelDigits type="int">0</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.HorizontalBarPainter</GaugePainter>
+<StartAngle type="int">0</StartAngle>
+<FaceAngle type="int">180</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">160</SweepAngle>
+<SweepBeginDegree type="int">10</SweepBeginDegree>
+<GaugeStyle type="String">Horizontal Bar Gauge</GaugeStyle>
+<DisplayValue type="String">-40</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">222.88166103305164</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">1</RelativeBorderWidth>
+<FontSizeAdjustment type="int">0</FontSizeAdjustment>
+<HistoricalPeakValue type="double">223.5</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">-40.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">coolant</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.2100456621004566</RelativeX>
+<RelativeY type="double">0.44680851063829785</RelativeY>
+<RelativeWidth type="double">0.2506234413965087</RelativeWidth>
+<RelativeHeight type="double">0.045</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">0.0</Value>
+<Title type="String">Demo</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">1</BorderWidth>
+<Units type="String">Units</Units>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">100.0</Max>
+<Min type="double">0.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">4.9E-324</LowWarning>
+<HighWarning type="double">85.0</HighWarning>
+<HighCritical type="double">93.0</HighCritical>
+<ValueDigits type="int">1</ValueDigits>
+<LabelDigits type="int">0</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.HorizontalBarPainter</GaugePainter>
+<StartAngle type="int">0</StartAngle>
+<FaceAngle type="int">180</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">160</SweepAngle>
+<SweepBeginDegree type="int">10</SweepBeginDegree>
+<GaugeStyle type="String">Horizontal Bar Gauge</GaugeStyle>
+<DisplayValue type="String">0.0</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">42.80006050999412</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">1</RelativeBorderWidth>
+<FontSizeAdjustment type="int">0</FontSizeAdjustment>
+<HistoricalPeakValue type="double">42.900000000000006</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">throttle</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.6620947630922693</RelativeX>
+<RelativeY type="double">0.8020833333333334</RelativeY>
+<RelativeWidth type="double">0.2506234413965087</RelativeWidth>
+<RelativeHeight type="double">0.045</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">0.0</Value>
+<Title type="String">Demo</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">1</BorderWidth>
+<Units type="String">Units</Units>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">100.0</Max>
+<Min type="double">0.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">4.9E-324</LowWarning>
+<HighWarning type="double">85.0</HighWarning>
+<HighCritical type="double">93.0</HighCritical>
+<ValueDigits type="int">1</ValueDigits>
+<LabelDigits type="int">0</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.HorizontalBarPainter</GaugePainter>
+<StartAngle type="int">0</StartAngle>
+<FaceAngle type="int">180</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">160</SweepAngle>
+<SweepBeginDegree type="int">10</SweepBeginDegree>
+<GaugeStyle type="String">Horizontal Bar Gauge</GaugeStyle>
+<DisplayValue type="String">0.0</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">20.536097086411523</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">1</RelativeBorderWidth>
+<FontSizeAdjustment type="int">0</FontSizeAdjustment>
+<HistoricalPeakValue type="double">20.653326</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">pulseWidth1</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.6610169491525424</RelativeX>
+<RelativeY type="double">0.6873949579831933</RelativeY>
+<RelativeWidth type="double">0.2506234413965087</RelativeWidth>
+<RelativeHeight type="double">0.045</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">0.0</Value>
+<Title type="String">Demo</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">1</BorderWidth>
+<Units type="String">Units</Units>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">100.0</Max>
+<Min type="double">0.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">4.9E-324</LowWarning>
+<HighWarning type="double">85.0</HighWarning>
+<HighCritical type="double">93.0</HighCritical>
+<ValueDigits type="int">1</ValueDigits>
+<LabelDigits type="int">0</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.HorizontalBarPainter</GaugePainter>
+<StartAngle type="int">0</StartAngle>
+<FaceAngle type="int">180</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">160</SweepAngle>
+<SweepBeginDegree type="int">10</SweepBeginDegree>
+<GaugeStyle type="String">Horizontal Bar Gauge</GaugeStyle>
+<DisplayValue type="String">0.0</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">34.29999999995982</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">1</RelativeBorderWidth>
+<FontSizeAdjustment type="int">0</FontSizeAdjustment>
+<HistoricalPeakValue type="double">34.300000000000004</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">advance</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.6634686346863469</RelativeX>
+<RelativeY type="double">0.5688202247191011</RelativeY>
+<RelativeWidth type="double">0.2506234413965087</RelativeWidth>
+<RelativeHeight type="double">0.045</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">0.0</Value>
+<Title type="String">Engine MAP</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">1</BorderWidth>
+<Units type="String">kPa</Units>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">255.0</Max>
+<Min type="double">0.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">20.0</LowWarning>
+<HighWarning type="double">200.0</HighWarning>
+<HighCritical type="double">245.0</HighCritical>
+<ValueDigits type="int">1</ValueDigits>
+<LabelDigits type="int">0</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.HorizontalBarPainter</GaugePainter>
+<StartAngle type="int">0</StartAngle>
+<FaceAngle type="int">180</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">160</SweepAngle>
+<SweepBeginDegree type="int">10</SweepBeginDegree>
+<GaugeStyle type="String">Horizontal Bar Gauge</GaugeStyle>
+<DisplayValue type="String">0.0</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">98.39998956220455</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">1</RelativeBorderWidth>
+<FontSizeAdjustment type="int">0</FontSizeAdjustment>
+<HistoricalPeakValue type="double">98.60000000000001</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">map</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.6649253731343283</RelativeX>
+<RelativeY type="double">0.45363408521303256</RelativeY>
+<RelativeWidth type="double">0.2506234413965087</RelativeWidth>
+<RelativeHeight type="double">0.045</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">0.0</Value>
+<Title type="String">Demo</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">1</BorderWidth>
+<Units type="String">Units</Units>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">100.0</Max>
+<Min type="double">0.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">4.9E-324</LowWarning>
+<HighWarning type="double">85.0</HighWarning>
+<HighCritical type="double">93.0</HighCritical>
+<ValueDigits type="int">1</ValueDigits>
+<LabelDigits type="int">0</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.HorizontalBarPainter</GaugePainter>
+<StartAngle type="int">0</StartAngle>
+<FaceAngle type="int">180</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">160</SweepAngle>
+<SweepBeginDegree type="int">10</SweepBeginDegree>
+<GaugeStyle type="String">Horizontal Bar Gauge</GaugeStyle>
+<DisplayValue type="String">0.0</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">13.67023732599948</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">1</RelativeBorderWidth>
+<FontSizeAdjustment type="int">0</FontSizeAdjustment>
+<HistoricalPeakValue type="double">47.13132816000001</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">dutyCycle1</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.207909604519774</RelativeX>
+<RelativeY type="double">0.8033613445378152</RelativeY>
+<RelativeWidth type="double">0.2506234413965087</RelativeWidth>
+<RelativeHeight type="double">0.045</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">-40.0</Value>
+<Title type="String">Manifold Air Temp</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">1</BorderWidth>
+<Units type="String">°F</Units>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">215.0</Max>
+<Min type="double">-40.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">30.0</LowWarning>
+<HighWarning type="double">200.0</HighWarning>
+<HighCritical type="double">210.0</HighCritical>
+<ValueDigits type="int">0</ValueDigits>
+<LabelDigits type="int">0</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.HorizontalBarPainter</GaugePainter>
+<StartAngle type="int">0</StartAngle>
+<FaceAngle type="int">180</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">160</SweepAngle>
+<SweepBeginDegree type="int">10</SweepBeginDegree>
+<GaugeStyle type="String">Horizontal Bar Gauge</GaugeStyle>
+<DisplayValue type="String">-40</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">77.87119315541452</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">1</RelativeBorderWidth>
+<FontSizeAdjustment type="int">0</FontSizeAdjustment>
+<HistoricalPeakValue type="double">78.30000000000001</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">-40.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">mat</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.20980615735461802</RelativeX>
+<RelativeY type="double">0.6816608996539792</RelativeY>
+<RelativeWidth type="double">0.2506234413965087</RelativeWidth>
+<RelativeHeight type="double">0.045</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Gauge">
+<Value type="double">10.0</Value>
+<Title type="String">Air:Fuel Ratio</Title>
+<Dirty type="boolean">true</Dirty>
+<BorderWidth type="int">1</BorderWidth>
+<Units type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<GoingDead type="boolean">false</GoingDead>
+<Max type="double">19.4</Max>
+<Min type="double">10.0</Min>
+<MustPaint type="boolean">true</MustPaint>
+<LowWarning type="double">13.0</LowWarning>
+<HighWarning type="double">15.0</HighWarning>
+<HighCritical type="double">16.0</HighCritical>
+<ValueDigits type="int">2</ValueDigits>
+<LabelDigits type="int">2</LabelDigits>
+<GaugePainter type="com.efiAnalytics.tunerStudio.renderers.GaugePainter">com.efiAnalytics.tunerStudio.renderers.HorizontalBarPainter</GaugePainter>
+<StartAngle type="int">0</StartAngle>
+<FaceAngle type="int">180</FaceAngle>
+<MajorTicks type="double">-1.0</MajorTicks>
+<MinorTicks type="double">-1.0</MinorTicks>
+<BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
+<FontColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</FontColor>
+<TrimColor alpha="255" blue="0" green="51" red="204" type="Color">-3394816</TrimColor>
+<WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
+<CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
+<NeedleColor alpha="255" blue="0" green="153" red="255" type="Color">-26368</NeedleColor>
+<SweepAngle type="int">160</SweepAngle>
+<SweepBeginDegree type="int">10</SweepBeginDegree>
+<GaugeStyle type="String">Horizontal Bar Gauge</GaugeStyle>
+<DisplayValue type="String">10.00</DisplayValue>
+<ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<SmoothedValue type="double">11.0</SmoothedValue>
+<DisplayValueAt180 type="boolean">false</DisplayValueAt180>
+<NeedleSmoothing type="int">1</NeedleSmoothing>
+<RelativeBorderWidth type="int">1</RelativeBorderWidth>
+<FontSizeAdjustment type="int">0</FontSizeAdjustment>
+<HistoricalPeakValue type="double">11.0</HistoricalPeakValue>
+<ShowHistory type="boolean">false</ShowHistory>
+<HistoryDelay type="int">15000</HistoryDelay>
+<HistorySize type="int">-1</HistorySize>
+<HistoricalData type="com.efiAnalytics.tunerStudio.HistoricalValues">null</HistoricalData>
+<CounterClockwise type="boolean">false</CounterClockwise>
+<Value type="double">10.0</Value>
+<Dirty type="boolean">true</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">afr1</OutputChannel>
+<MustPaint type="boolean">true</MustPaint>
+<RelativeX type="double">0.20776255707762556</RelativeX>
+<RelativeY type="double">0.5609284332688588</RelativeY>
+<RelativeWidth type="double">0.2506234413965087</RelativeWidth>
+<RelativeHeight type="double">0.045</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Spk Tbl sw</OnText>
+<OffText type="String">-</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">Spk Tbl swOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.7483394833948339</RelativeX>
+<RelativeY type="double">0.9634831460674157</RelativeY>
+<RelativeWidth type="double">0.08339483394833948</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Synced</OnText>
+<OffText type="String">Not synced</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">SyncedOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.6767527675276753</RelativeX>
+<RelativeY type="double">0.9634831460674157</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">TPS Decel</OnText>
+<OffText type="String">TPS Decel</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">TPS DecelOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.6051660516605166</RelativeX>
+<RelativeY type="double">0.9634831460674157</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Fuel Tbl sw</OnText>
+<OffText type="String">-</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">Fuel Tbl swOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.5335793357933579</RelativeX>
+<RelativeY type="double">0.9634831460674157</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Hard limit</OnText>
+<OffText type="String">-</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">Hard limitOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.46273062730627307</RelativeX>
+<RelativeY type="double">0.9634831460674157</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Spark cut</OnText>
+<OffText type="String">-</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">Spark cutOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.39114391143911437</RelativeX>
+<RelativeY type="double">0.9634831460674157</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Lost Data</OnText>
+<OffText type="String">-</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">Lost DataOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.3195571955719557</RelativeX>
+<RelativeY type="double">0.9634831460674157</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Flat shift</OnText>
+<OffText type="String">-</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">Flat shiftOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.24870848708487084</RelativeX>
+<RelativeY type="double">0.9634831460674157</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">TPS Accel</OnText>
+<OffText type="String">TPS Accel</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">tpsaccaen</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.8339483394833949</RelativeX>
+<RelativeY type="double">0.9634831460674157</RelativeY>
+<RelativeWidth type="double">0.09225092250922509</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Cranking</OnText>
+<OffText type="String">Not Cranking</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">CrankingOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.002214022140221402</RelativeX>
+<RelativeY type="double">0.9634831460674157</RelativeY>
+<RelativeWidth type="double">0.1018450184501845</RelativeWidth>
+<RelativeHeight type="double">0.033707865168539325</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">1.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Ready</OnText>
+<OffText type="String">Not Ready</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">1.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">ReadyOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.9291512915129151</RelativeX>
+<RelativeY type="double">0.9634831460674157</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Launch</OnText>
+<OffText type="String">-</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">LaunchOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.8196078431372549</RelativeX>
+<RelativeY type="double">0.9280397022332506</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">MAP Accel Enrich</OnText>
+<OffText type="String">MAP Accel Enrich</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">mapaccaen</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.8908496732026144</RelativeX>
+<RelativeY type="double">0.9280397022332506</RelativeY>
+<RelativeWidth type="double">0.1070110701107011</RelativeWidth>
+<RelativeHeight type="double">0.03089887640449438</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Knock</OnText>
+<OffText type="String">-</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">KnockOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.7490774907749077</RelativeX>
+<RelativeY type="double">0.9283707865168539</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">N2O 1</OnText>
+<OffText type="String">-</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">N2O 1OC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.6767527675276753</RelativeX>
+<RelativeY type="double">0.9283707865168539</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Config Error</OnText>
+<OffText type="String">-</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">Config ErrorOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.6051660516605166</RelativeX>
+<RelativeY type="double">0.9283707865168539</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">N2O 2</OnText>
+<OffText type="String">-</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">N2O 2OC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.5335793357933579</RelativeX>
+<RelativeY type="double">0.9283707865168539</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Over boost</OnText>
+<OffText type="String">-</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">Over boostOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.46273062730627307</RelativeX>
+<RelativeY type="double">0.9283707865168539</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">1.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">ASE</OnText>
+<OffText type="String">ASE OFF</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">1.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">ASEOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.3912475506205095</RelativeX>
+<RelativeY type="double">0.9280397022332506</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Spk Tbl sw</OnText>
+<OffText type="String">-</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">Spk Tbl swOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.3195571955719557</RelativeX>
+<RelativeY type="double">0.9283707865168539</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Need Burn</OnText>
+<OffText type="String">-</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">Need BurnOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.24870848708487084</RelativeX>
+<RelativeY type="double">0.9283707865168539</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">WUE</OnText>
+<OffText type="String">WUE OFF</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">WUEOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.17712177121771217</RelativeX>
+<RelativeY type="double">0.9283707865168539</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">T-log</OnText>
+<OffText type="String">-</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">T_logOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.10627306273062731</RelativeX>
+<RelativeY type="double">0.9283707865168539</RelativeY>
+<RelativeWidth type="double">0.06863468634686347</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">MAP Decel</OnText>
+<OffText type="String">MAP Decel</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">MAP DecelOC</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.002214022140221402</RelativeX>
+<RelativeY type="double">0.9283707865168539</RelativeY>
+<RelativeWidth type="double">0.1018450184501845</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Data Logging</OnText>
+<OffText type="String"/>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="40" green="40" red="40" type="Color">-14145496</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String">Comic Sans MS</FontFamily>
+<EcuConfigurationName type="String">Application Events</EcuConfigurationName>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">dataLoggingActive</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.10627306273062731</RelativeX>
+<RelativeY type="double">0.9648876404494382</RelativeY>
+<RelativeWidth type="double">0.13800738007380073</RelativeWidth>
+<RelativeHeight type="double">0.032303370786516857</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+<dashComp type="com.efiAnalytics.tunerStudio.Indicator">
+<Value type="double">0.0</Value>
+<Insets type="java.awt.Insets">java.awt.Insets[top=2,left=2,bottom=2,right=2]</Insets>
+<Painter type="com.efiAnalytics.tunerStudio.renderers.IndicatorPainter">com.efiAnalytics.tunerStudio.renderers.RectangleIndicatorPainter</Painter>
+<RunDemo type="boolean">false</RunDemo>
+<MustPaint type="boolean">false</MustPaint>
+<OnText type="String">Data Logging</OnText>
+<OffText type="String">Data Logging</OffText>
+<OnTextColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</OnTextColor>
+<OffTextColor alpha="255" blue="51" green="51" red="51" type="Color">-13421773</OffTextColor>
+<OnBackgroundColor alpha="255" blue="0" green="51" red="255" type="Color">-52480</OnBackgroundColor>
+<OffBackgroundColor alpha="0" blue="0" green="0" red="0" type="Color">0</OffBackgroundColor>
+<Value type="double">0.0</Value>
+<Dirty type="boolean">false</Dirty>
+<FontFamily type="String"/>
+<EcuConfigurationName type="String">Application Events</EcuConfigurationName>
+<RunDemo type="boolean">false</RunDemo>
+<OutputChannel type="String">dataLoggingActive</OutputChannel>
+<MustPaint type="boolean">false</MustPaint>
+<RelativeX type="double">0.883736120182887</RelativeX>
+<RelativeY type="double">0.01240694789081886</RelativeY>
+<RelativeWidth type="double">0.11045751633986928</RelativeWidth>
+<RelativeHeight type="double">0.03225806451612903</RelativeHeight>
+<AntialiasingOn type="boolean">true</AntialiasingOn>
+<GaugeContainer type="com.efiAnalytics.tunerStudio.GaugeContainer">com.efiAnalytics.tunerStudio.GaugeCluster[LED Amber,0,0,1531x807,layout=com.efiAnalytics.tunerStudio.GaugeClusterLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=2,maximumSize=,minimumSize=,preferredSize=]</GaugeContainer>
+<InvalidState type="boolean">false</InvalidState>
+</dashComp>
+</gaugeCluster>
+</dsh>

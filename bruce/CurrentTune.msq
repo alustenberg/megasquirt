@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Sep 22 10:00:27 EDT 2017"/>
-<versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.2+release++20160421+11%3A50BST%28c%29KC%2FJSM%2FJB+++uSM" nPages="7" signature="MS2Extra comms342a2"/>
-<page>
-<pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
-<pcVariable digits="0" name="rpmhigh" units="rpm">7000.0</pcVariable>
-<pcVariable digits="0" name="rpmwarn" units="rpm">6000.0</pcVariable>
-<pcVariable digits="0" name="rpmdang" units="rpm">6500.0</pcVariable>
-<pcVariable digits="0" name="loadhigh">300.0</pcVariable>
-<pcVariable name="clt_exp">"Normal"</pcVariable>
-<pcVariable name="tsSpeedSource">"GPS Speed"</pcVariable>
-<pcVariable digits="0" name="tsPrimaryInjectorSize">0.0</pcVariable>
-<pcVariable name="tsInjSizeConstant">"cc/min"</pcVariable>
-<pcVariable name="tsLogPowerFields">"Log HP &amp; Tq"</pcVariable>
-<pcVariable name="tsFuelConsumptionUnits">"US Gallons"</pcVariable>
-<pcVariable name="tsDistanceUnits">"Miles Per Hour"</pcVariable>
-<pcVariable digits="0" name="tsVehicleWeight">3450.0</pcVariable>
-<pcVariable name="tsWeightUnits">"lbs"</pcVariable>
-<pcVariable digits="2" name="tsVehicleDragCoef">0.34</pcVariable>
-<pcVariable digits="0" name="tsTirePressure" units="psi">32.0</pcVariable>
-<pcVariable digits="1" name="tsFrontalArea">19.3</pcVariable>
-<pcVariable name="tsFrontalUnits">"sqft"</pcVariable>
-<pcVariable digits="1" name="tsTireDiameter" units="in">25.5</pcVariable>
-<pcVariable digits="2" name="tsTransGearRatio" units=":1">1.0</pcVariable>
-<pcVariable digits="2" name="tsFinalDriveRatio" units=":1">3.7</pcVariable>
-<pcVariable cols="1" digits="1" name="wueAfrTargetOffset" rows="10" units=":1">
+    <bibliography author="TunerStudio MS 3.0.28 - EFI Analytics, Inc." tuneComment="" writeDate="Wed Aug 29 14:30:01 EDT 2018"/>
+    <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.2+release++20160421+11%3A50BST%28c%29KC%2FJSM%2FJB+++uSM" nPages="7" signature="MS2Extra comms342a2"/>
+    <page>
+        <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
+        <pcVariable digits="0" name="rpmhigh" units="rpm">7000.0</pcVariable>
+        <pcVariable digits="0" name="rpmwarn" units="rpm">6000.0</pcVariable>
+        <pcVariable digits="0" name="rpmdang" units="rpm">6500.0</pcVariable>
+        <pcVariable digits="0" name="loadhigh">300.0</pcVariable>
+        <pcVariable name="clt_exp">"Normal"</pcVariable>
+        <pcVariable name="tsSpeedSource">"GPS Speed"</pcVariable>
+        <pcVariable digits="0" name="tsPrimaryInjectorSize">0.0</pcVariable>
+        <pcVariable name="tsInjSizeConstant">"cc/min"</pcVariable>
+        <pcVariable name="tsLogPowerFields">"Log HP &amp; Tq"</pcVariable>
+        <pcVariable name="tsFuelConsumptionUnits">"US Gallons"</pcVariable>
+        <pcVariable name="tsDistanceUnits">"Miles Per Hour"</pcVariable>
+        <pcVariable digits="0" name="tsVehicleWeight">3450.0</pcVariable>
+        <pcVariable name="tsWeightUnits">"lbs"</pcVariable>
+        <pcVariable digits="2" name="tsVehicleDragCoef">0.34</pcVariable>
+        <pcVariable digits="0" name="tsTirePressure" units="psi">32.0</pcVariable>
+        <pcVariable digits="1" name="tsFrontalArea">19.3</pcVariable>
+        <pcVariable name="tsFrontalUnits">"sqft"</pcVariable>
+        <pcVariable digits="1" name="tsTireDiameter" units="in">25.5</pcVariable>
+        <pcVariable digits="2" name="tsTransGearRatio" units=":1">1.0</pcVariable>
+        <pcVariable digits="2" name="tsFinalDriveRatio" units=":1">3.7</pcVariable>
+        <pcVariable cols="1" digits="1" name="wueAfrTargetOffset" rows="10" units=":1">
          -1.5 
          -1.1 
          -0.8 
@@ -36,7 +36,7 @@
          -0.1 
          0.0 
       </pcVariable>
-<pcVariable cols="1" digits="0" name="wueAnalRecommend" rows="10" units="%">
+        <pcVariable cols="1" digits="0" name="wueAnalRecommend" rows="10" units="%">
          174.0 
          167.0 
          154.0 
@@ -48,21 +48,21 @@
          100.0 
          100.0 
       </pcVariable>
-</page>
-<page number="0" size="1024">
-<constant name="nCylinders">"4"</constant>
-<constant digits="0" name="no_skip_pulses">3.0</constant>
-<constant name="ICIgnCapture">"Falling Edge"</constant>
-<constant name="engineType">"Even fire"</constant>
-<constant name="spkout_hi_lo">"Going High (Inverted)"</constant>
-<constant name="spkout_hi_lo2">"Going High"</constant>
-<constant name="injctl">"Off"</constant>
-<constant name="injctl2_1">"Off"</constant>
-<constant name="injctl2_2">"Off"</constant>
-<constant digits="1" name="max_coil_dur" units="ms">7.992</constant>
-<constant digits="1" name="max_spk_dur" units="ms">7.992</constant>
-<constant digits="0" name="dwellAcc" units="ms">0.999</constant>
-<constant cols="1" digits="1" name="dwellvolts" rows="6" units="V">
+    </page>
+    <page number="0" size="1024">
+        <constant name="nCylinders">"4"</constant>
+        <constant digits="0" name="no_skip_pulses">3.0</constant>
+        <constant name="ICIgnCapture">"Falling Edge"</constant>
+        <constant name="engineType">"Even fire"</constant>
+        <constant name="spkout_hi_lo">"Going High (Inverted)"</constant>
+        <constant name="spkout_hi_lo2">"Going High"</constant>
+        <constant name="injctl">"Off"</constant>
+        <constant name="injctl2_1">"Off"</constant>
+        <constant name="injctl2_2">"Off"</constant>
+        <constant digits="1" name="max_coil_dur" units="ms">7.992</constant>
+        <constant digits="1" name="max_spk_dur" units="ms">7.992</constant>
+        <constant digits="0" name="dwellAcc" units="ms">0.999</constant>
+        <constant cols="1" digits="1" name="dwellvolts" rows="6" units="V">
          6.0 
          8.0 
          10.0 
@@ -70,7 +70,7 @@
          14.0 
          16.0 
       </constant>
-<constant cols="1" digits="0" name="dwellcorr" rows="6" units="%">
+        <constant cols="1" digits="0" name="dwellcorr" rows="6" units="%">
          500.0 
          248.0 
          168.0 
@@ -78,9 +78,9 @@
          102.0 
          88.0 
       </constant>
-<constant name="PredOpt">"1st High RPM, 2nd Low"</constant>
-<constant digits="0" name="crankingRPM" units="RPM">450.0</constant>
-<constant cols="1" digits="1" name="cold_adv_table" rows="10" units="deg">
+        <constant name="PredOpt">"1st High RPM, 2nd Low"</constant>
+        <constant digits="0" name="crankingRPM" units="RPM">450.0</constant>
+        <constant cols="1" digits="1" name="cold_adv_table" rows="10" units="deg">
          6.0 
          5.0 
          4.3 
@@ -92,16 +92,16 @@
          0.5 
          0.0 
       </constant>
-<constant digits="2" name="triggerOffset" units="deg">10.0</constant>
-<constant digits="1" name="TpsBypassCLTRevlim" units="TPS %">90.0</constant>
-<constant digits="0" name="RevLimNormal2_hyst" units="RPM">200.0</constant>
-<constant name="algorithm">"Speed Density"</constant>
-<constant name="algorithm2">"Disabled"</constant>
-<constant name="IgnAlgorithm">"Speed Density"</constant>
-<constant name="IgnAlgorithm2">"Disabled"</constant>
-<constant name="afrload">"Use primary load (Algorithm)"</constant>
-<constant name="eaeload">"Use primary load (Algorithm)"</constant>
-<constant cols="12" digits="1" name="afrTable1" rows="12" units="AFR">
+        <constant digits="2" name="triggerOffset" units="deg">10.0</constant>
+        <constant digits="1" name="TpsBypassCLTRevlim" units="TPS %">90.0</constant>
+        <constant digits="0" name="RevLimNormal2_hyst" units="RPM">200.0</constant>
+        <constant name="algorithm">"Speed Density"</constant>
+        <constant name="algorithm2">"Disabled"</constant>
+        <constant name="IgnAlgorithm">"Speed Density"</constant>
+        <constant name="IgnAlgorithm2">"Disabled"</constant>
+        <constant name="afrload">"Use primary load (Algorithm)"</constant>
+        <constant name="eaeload">"Use primary load (Algorithm)"</constant>
+        <constant cols="12" digits="1" name="afrTable1" rows="12" units="AFR">
          14.0 14.0 14.0 14.7 14.7 14.7 14.7 14.7 14.7 14.6 14.5 14.4 
          14.0 14.0 14.0 14.7 14.7 14.7 14.7 14.7 14.7 14.6 14.5 14.4 
          14.0 14.0 14.0 14.7 14.7 14.7 14.7 14.7 14.7 14.6 14.5 14.4 
@@ -115,7 +115,7 @@
          11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.4 11.3 11.2 
          11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.5 11.4 11.3 11.2 
       </constant>
-<constant cols="12" digits="1" name="afrTable2" rows="12" units="AFR">
+        <constant cols="12" digits="1" name="afrTable2" rows="12" units="AFR">
          13.0 13.5 16.0 16.0 16.0 14.9 14.3 13.2 13.1 13.2 13.1 13.0 
          13.2 13.7 15.7 15.7 15.5 14.9 14.2 13.2 13.0 12.9 12.8 12.7 
          13.4 13.9 15.5 15.5 15.4 14.9 14.1 13.0 12.9 12.8 12.7 12.7 
@@ -129,7 +129,7 @@
          13.0 12.9 12.9 12.8 12.8 12.7 12.6 12.5 12.5 12.5 12.3 12.3 
          13.0 12.9 12.9 12.8 12.8 12.7 12.6 12.5 12.5 12.2 12.2 12.2 
       </constant>
-<constant cols="1" digits="0" name="wueBins" rows="10" units="%">
+        <constant cols="1" digits="0" name="wueBins" rows="10" units="%">
          174.0 
          167.0 
          154.0 
@@ -141,19 +141,19 @@
          100.0 
          100.0 
       </constant>
-<constant cols="1" digits="1" name="taeBins" rows="4" units="ms">
+        <constant cols="1" digits="1" name="taeBins" rows="4" units="ms">
          0.1 
          0.2 
          0.9 
          1.5 
       </constant>
-<constant cols="1" digits="1" name="maeBins" rows="4" units="ms">
+        <constant cols="1" digits="1" name="maeBins" rows="4" units="ms">
          0.0 
          0.0 
          0.0 
          0.0 
       </constant>
-<constant cols="1" digits="0" name="iacstepTable" rows="10" units="steps">
+        <constant cols="1" digits="0" name="iacstepTable" rows="10" units="steps">
          40.0 
          60.0 
          75.0 
@@ -165,7 +165,7 @@
          150.0 
          160.0 
       </constant>
-<constant cols="1" digits="0" name="arpm_table1" rows="12" units="RPM">
+        <constant cols="1" digits="0" name="arpm_table1" rows="12" units="RPM">
          500.0 
          1000.0 
          1500.0 
@@ -179,7 +179,7 @@
          6000.0 
          7000.0 
       </constant>
-<constant cols="1" digits="0" name="arpm_table2" rows="12" units="RPM">
+        <constant cols="1" digits="0" name="arpm_table2" rows="12" units="RPM">
          500.0 
          800.0 
          1100.0 
@@ -193,7 +193,7 @@
          5400.0 
          6000.0 
       </constant>
-<constant cols="1" digits="1" name="amap_table1" rows="12" units="kPa">
+        <constant cols="1" digits="1" name="amap_table1" rows="12" units="kPa">
          20.0 
          40.0 
          50.0 
@@ -207,7 +207,7 @@
          250.0 
          300.0 
       </constant>
-<constant cols="1" digits="1" name="amap_table2" rows="12" units="kPa">
+        <constant cols="1" digits="1" name="amap_table2" rows="12" units="kPa">
          30.0 
          35.0 
          45.0 
@@ -221,7 +221,7 @@
          95.0 
          100.0 
       </constant>
-<constant cols="1" digits="1" name="tempTable" rows="10" units="°F">
+        <constant cols="1" digits="1" name="tempTable" rows="10" units="°F">
          0.0 
          20.0 
          40.0 
@@ -233,193 +233,193 @@
          157.7 
          218.6 
       </constant>
-<constant cols="1" digits="1" name="taeRates" rows="4" units="%/s">
+        <constant cols="1" digits="1" name="taeRates" rows="4" units="%/s">
          15.0 
          100.0 
          200.0 
          300.0 
       </constant>
-<constant cols="1" digits="0" name="maeRates" rows="4" units="kPa/s">
+        <constant cols="1" digits="0" name="maeRates" rows="4" units="kPa/s">
          0.0 
          0.0 
          0.0 
          0.0 
       </constant>
-<constant digits="1" name="map0" units="%">3.5</constant>
-<constant digits="1" name="mapmax" units="%">416.5</constant>
-<constant digits="1" name="clt0" units="°F">0.0</constant>
-<constant digits="0" name="cltmult" units="%">100.0</constant>
-<constant digits="1" name="mat0" units="°F">0.0</constant>
-<constant digits="0" name="matmult" units="%">100.0</constant>
-<constant digits="0" name="tpsMin" units="ADC">121.0</constant>
-<constant digits="0" name="tpsMax" units="ADC">949.0</constant>
-<constant digits="1" name="batt0" units="V">0.1</constant>
-<constant digits="1" name="battmax" units="V">29.7</constant>
-<constant digits="1" name="ego0" units="afr">0.0</constant>
-<constant digits="0" name="egomult" units="%">100.0</constant>
-<constant digits="1" name="baro0" units="kPa">3.5</constant>
-<constant digits="1" name="baromax" units="kPa">416.5</constant>
-<constant digits="1" name="bcor0" units="%">100.0</constant>
-<constant digits="0" name="bcormult" units="%">0.0</constant>
-<constant digits="0" name="Dtpred_Gain" units="%">20.0</constant>
-<constant digits="0" name="crankTolerance" units="%">70.0</constant>
-<constant digits="0" name="asTolerance" units="%">35.0</constant>
-<constant digits="0" name="pulseTolerance" units="%">30.0</constant>
-<constant name="IdleCtl">"PWM valve (2 or 3 wire)"</constant>
-<constant name="IdleCtl_alg">"Open-loop (warmup)"</constant>
-<constant name="IdleCtl_home">"Closed"</constant>
-<constant name="IdleCtl_out">"Normal"</constant>
-<constant digits="0" name="IACtstep" units="ms">3.0</constant>
-<constant digits="0" name="IAC_tinitial_step" units="ms">5.0</constant>
-<constant digits="0" name="IACminstep" units="steps">1.0</constant>
-<constant digits="0" name="dwellduty" units="%">49.92</constant>
-<constant digits="0" name="IACStart">160.0</constant>
-<constant digits="1" name="IdleHyst" units="°F">5.0</constant>
-<constant digits="0" name="IACcrankxt" units="s">5.0</constant>
-<constant name="IACcurlim">"Hold current"</constant>
-<constant digits="3" name="injOpen" units="ms">0.7</constant>
-<constant digits="3" name="battFac" units="ms/v">0.1200002</constant>
-<constant name="OverBoostOption">"Both"</constant>
-<constant name="OverBoostOption_tol">"Off"</constant>
-<constant name="OverBoostOption_flexboost">"Off"</constant>
-<constant digits="1" name="OverBoostKpa" units="kPa">280.0</constant>
-<constant digits="1" name="OverBoostHyst" units="kPa">10.0</constant>
-<constant name="secondtrigopts">"Off"</constant>
-<constant name="secondtrigopts1">"Off"</constant>
-<constant name="secondtrigopts2">"Off"</constant>
-<constant name="secondtrigopts3">"Off"</constant>
-<constant digits="1" name="tpsThresh" units="%/s">35.0</constant>
-<constant digits="0" name="mapThresh" units="kPa/s">100.0</constant>
-<constant digits="1" name="taeColdA" units="ms">0.0</constant>
-<constant digits="0" name="taeColdM" units="%">135.0</constant>
-<constant digits="1" name="mapsample_angle" units="deg">150.0</constant>
-<constant digits="1" name="taeTime" units="s">0.4</constant>
-<constant digits="0" name="tdePct">100.0</constant>
-<constant digits="1" name="floodClear" units="%">70.0</constant>
-<constant digits="1" name="TPSOXLimit" units="%">40.0</constant>
-<constant digits="0" name="tpsProportion" units="%">100.0</constant>
-<constant name="baroCorr">"Initial MAP Reading"</constant>
-<constant name="egoType">"Single Wide Band"</constant>
-<constant name="EgoOption_dual">"Off"</constant>
-<constant digits="0" name="egoCount">29.0</constant>
-<constant digits="1" name="egoDelta" units="%">1.0</constant>
-<constant digits="0" name="oldegoLimit" units="%">15.0</constant>
-<constant digits="1" name="AFRTarget" units="AFR">14.7</constant>
-<constant name="tempUnits">"Coolant/MAT Tables in °F"</constant>
-<constant name="MAFOption">"Off"</constant>
-<constant name="mapsample_opt1">"1"</constant>
-<constant name="mapsample_opt2">"Use event average"</constant>
-<constant digits="1" name="fastIdleT" units="°F">140.0</constant>
-<constant digits="1" name="egoTemp" units="°F">140.0</constant>
-<constant digits="0" name="egoRPM" units="RPM">1200.0</constant>
-<constant digits="2" name="reqFuel" units="ms">6.1</constant>
-<constant digits="0" name="divider">2.0</constant>
-<constant name="alternate">"Alternating"</constant>
-<constant name="altcrank">"Every event"</constant>
-<constant digits="1" name="injPwmT" units="ms">23.056384</constant>
-<constant digits="0" name="injPwmPd" units="us">75.0</constant>
-<constant digits="0" name="injPwmP" units="%">74.0</constant>
-<constant name="twoStroke">"Four-stroke"</constant>
-<constant name="nInjectors">"4"</constant>
-<constant digits="0" name="OddFireang">90.0</constant>
-<constant digits="0" name="rpmLF">55.0</constant>
-<constant digits="0" name="mapLF">80.0</constant>
-<constant digits="0" name="tpsLF">70.0</constant>
-<constant digits="0" name="egoLF">40.0</constant>
-<constant digits="0" name="adcLF">30.0</constant>
-<constant digits="0" name="mafLF">50.0</constant>
-<constant name="dualTable">"Single Table"</constant>
-<constant digits="0" name="xAfrAlgorithm">1.0</constant>
-<constant digits="1" name="dwelltime" units="ms">0.7326</constant>
-<constant digits="1" name="trigret_ang" units="deg">50.0</constant>
-<constant name="RevLimOption_retard">"Progressive retard"</constant>
-<constant name="RevLimOption_spkcut">"Off"</constant>
-<constant name="RevLimCLTbased">"Normal"</constant>
-<constant name="RevLimOption_fuelprog">"Off"</constant>
-<constant name="RevLimOption_fuelcut">"On"</constant>
-<constant digits="1" name="RevLimMaxRtd" units="deg">12.0</constant>
-<constant digits="1" name="injPwmT2" units="ms">1.040384</constant>
-<constant digits="0" name="injPwmPd2" units="us">66.0</constant>
-<constant digits="0" name="injPwmP2" units="%">50.0</constant>
-<constant digits="3" name="injOpen2" units="ms">1.0</constant>
-<constant digits="3" name="battFac2" units="ms/v">0.2000004</constant>
-<constant name="mapport">"MAP"</constant>
-<constant digits="1" name="baro_upper" units="kPa">105.0</constant>
-<constant digits="1" name="baro_lower" units="kPa">95.0</constant>
-<constant digits="1" name="baro_default" units="kPa">100.0</constant>
-<constant digits="1" name="RevLimRtdAng" units="deg">10.0</constant>
-<constant digits="0" name="RevLimNormal2" units="RPM">6800.0</constant>
-<constant digits="0" name="TC5_required_width" units="uSec">416.66875</constant>
-<constant digits="0" name="egoLimit" units="%">8.0</constant>
-<constant digits="1" name="stoich" units="AFR">14.7</constant>
-<constant name="enable_pollADC03">"Disable"</constant>
-<constant name="enable_pollADC47">"Disable"</constant>
-<constant name="enable_pollPWM">"Disable"</constant>
-<constant name="enable_pollports">"Disable"</constant>
-<constant digits="0" name="poll_tableADC03">7.0</constant>
-<constant digits="0" name="poll_tableADC47">7.0</constant>
-<constant digits="0" name="poll_tablePWM">7.0</constant>
-<constant digits="0" name="poll_tableports">7.0</constant>
-<constant digits="0" name="poll_offsetADC03" units="bytes">2.0</constant>
-<constant digits="0" name="poll_offsetADC47" units="bytes">10.0</constant>
-<constant digits="0" name="poll_offsetPWM" units="bytes">58.0</constant>
-<constant digits="0" name="poll_offsetports" units="bytes">75.0</constant>
-<constant name="ports_dir">"3 Inputs"</constant>
-<constant name="port1_type">"Digital (8 signals)"</constant>
-<constant name="port2_type">"Digital (8 signals)"</constant>
-<constant name="port3_type">"Digital (8 signals)"</constant>
-<constant name="port_generic">"Disabled"</constant>
-<constant digits="0" name="enginesize" units="cc">2294.0</constant>
-<constant digits="0" name="remotePWMfreq" units="MHz">24.0</constant>
-<constant digits="0" name="remotePWMprescale">128.0</constant>
-<constant name="can_bcast1_on">"Off"</constant>
-<constant name="can_bcast1_280x4">"Off"</constant>
-<constant name="can_bcast1_280x1">"Off"</constant>
-<constant name="can_bcast1_289">"Off"</constant>
-<constant name="can_bcast1_316">"Off"</constant>
-<constant name="can_bcast1_329">"Off"</constant>
-<constant name="can_bcast1_561">"Off"</constant>
-<constant name="can_bcast1_361">"Off"</constant>
-<constant name="can_bcast2_041">"Off"</constant>
-<constant name="can_bcast2_xxx">"Off"</constant>
-<constant digits="1" name="can_bcast_int" units="ms">0.0</constant>
-<constant name="feature7_mafmat">"Off"</constant>
-<constant name="feature7_maftrim">"Off"</constant>
-<constant name="feature7_mafcalib">"Off"</constant>
-<constant name="feature7_aetpswot">"On"</constant>
-<constant name="maf_range">"650g/s"</constant>
-<constant digits="1" name="map_phase_thresh" units="kPa">80.0</constant>
-<constant digits="1" name="flex_pct0" units="%">0.0</constant>
-<constant digits="1" name="flex_pct1" units="%">100.0</constant>
-<constant digits="1" name="flex_baseline" units="%">0.0</constant>
-<constant digits="1" name="fuelSpkDel_default" units="deg">0.0</constant>
-<constant digits="0" name="fuelCorr_default" units="%">163.0</constant>
-<constant digits="1" name="boosttol" units="kPa">40.0</constant>
-<constant digits="1" name="flexboosttps" units="%">90.0</constant>
-<constant digits="0" name="oddfireangs1">180.0</constant>
-<constant digits="0" name="oddfireangs2">180.0</constant>
-<constant digits="0" name="oddfireangs3">180.0</constant>
-<constant digits="0" name="oddfireangs4">180.0</constant>
-<constant digits="0" name="oddfireangs5">60.0</constant>
-<constant digits="0" name="oddfireangs6">60.0</constant>
-<constant digits="0" name="can_poll_id0">5.0</constant>
-<constant digits="0" name="can_poll_id1">5.0</constant>
-<constant digits="0" name="can_poll_id2">5.0</constant>
-<constant digits="0" name="can_poll_id3">5.0</constant>
-<constant digits="0" name="hw_latency" units="usec">0.0</constant>
-<constant digits="0" name="ego_startdelay" units="s">30.0</constant>
-<constant name="loadCombine">"multiplicitive"</constant>
-<constant name="loadMult">"multiply"</constant>
-<constant name="loadStoich">"don't include AFRtarget"</constant>
-<constant name="loadopts_oldbaro">"Off"</constant>
-<constant digits="0" name="baud">115200.0</constant>
-<constant digits="2" name="MAPOXLimit" units="kPa">90.0</constant>
-<constant name="board_type">"MS2"</constant>
-<constant digits="0" name="mycan_id">0.0</constant>
-<constant digits="0" name="mapsample_window" units="deg">30.0</constant>
-<constant name="can_poll">"Enable"</constant>
-<constant digits="2" name="MAPOXMin" units="kPa">25.0</constant>
-<constant cols="1" digits="0" name="psEnabled" rows="7" units="on/off">
+        <constant digits="1" name="map0" units="%">3.5</constant>
+        <constant digits="1" name="mapmax" units="%">416.5</constant>
+        <constant digits="1" name="clt0" units="°F">0.0</constant>
+        <constant digits="0" name="cltmult" units="%">100.0</constant>
+        <constant digits="1" name="mat0" units="°F">0.0</constant>
+        <constant digits="0" name="matmult" units="%">100.0</constant>
+        <constant digits="0" name="tpsMin" units="ADC">121.0</constant>
+        <constant digits="0" name="tpsMax" units="ADC">949.0</constant>
+        <constant digits="1" name="batt0" units="V">0.1</constant>
+        <constant digits="1" name="battmax" units="V">29.7</constant>
+        <constant digits="1" name="ego0" units="afr">0.0</constant>
+        <constant digits="0" name="egomult" units="%">100.0</constant>
+        <constant digits="1" name="baro0" units="kPa">3.5</constant>
+        <constant digits="1" name="baromax" units="kPa">416.5</constant>
+        <constant digits="1" name="bcor0" units="%">100.0</constant>
+        <constant digits="0" name="bcormult" units="%">0.0</constant>
+        <constant digits="0" name="Dtpred_Gain" units="%">20.0</constant>
+        <constant digits="0" name="crankTolerance" units="%">70.0</constant>
+        <constant digits="0" name="asTolerance" units="%">35.0</constant>
+        <constant digits="0" name="pulseTolerance" units="%">30.0</constant>
+        <constant name="IdleCtl">"PWM valve (2 or 3 wire)"</constant>
+        <constant name="IdleCtl_alg">"Open-loop (warmup)"</constant>
+        <constant name="IdleCtl_home">"Closed"</constant>
+        <constant name="IdleCtl_out">"Normal"</constant>
+        <constant digits="0" name="IACtstep" units="ms">3.0</constant>
+        <constant digits="0" name="IAC_tinitial_step" units="ms">5.0</constant>
+        <constant digits="0" name="IACminstep" units="steps">1.0</constant>
+        <constant digits="0" name="dwellduty" units="%">49.92</constant>
+        <constant digits="0" name="IACStart">160.0</constant>
+        <constant digits="1" name="IdleHyst" units="°F">5.0</constant>
+        <constant digits="0" name="IACcrankxt" units="s">5.0</constant>
+        <constant name="IACcurlim">"Hold current"</constant>
+        <constant digits="3" name="injOpen" units="ms">0.7</constant>
+        <constant digits="3" name="battFac" units="ms/v">0.1200002</constant>
+        <constant name="OverBoostOption">"Both"</constant>
+        <constant name="OverBoostOption_tol">"Off"</constant>
+        <constant name="OverBoostOption_flexboost">"Off"</constant>
+        <constant digits="1" name="OverBoostKpa" units="kPa">280.0</constant>
+        <constant digits="1" name="OverBoostHyst" units="kPa">10.0</constant>
+        <constant name="secondtrigopts">"Off"</constant>
+        <constant name="secondtrigopts1">"Off"</constant>
+        <constant name="secondtrigopts2">"Off"</constant>
+        <constant name="secondtrigopts3">"Off"</constant>
+        <constant digits="1" name="tpsThresh" units="%/s">35.0</constant>
+        <constant digits="0" name="mapThresh" units="kPa/s">100.0</constant>
+        <constant digits="1" name="taeColdA" units="ms">0.0</constant>
+        <constant digits="0" name="taeColdM" units="%">135.0</constant>
+        <constant digits="1" name="mapsample_angle" units="deg">150.0</constant>
+        <constant digits="1" name="taeTime" units="s">0.4</constant>
+        <constant digits="0" name="tdePct">100.0</constant>
+        <constant digits="1" name="floodClear" units="%">70.0</constant>
+        <constant digits="1" name="TPSOXLimit" units="%">40.0</constant>
+        <constant digits="0" name="tpsProportion" units="%">100.0</constant>
+        <constant name="baroCorr">"Initial MAP Reading"</constant>
+        <constant name="egoType">"Single Wide Band"</constant>
+        <constant name="EgoOption_dual">"Off"</constant>
+        <constant digits="0" name="egoCount">29.0</constant>
+        <constant digits="1" name="egoDelta" units="%">1.0</constant>
+        <constant digits="0" name="oldegoLimit" units="%">15.0</constant>
+        <constant digits="1" name="AFRTarget" units="AFR">14.7</constant>
+        <constant name="tempUnits">"Coolant/MAT Tables in °F"</constant>
+        <constant name="MAFOption">"Off"</constant>
+        <constant name="mapsample_opt1">"1"</constant>
+        <constant name="mapsample_opt2">"Use event average"</constant>
+        <constant digits="1" name="fastIdleT" units="°F">140.0</constant>
+        <constant digits="1" name="egoTemp" units="°F">140.0</constant>
+        <constant digits="0" name="egoRPM" units="RPM">1200.0</constant>
+        <constant digits="2" name="reqFuel" units="ms">6.1</constant>
+        <constant digits="0" name="divider">2.0</constant>
+        <constant name="alternate">"Alternating"</constant>
+        <constant name="altcrank">"Every event"</constant>
+        <constant digits="1" name="injPwmT" units="ms">23.056384</constant>
+        <constant digits="0" name="injPwmPd" units="us">75.0</constant>
+        <constant digits="0" name="injPwmP" units="%">74.0</constant>
+        <constant name="twoStroke">"Four-stroke"</constant>
+        <constant name="nInjectors">"4"</constant>
+        <constant digits="0" name="OddFireang">90.0</constant>
+        <constant digits="0" name="rpmLF">55.0</constant>
+        <constant digits="0" name="mapLF">80.0</constant>
+        <constant digits="0" name="tpsLF">70.0</constant>
+        <constant digits="0" name="egoLF">40.0</constant>
+        <constant digits="0" name="adcLF">30.0</constant>
+        <constant digits="0" name="mafLF">50.0</constant>
+        <constant name="dualTable">"Single Table"</constant>
+        <constant digits="0" name="xAfrAlgorithm">1.0</constant>
+        <constant digits="1" name="dwelltime" units="ms">0.7326</constant>
+        <constant digits="1" name="trigret_ang" units="deg">50.0</constant>
+        <constant name="RevLimOption_retard">"Progressive retard"</constant>
+        <constant name="RevLimOption_spkcut">"Off"</constant>
+        <constant name="RevLimCLTbased">"Normal"</constant>
+        <constant name="RevLimOption_fuelprog">"Off"</constant>
+        <constant name="RevLimOption_fuelcut">"On"</constant>
+        <constant digits="1" name="RevLimMaxRtd" units="deg">12.0</constant>
+        <constant digits="1" name="injPwmT2" units="ms">1.040384</constant>
+        <constant digits="0" name="injPwmPd2" units="us">66.0</constant>
+        <constant digits="0" name="injPwmP2" units="%">50.0</constant>
+        <constant digits="3" name="injOpen2" units="ms">1.0</constant>
+        <constant digits="3" name="battFac2" units="ms/v">0.2000004</constant>
+        <constant name="mapport">"MAP"</constant>
+        <constant digits="1" name="baro_upper" units="kPa">105.0</constant>
+        <constant digits="1" name="baro_lower" units="kPa">95.0</constant>
+        <constant digits="1" name="baro_default" units="kPa">100.0</constant>
+        <constant digits="1" name="RevLimRtdAng" units="deg">10.0</constant>
+        <constant digits="0" name="RevLimNormal2" units="RPM">6800.0</constant>
+        <constant digits="0" name="TC5_required_width" units="uSec">416.66875</constant>
+        <constant digits="0" name="egoLimit" units="%">8.0</constant>
+        <constant digits="1" name="stoich" units="AFR">14.7</constant>
+        <constant name="enable_pollADC03">"Disable"</constant>
+        <constant name="enable_pollADC47">"Disable"</constant>
+        <constant name="enable_pollPWM">"Disable"</constant>
+        <constant name="enable_pollports">"Disable"</constant>
+        <constant digits="0" name="poll_tableADC03">7.0</constant>
+        <constant digits="0" name="poll_tableADC47">7.0</constant>
+        <constant digits="0" name="poll_tablePWM">7.0</constant>
+        <constant digits="0" name="poll_tableports">7.0</constant>
+        <constant digits="0" name="poll_offsetADC03" units="bytes">2.0</constant>
+        <constant digits="0" name="poll_offsetADC47" units="bytes">10.0</constant>
+        <constant digits="0" name="poll_offsetPWM" units="bytes">58.0</constant>
+        <constant digits="0" name="poll_offsetports" units="bytes">75.0</constant>
+        <constant name="ports_dir">"3 Inputs"</constant>
+        <constant name="port1_type">"Digital (8 signals)"</constant>
+        <constant name="port2_type">"Digital (8 signals)"</constant>
+        <constant name="port3_type">"Digital (8 signals)"</constant>
+        <constant name="port_generic">"Disabled"</constant>
+        <constant digits="0" name="enginesize" units="cc">2294.0</constant>
+        <constant digits="0" name="remotePWMfreq" units="MHz">24.0</constant>
+        <constant digits="0" name="remotePWMprescale">128.0</constant>
+        <constant name="can_bcast1_on">"Off"</constant>
+        <constant name="can_bcast1_280x4">"Off"</constant>
+        <constant name="can_bcast1_280x1">"Off"</constant>
+        <constant name="can_bcast1_289">"Off"</constant>
+        <constant name="can_bcast1_316">"Off"</constant>
+        <constant name="can_bcast1_329">"Off"</constant>
+        <constant name="can_bcast1_561">"Off"</constant>
+        <constant name="can_bcast1_361">"Off"</constant>
+        <constant name="can_bcast2_041">"Off"</constant>
+        <constant name="can_bcast2_xxx">"Off"</constant>
+        <constant digits="1" name="can_bcast_int" units="ms">0.0</constant>
+        <constant name="feature7_mafmat">"Off"</constant>
+        <constant name="feature7_maftrim">"Off"</constant>
+        <constant name="feature7_mafcalib">"Off"</constant>
+        <constant name="feature7_aetpswot">"On"</constant>
+        <constant name="maf_range">"650g/s"</constant>
+        <constant digits="1" name="map_phase_thresh" units="kPa">80.0</constant>
+        <constant digits="1" name="flex_pct0" units="%">0.0</constant>
+        <constant digits="1" name="flex_pct1" units="%">100.0</constant>
+        <constant digits="1" name="flex_baseline" units="%">0.0</constant>
+        <constant digits="1" name="fuelSpkDel_default" units="deg">0.0</constant>
+        <constant digits="0" name="fuelCorr_default" units="%">163.0</constant>
+        <constant digits="1" name="boosttol" units="kPa">40.0</constant>
+        <constant digits="1" name="flexboosttps" units="%">90.0</constant>
+        <constant digits="0" name="oddfireangs1">180.0</constant>
+        <constant digits="0" name="oddfireangs2">180.0</constant>
+        <constant digits="0" name="oddfireangs3">180.0</constant>
+        <constant digits="0" name="oddfireangs4">180.0</constant>
+        <constant digits="0" name="oddfireangs5">60.0</constant>
+        <constant digits="0" name="oddfireangs6">60.0</constant>
+        <constant digits="0" name="can_poll_id0">5.0</constant>
+        <constant digits="0" name="can_poll_id1">5.0</constant>
+        <constant digits="0" name="can_poll_id2">5.0</constant>
+        <constant digits="0" name="can_poll_id3">5.0</constant>
+        <constant digits="0" name="hw_latency" units="usec">0.0</constant>
+        <constant digits="0" name="ego_startdelay" units="s">30.0</constant>
+        <constant name="loadCombine">"multiplicitive"</constant>
+        <constant name="loadMult">"multiply"</constant>
+        <constant name="loadStoich">"don't include AFRtarget"</constant>
+        <constant name="loadopts_oldbaro">"Off"</constant>
+        <constant digits="0" name="baud">115200.0</constant>
+        <constant digits="2" name="MAPOXLimit" units="kPa">90.0</constant>
+        <constant name="board_type">"MS2"</constant>
+        <constant digits="0" name="mycan_id">0.0</constant>
+        <constant digits="0" name="mapsample_window" units="deg">30.0</constant>
+        <constant name="can_poll">"Enable"</constant>
+        <constant digits="2" name="MAPOXMin" units="kPa">25.0</constant>
+        <constant cols="1" digits="0" name="psEnabled" rows="7" units="on/off">
          0.0 
          0.0 
          1.0 
@@ -428,11 +428,11 @@
          0.0 
          0.0 
       </constant>
-<constant cols="7" digits="0" name="psCondition" rows="2">
+        <constant cols="7" digits="0" name="psCondition" rows="2">
          60.0 62.0 62.0 62.0 60.0 60.0 60.0 
          60.0 60.0 62.0 62.0 60.0 60.0 60.0 
       </constant>
-<constant cols="1" digits="0" name="psConnector" rows="7">
+        <constant cols="1" digits="0" name="psConnector" rows="7">
          32.0 
          32.0 
          38.0 
@@ -441,7 +441,7 @@
          32.0 
          32.0 
       </constant>
-<constant cols="1" digits="0" name="psInitValue" rows="7">
+        <constant cols="1" digits="0" name="psInitValue" rows="7">
          0.0 
          0.0 
          1.0 
@@ -450,7 +450,7 @@
          0.0 
          0.0 
       </constant>
-<constant cols="1" digits="0" name="psPortValue" rows="7">
+        <constant cols="1" digits="0" name="psPortValue" rows="7">
          0.0 
          1.0 
          0.0 
@@ -459,103 +459,103 @@
          0.0 
          0.0 
       </constant>
-<constant cols="7" digits="0" name="psOutSize" rows="2">
+        <constant cols="7" digits="0" name="psOutSize" rows="2">
          0.0 2.0 2.0 2.0 0.0 0.0 0.0 
          0.0 0.0 2.0 0.0 0.0 0.0 0.0 
       </constant>
-<constant cols="7" digits="0" name="psOutOffset" rows="2">
+        <constant cols="7" digits="0" name="psOutOffset" rows="2">
          1.0 24.0 22.0 22.0 1.0 1.0 1.0 
          1.0 1.0 6.0 1.0 1.0 1.0 1.0 
       </constant>
-<constant cols="7" digits="0" name="psThreshold" rows="2">
+        <constant cols="7" digits="0" name="psThreshold" rows="2">
          0.0 750.0 1980.0 2100.0 0.0 0.0 0.0 
          0.0 0.0 300.0 300.0 0.0 0.0 0.0 
       </constant>
-<constant cols="7" digits="0" name="psHysteresis" rows="2">
+        <constant cols="7" digits="0" name="psHysteresis" rows="2">
          0.0 50.0 30.0 50.0 0.0 0.0 0.0 
          0.0 0.0 5.0 5.0 0.0 0.0 0.0 
       </constant>
-<constant digits="1" name="aeTaperTime" units="s">0.3</constant>
-<constant digits="1" name="primedelay" units="s">1.0</constant>
-<constant digits="1" name="aeEndPW" units="ms">0.0</constant>
-<constant name="egoAlgorithm">"Simple"</constant>
-<constant digits="0" name="egoKP" units="%">100.0</constant>
-<constant digits="0" name="egoKI" units="%">20.0</constant>
-<constant digits="0" name="egoKD" units="%">0.0</constant>
-<constant digits="0" name="egoKdelay1" units="ms">10.0</constant>
-<constant digits="0" name="egoKdelay2" units="revs">4000.0</constant>
-<constant name="flexFuel">"Disabled"</constant>
-<constant name="flexport">"PE0/JS7"</constant>
-<constant cols="1" digits="0" name="fuelFreq" rows="2" units="Hz">
+        <constant digits="1" name="aeTaperTime" units="s">0.3</constant>
+        <constant digits="1" name="primedelay" units="s">1.0</constant>
+        <constant digits="1" name="aeEndPW" units="ms">0.0</constant>
+        <constant name="egoAlgorithm">"Simple"</constant>
+        <constant digits="0" name="egoKP" units="%">100.0</constant>
+        <constant digits="0" name="egoKI" units="%">20.0</constant>
+        <constant digits="0" name="egoKD" units="%">0.0</constant>
+        <constant digits="0" name="egoKdelay1" units="ms">10.0</constant>
+        <constant digits="0" name="egoKdelay2" units="revs">4000.0</constant>
+        <constant name="flexFuel">"Disabled"</constant>
+        <constant name="flexport">"PE0/JS7"</constant>
+        <constant cols="1" digits="0" name="fuelFreq" rows="2" units="Hz">
          50.0 
          150.0 
       </constant>
-<constant digits="0" name="fuelFreq0" units="Hz">50.0</constant>
-<constant digits="0" name="fuelFreq1" units="Hz">150.0</constant>
-<constant cols="1" digits="0" name="fuelCorr" rows="2" units="%">
+        <constant digits="0" name="fuelFreq0" units="Hz">50.0</constant>
+        <constant digits="0" name="fuelFreq1" units="Hz">150.0</constant>
+        <constant cols="1" digits="0" name="fuelCorr" rows="2" units="%">
          100.0 
          163.0 
       </constant>
-<constant digits="0" name="fuelCorr0" units="%">100.0</constant>
-<constant digits="0" name="fuelCorr1" units="%">163.0</constant>
-<constant name="dwellmode">"Fixed Duty"</constant>
-<constant digits="0" name="iacfullopen" units="steps">200.0</constant>
-<constant name="knk_option">"Disabled"</constant>
-<constant name="knkDirection">"Low Input"</constant>
-<constant name="knkpull">"Same as knock"</constant>
-<constant name="knk_option_an">"On/Off"</constant>
-<constant digits="1" name="knk_maxrtd" units="deg">10.0</constant>
-<constant digits="1" name="knk_step1" units="deg">3.0</constant>
-<constant digits="1" name="knk_step2" units="deg">1.0</constant>
-<constant digits="1" name="knk_trtd" units="s">0.2</constant>
-<constant digits="1" name="knk_tadv" units="s">2.0</constant>
-<constant digits="1" name="knk_dtble_adv" units="deg">3.0</constant>
-<constant digits="0" name="knk_ndet" units="knocks">2.0</constant>
-<constant name="EAEOption">"Off"</constant>
-<constant digits="1" name="knk_maxmap" units="kPa">70.0</constant>
-<constant digits="0" name="knk_lorpm" units="rpm">700.0</constant>
-<constant digits="0" name="knk_hirpm" units="rpm">3500.0</constant>
-<constant digits="0" name="triggerTeeth" units="teeth">36.0</constant>
-<constant digits="0" name="No_Miss_Teeth" units="teeth">1.0</constant>
-<constant digits="1" name="Miss_ang" units="deg BTDC">0.0</constant>
-<constant digits="1" name="ICISR_tmask" units="ms">1.0</constant>
-<constant digits="0" name="ICISR_pmask" units="%">10.0</constant>
-<constant digits="0" name="ae_lorpm" units="rpm">5000.0</constant>
-<constant digits="0" name="ae_hirpm" units="rpm">5000.0</constant>
-<constant cols="1" digits="1" name="fuelSpkDel" rows="2" units="deg">
+        <constant digits="0" name="fuelCorr0" units="%">100.0</constant>
+        <constant digits="0" name="fuelCorr1" units="%">163.0</constant>
+        <constant name="dwellmode">"Fixed Duty"</constant>
+        <constant digits="0" name="iacfullopen" units="steps">200.0</constant>
+        <constant name="knk_option">"Disabled"</constant>
+        <constant name="knkDirection">"Low Input"</constant>
+        <constant name="knkpull">"Same as knock"</constant>
+        <constant name="knk_option_an">"On/Off"</constant>
+        <constant digits="1" name="knk_maxrtd" units="deg">10.0</constant>
+        <constant digits="1" name="knk_step1" units="deg">3.0</constant>
+        <constant digits="1" name="knk_step2" units="deg">1.0</constant>
+        <constant digits="1" name="knk_trtd" units="s">0.2</constant>
+        <constant digits="1" name="knk_tadv" units="s">2.0</constant>
+        <constant digits="1" name="knk_dtble_adv" units="deg">3.0</constant>
+        <constant digits="0" name="knk_ndet" units="knocks">2.0</constant>
+        <constant name="EAEOption">"Off"</constant>
+        <constant digits="1" name="knk_maxmap" units="kPa">70.0</constant>
+        <constant digits="0" name="knk_lorpm" units="rpm">700.0</constant>
+        <constant digits="0" name="knk_hirpm" units="rpm">3500.0</constant>
+        <constant digits="0" name="triggerTeeth" units="teeth">36.0</constant>
+        <constant digits="0" name="No_Miss_Teeth" units="teeth">1.0</constant>
+        <constant digits="1" name="Miss_ang" units="deg BTDC">0.0</constant>
+        <constant digits="1" name="ICISR_tmask" units="ms">1.0</constant>
+        <constant digits="0" name="ICISR_pmask" units="%">10.0</constant>
+        <constant digits="0" name="ae_lorpm" units="rpm">5000.0</constant>
+        <constant digits="0" name="ae_hirpm" units="rpm">5000.0</constant>
+        <constant cols="1" digits="1" name="fuelSpkDel" rows="2" units="deg">
          0.0 
          -13.0 
       </constant>
-<constant digits="1" name="fuelSpkDel0" units="deg">0.0</constant>
-<constant digits="1" name="fuelSpkDel1" units="deg">-13.0</constant>
-<constant digits="1" name="IC2ISR_tmask" units="ms">0.2</constant>
-<constant digits="0" name="IC2ISR_pmask" units="%">20.0</constant>
-<constant name="NoiseFilterOpts">"Off"</constant>
-<constant name="NoiseFilterOpts1">"Off"</constant>
-<constant name="NoiseFilterOpts2">"Off"</constant>
-<constant name="NoiseFilterOpts3">"Off"</constant>
-<constant name="spk_conf2_gm">"Off"</constant>
-<constant name="spk_conf2_tfi">"Off"</constant>
-<constant name="spk_conf2_cam">"Off"</constant>
-<constant name="spk_conf2_oddodd">"Alternate"</constant>
-<constant name="spk_conf2_kick">"Off"</constant>
-<constant name="spk_conf2_dli">"Off"</constant>
-<constant name="spk_config_campol">"Low"</constant>
-<constant name="spk_config_camcrank">"Crank wheel"</constant>
-<constant name="spk_config_trig2">"Single wheel with missing tooth"</constant>
-<constant name="spk_config_trig2l">"Rising edge"</constant>
-<constant name="spk_config_resetcam">"Cam"</constant>
-<constant name="spk_mode0">"Basic trigger"</constant>
-<constant name="spk_mode3a">"Cam input"</constant>
-<constant name="spk_mode3_hirespol">"Normal"</constant>
-<constant name="spk_mode3">"Single coil"</constant>
-<constant name="ego2port">"MS2 AD6/JS5"</constant>
-<constant name="egoport">"Local"</constant>
-<constant digits="3" name="kickdelay" units="ms">0.999666</constant>
-<constant name="feature4_0igntrig">"Off"</constant>
-<constant name="feature4_0VEtblsize">"16x16"</constant>
-<constant name="feature4_0ftrig">"Off"</constant>
-<constant cols="1" digits="1" name="ipwmTable" rows="10" units="%">
+        <constant digits="1" name="fuelSpkDel0" units="deg">0.0</constant>
+        <constant digits="1" name="fuelSpkDel1" units="deg">-13.0</constant>
+        <constant digits="1" name="IC2ISR_tmask" units="ms">0.2</constant>
+        <constant digits="0" name="IC2ISR_pmask" units="%">20.0</constant>
+        <constant name="NoiseFilterOpts">"Off"</constant>
+        <constant name="NoiseFilterOpts1">"Off"</constant>
+        <constant name="NoiseFilterOpts2">"Off"</constant>
+        <constant name="NoiseFilterOpts3">"Off"</constant>
+        <constant name="spk_conf2_gm">"Off"</constant>
+        <constant name="spk_conf2_tfi">"Off"</constant>
+        <constant name="spk_conf2_cam">"Off"</constant>
+        <constant name="spk_conf2_oddodd">"Alternate"</constant>
+        <constant name="spk_conf2_kick">"Off"</constant>
+        <constant name="spk_conf2_dli">"Off"</constant>
+        <constant name="spk_config_campol">"Low"</constant>
+        <constant name="spk_config_camcrank">"Crank wheel"</constant>
+        <constant name="spk_config_trig2">"Single wheel with missing tooth"</constant>
+        <constant name="spk_config_trig2l">"Rising edge"</constant>
+        <constant name="spk_config_resetcam">"Cam"</constant>
+        <constant name="spk_mode0">"Basic trigger"</constant>
+        <constant name="spk_mode3a">"Cam input"</constant>
+        <constant name="spk_mode3_hirespol">"Normal"</constant>
+        <constant name="spk_mode3">"Single coil"</constant>
+        <constant name="ego2port">"MS2 AD6/JS5"</constant>
+        <constant name="egoport">"Local"</constant>
+        <constant digits="3" name="kickdelay" units="ms">0.999666</constant>
+        <constant name="feature4_0igntrig">"Off"</constant>
+        <constant name="feature4_0VEtblsize">"16x16"</constant>
+        <constant name="feature4_0ftrig">"Off"</constant>
+        <constant cols="1" digits="1" name="ipwmTable" rows="10" units="%">
          45.08 
          39.984 
          39.2 
@@ -567,14 +567,14 @@
          23.128 
          21.168 
       </constant>
-<constant name="timing_flags">"Use Table"</constant>
-<constant name="use_prediction">"1st Deriv Prediction"</constant>
-<constant digits="1" name="crank_dwell" units="ms">5.994</constant>
-<constant digits="1" name="crank_timing" units="degrees">10.0</constant>
-<constant digits="1" name="fixed_timing" units="degrees">20.0</constant>
-</page>
-<page number="1" size="1024">
-<constant cols="1" digits="0" name="pwmidle_target_rpms" rows="8" units="rpms">
+        <constant name="timing_flags">"Use Table"</constant>
+        <constant name="use_prediction">"1st Deriv Prediction"</constant>
+        <constant digits="1" name="crank_dwell" units="ms">5.994</constant>
+        <constant digits="1" name="crank_timing" units="degrees">10.0</constant>
+        <constant digits="1" name="fixed_timing" units="degrees">20.0</constant>
+    </page>
+    <page number="1" size="1024">
+        <constant cols="1" digits="0" name="pwmidle_target_rpms" rows="8" units="rpms">
          1783.0 
          1765.0 
          1674.0 
@@ -584,7 +584,7 @@
          951.0 
          945.0 
       </constant>
-<constant cols="1" digits="1" name="pwmidle_clt_temps" rows="8" units="°F">
+        <constant cols="1" digits="1" name="pwmidle_clt_temps" rows="8" units="°F">
          1.6 
          18.7 
          42.0 
@@ -594,48 +594,48 @@
          163.6 
          251.4 
       </constant>
-<constant digits="0" name="pwmidle_ms" units="ms">50.0</constant>
-<constant digits="0" name="pwmidle_close_delay" units="s">0.0</constant>
-<constant digits="1" name="pwmidle_open_duty" units="%">45.08</constant>
-<constant digits="0" name="pwmidle_open_steps" units="steps">115.0</constant>
-<constant digits="1" name="pwmidle_closed_duty" units="%">17.248</constant>
-<constant digits="0" name="pwmidle_closed_steps" units="steps">44.0</constant>
-<constant digits="1" name="pwmidle_pid_wait_timer" units="s">2.0</constant>
-<constant digits="1" name="pwmidle_min_duty" units="%">29.008</constant>
-<constant digits="0" name="pwmidle_min_steps" units="steps">74.0</constant>
-<constant digits="1" name="pwmidle_tps_threshold" units="%">2.0</constant>
-<constant digits="1" name="pwmidle_dp_adder" units="%">3.136</constant>
-<constant digits="0" name="pwmidle_dp_adder_steps" units="steps">8.0</constant>
-<constant digits="0" name="pwmidle_rpmdot_threshold" units="rpm/sec">60.0</constant>
-<constant digits="1" name="pwmidle_decelload_threshold" units="%">29.0</constant>
-<constant digits="1" name="pwmidle_Kp_new" units="%">100.0</constant>
-<constant digits="1" name="pwmidle_Ki_new" units="%">100.0</constant>
-<constant digits="1" name="pwmidle_Kd_new" units="%">0.0</constant>
-<constant name="pwmidle_freq">"92Hz"</constant>
-<constant name="pwmidle_freq_cl_opts_display_pid">"Basic"</constant>
-<constant digits="0" name="pwmidle_max_rpm_new">500.0</constant>
-<constant digits="1" name="pwmidle_targ_ramptime" units="s">5.0</constant>
-<constant digits="0" name="pwmidle_rpmdot_disablepid">500.0</constant>
-<constant name="pwmidle_port">"Local"</constant>
-<constant name="pwmidle_port2">"FIDLE"</constant>
-<constant digits="0" name="pwmidle_dp_decay_factor">0.0</constant>
-<constant digits="1" name="boost_ctl_sensitivity">200.0</constant>
-<constant name="boost_ctl_settings_freq">"78Hz"</constant>
-<constant name="boost_ctl_settings_on">"On"</constant>
-<constant name="boost_ctl_settings_cl">"Open-loop"</constant>
-<constant name="boost_ctl_settings_invert_new">"Normal"</constant>
-<constant name="boost_ctl_settings_remote">"Local"</constant>
-<constant name="boost_ctl_settings_tunemode">"Basic"</constant>
-<constant name="boost_ctl_pins">"Fidle"</constant>
-<constant name="boost_ctl_remote">"Port 3"</constant>
-<constant name="boost_ctl_settings_initialvals">"Off"</constant>
-<constant digits="0" name="boost_ctl_Kp" units="%">0.0</constant>
-<constant digits="0" name="boost_ctl_Ki" units="%">0.0</constant>
-<constant digits="0" name="boost_ctl_Kd" units="%">0.0</constant>
-<constant digits="0" name="boost_ctl_closeduty" units="%">0.0</constant>
-<constant digits="0" name="boost_ctl_openduty" units="%">0.0</constant>
-<constant digits="0" name="boost_ctl_ms" units="ms">10.0</constant>
-<constant cols="8" digits="1" name="boost_ctl_load_targets" rows="8" units="%">
+        <constant digits="0" name="pwmidle_ms" units="ms">50.0</constant>
+        <constant digits="0" name="pwmidle_close_delay" units="s">0.0</constant>
+        <constant digits="1" name="pwmidle_open_duty" units="%">45.08</constant>
+        <constant digits="0" name="pwmidle_open_steps" units="steps">115.0</constant>
+        <constant digits="1" name="pwmidle_closed_duty" units="%">17.248</constant>
+        <constant digits="0" name="pwmidle_closed_steps" units="steps">44.0</constant>
+        <constant digits="1" name="pwmidle_pid_wait_timer" units="s">2.0</constant>
+        <constant digits="1" name="pwmidle_min_duty" units="%">29.008</constant>
+        <constant digits="0" name="pwmidle_min_steps" units="steps">74.0</constant>
+        <constant digits="1" name="pwmidle_tps_threshold" units="%">2.0</constant>
+        <constant digits="1" name="pwmidle_dp_adder" units="%">3.136</constant>
+        <constant digits="0" name="pwmidle_dp_adder_steps" units="steps">8.0</constant>
+        <constant digits="0" name="pwmidle_rpmdot_threshold" units="rpm/sec">60.0</constant>
+        <constant digits="1" name="pwmidle_decelload_threshold" units="%">29.0</constant>
+        <constant digits="1" name="pwmidle_Kp_new" units="%">100.0</constant>
+        <constant digits="1" name="pwmidle_Ki_new" units="%">100.0</constant>
+        <constant digits="1" name="pwmidle_Kd_new" units="%">0.0</constant>
+        <constant name="pwmidle_freq">"92Hz"</constant>
+        <constant name="pwmidle_freq_cl_opts_display_pid">"Basic"</constant>
+        <constant digits="0" name="pwmidle_max_rpm_new">500.0</constant>
+        <constant digits="1" name="pwmidle_targ_ramptime" units="s">5.0</constant>
+        <constant digits="0" name="pwmidle_rpmdot_disablepid">500.0</constant>
+        <constant name="pwmidle_port">"Local"</constant>
+        <constant name="pwmidle_port2">"FIDLE"</constant>
+        <constant digits="0" name="pwmidle_dp_decay_factor">0.0</constant>
+        <constant digits="1" name="boost_ctl_sensitivity">200.0</constant>
+        <constant name="boost_ctl_settings_freq">"78Hz"</constant>
+        <constant name="boost_ctl_settings_on">"On"</constant>
+        <constant name="boost_ctl_settings_cl">"Open-loop"</constant>
+        <constant name="boost_ctl_settings_invert_new">"Normal"</constant>
+        <constant name="boost_ctl_settings_remote">"Local"</constant>
+        <constant name="boost_ctl_settings_tunemode">"Basic"</constant>
+        <constant name="boost_ctl_pins">"Fidle"</constant>
+        <constant name="boost_ctl_remote">"Port 3"</constant>
+        <constant name="boost_ctl_settings_initialvals">"Off"</constant>
+        <constant digits="0" name="boost_ctl_Kp" units="%">0.0</constant>
+        <constant digits="0" name="boost_ctl_Ki" units="%">0.0</constant>
+        <constant digits="0" name="boost_ctl_Kd" units="%">0.0</constant>
+        <constant digits="0" name="boost_ctl_closeduty" units="%">0.0</constant>
+        <constant digits="0" name="boost_ctl_openduty" units="%">0.0</constant>
+        <constant digits="0" name="boost_ctl_ms" units="ms">10.0</constant>
+        <constant cols="8" digits="1" name="boost_ctl_load_targets" rows="8" units="%">
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
@@ -645,7 +645,7 @@
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
       </constant>
-<constant cols="1" digits="1" name="boost_ctl_loadtarg_tps_bins" rows="8" units="%">
+        <constant cols="1" digits="1" name="boost_ctl_loadtarg_tps_bins" rows="8" units="%">
          0.0 
          0.0 
          0.0 
@@ -655,7 +655,7 @@
          0.0 
          0.0 
       </constant>
-<constant cols="1" digits="0" name="boost_ctl_loadtarg_rpm_bins" rows="8" units="rpm">
+        <constant cols="1" digits="0" name="boost_ctl_loadtarg_rpm_bins" rows="8" units="rpm">
          0.0 
          0.0 
          0.0 
@@ -665,7 +665,7 @@
          0.0 
          0.0 
       </constant>
-<constant cols="8" digits="0" name="boost_ctl_pwm_targets" rows="8" units="%">
+        <constant cols="8" digits="0" name="boost_ctl_pwm_targets" rows="8" units="%">
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
@@ -675,7 +675,7 @@
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
       </constant>
-<constant cols="1" digits="1" name="boost_ctl_pwmtarg_tps_bins" rows="8" units="%">
+        <constant cols="1" digits="1" name="boost_ctl_pwmtarg_tps_bins" rows="8" units="%">
          0.0 
          0.0 
          0.0 
@@ -685,7 +685,7 @@
          0.0 
          0.0 
       </constant>
-<constant cols="1" digits="0" name="boost_ctl_pwmtarg_rpm_bins" rows="8" units="rpm">
+        <constant cols="1" digits="0" name="boost_ctl_pwmtarg_rpm_bins" rows="8" units="rpm">
          0.0 
          0.0 
          0.0 
@@ -695,25 +695,25 @@
          0.0 
          0.0 
       </constant>
-<constant cols="1" digits="1" name="pwmidle_crank_dutyorsteps_duty" rows="4" units="%">
+        <constant cols="1" digits="1" name="pwmidle_crank_dutyorsteps_duty" rows="4" units="%">
          63.112 
          55.272 
          51.352 
          47.824 
       </constant>
-<constant cols="1" digits="0" name="pwmidle_crank_dutyorsteps_steps" rows="4" units="steps">
+        <constant cols="1" digits="0" name="pwmidle_crank_dutyorsteps_steps" rows="4" units="steps">
          161.0 
          141.0 
          131.0 
          122.0 
       </constant>
-<constant cols="1" digits="1" name="pwmidle_crank_clt_temps" rows="4" units="°F">
+        <constant cols="1" digits="1" name="pwmidle_crank_clt_temps" rows="4" units="°F">
          9.9 
          71.6 
          116.3 
          179.3 
       </constant>
-<constant cols="6" digits="1" name="injadvTable3" rows="6" units="deg">
+        <constant cols="6" digits="1" name="injadvTable3" rows="6" units="deg">
          90.0 90.0 90.0 90.0 90.0 90.0 
          90.0 90.0 90.0 90.0 90.0 90.0 
          90.0 90.0 90.0 90.0 90.0 90.0 
@@ -721,7 +721,7 @@
          90.0 90.0 90.0 90.0 90.0 90.0 
          90.0 90.0 90.0 90.0 90.0 90.0 
       </constant>
-<constant cols="1" digits="0" name="srpm_injadv3" rows="6" units="RPM">
+        <constant cols="1" digits="0" name="srpm_injadv3" rows="6" units="RPM">
          800.0 
          2000.0 
          4000.0 
@@ -729,7 +729,7 @@
          6000.0 
          7000.0 
       </constant>
-<constant cols="1" digits="1" name="smap_injadv3" rows="6" units="kPa">
+        <constant cols="1" digits="1" name="smap_injadv3" rows="6" units="kPa">
          30.0 
          50.0 
          70.0 
@@ -737,7 +737,7 @@
          90.0 
          100.0 
       </constant>
-<constant cols="1" digits="1" name="primePWTable" rows="10" units="ms">
+        <constant cols="1" digits="1" name="primePWTable" rows="10" units="ms">
          10.6 
          9.5 
          8.5 
@@ -749,7 +749,7 @@
          3.9 
          3.3 
       </constant>
-<constant cols="1" digits="0" name="crankPctTable" rows="10" units="%">
+        <constant cols="1" digits="0" name="crankPctTable" rows="10" units="%">
          312.0 
          305.0 
          284.0 
@@ -761,7 +761,7 @@
          119.0 
          101.0 
       </constant>
-<constant cols="1" digits="0" name="asePctTable" rows="10" units="%">
+        <constant cols="1" digits="0" name="asePctTable" rows="10" units="%">
          80.0 
          73.0 
          56.0 
@@ -773,7 +773,7 @@
          19.0 
          1.0 
       </constant>
-<constant cols="1" digits="0" name="aseCntTable" rows="10" units="cycles">
+        <constant cols="1" digits="0" name="aseCntTable" rows="10" units="cycles">
          827.0 
          819.0 
          777.0 
@@ -785,7 +785,7 @@
          1174.0 
          1296.0 
       </constant>
-<constant cols="1" digits="1" name="matTemps" rows="6" units="°F">
+        <constant cols="1" digits="1" name="matTemps" rows="6" units="°F">
          120.0 
          140.0 
          180.0 
@@ -793,7 +793,7 @@
          240.0 
          260.0 
       </constant>
-<constant cols="1" digits="1" name="matRetard" rows="6" units="deg">
+        <constant cols="1" digits="1" name="matRetard" rows="6" units="deg">
          1.0 
          1.5 
          2.0 
@@ -801,7 +801,7 @@
          6.0 
          8.0 
       </constant>
-<constant cols="1" digits="0" name="EAEAWCRPMbins" rows="12" units="rpm">
+        <constant cols="1" digits="0" name="EAEAWCRPMbins" rows="12" units="rpm">
          800.0 
          1000.0 
          1500.0 
@@ -815,7 +815,7 @@
          5500.0 
          6000.0 
       </constant>
-<constant cols="1" digits="0" name="EAESOCRPMbins" rows="12" units="rpm">
+        <constant cols="1" digits="0" name="EAESOCRPMbins" rows="12" units="rpm">
          800.0 
          1000.0 
          1500.0 
@@ -829,7 +829,7 @@
          5500.0 
          6000.0 
       </constant>
-<constant cols="1" digits="0" name="EAEAWCKPAbins" rows="12" units="kPa">
+        <constant cols="1" digits="0" name="EAEAWCKPAbins" rows="12" units="kPa">
          30.0 
          35.0 
          40.0 
@@ -843,7 +843,7 @@
          90.0 
          100.0 
       </constant>
-<constant cols="1" digits="0" name="EAESOCKPAbins" rows="12" units="kPa">
+        <constant cols="1" digits="0" name="EAESOCKPAbins" rows="12" units="kPa">
          30.0 
          35.0 
          40.0 
@@ -857,7 +857,7 @@
          90.0 
          100.0 
       </constant>
-<constant cols="1" digits="0" name="EAEBAWC" rows="12" units="%">
+        <constant cols="1" digits="0" name="EAEBAWC" rows="12" units="%">
          22.0 
          28.0 
          30.0 
@@ -871,7 +871,7 @@
          58.0 
          60.0 
       </constant>
-<constant cols="1" digits="1" name="EAEBSOC" rows="12" units="%">
+        <constant cols="1" digits="1" name="EAEBSOC" rows="12" units="%">
          2.2 
          2.8 
          3.0 
@@ -885,7 +885,7 @@
          5.8 
          6.0 
       </constant>
-<constant cols="1" digits="0" name="EAEAWN" rows="12" units="%">
+        <constant cols="1" digits="0" name="EAEAWN" rows="12" units="%">
          100.0 
          95.0 
          90.0 
@@ -899,7 +899,7 @@
          50.0 
          45.0 
       </constant>
-<constant cols="1" digits="0" name="EAESON" rows="12" units="%">
+        <constant cols="1" digits="0" name="EAESON" rows="12" units="%">
          45.0 
          50.0 
          55.0 
@@ -913,7 +913,7 @@
          95.0 
          100.0 
       </constant>
-<constant cols="1" digits="0" name="EAEAWW" rows="12" units="%">
+        <constant cols="1" digits="0" name="EAEAWW" rows="12" units="%">
          100.0 
          100.0 
          100.0 
@@ -927,7 +927,7 @@
          100.0 
          100.0 
       </constant>
-<constant cols="1" digits="0" name="EAESOW" rows="12" units="%">
+        <constant cols="1" digits="0" name="EAESOW" rows="12" units="%">
          100.0 
          100.0 
          100.0 
@@ -941,7 +941,7 @@
          100.0 
          100.0 
       </constant>
-<constant cols="1" digits="1" name="matCorrTemps" rows="6" units="°F">
+        <constant cols="1" digits="1" name="matCorrTemps" rows="6" units="°F">
          40.0 
          60.0 
          100.0 
@@ -949,7 +949,7 @@
          158.4 
          182.0 
       </constant>
-<constant cols="1" digits="1" name="matCorrDelta" rows="6" units="%">
+        <constant cols="1" digits="1" name="matCorrDelta" rows="6" units="%">
          -4.0 
          -4.0 
          -3.0 
@@ -957,8 +957,8 @@
          7.0 
          8.0 
       </constant>
-<constant digits="1" name="boost_ctl_lowerlimit" units="kPa">20.0</constant>
-<constant cols="1" digits="1" name="temp_table_p5" rows="10" units="°F">
+        <constant digits="1" name="boost_ctl_lowerlimit" units="kPa">20.0</constant>
+        <constant cols="1" digits="1" name="temp_table_p5" rows="10" units="°F">
          -4.9 
          19.5 
          49.4 
@@ -970,13 +970,13 @@
          168.0 
          175.3 
       </constant>
-<constant digits="0" name="tsf_rpm" units="rpm">6000.0</constant>
-<constant digits="1" name="tsf_kpa" units="kPa">100.0</constant>
-<constant digits="1" name="tsf_tps" units="%">2.0</constant>
-<constant digits="0" name="tss_rpm" units="rpm">6001.0</constant>
-<constant digits="1" name="tss_kpa" units="kPa">100.1</constant>
-<constant digits="1" name="tss_tps" units="%">2.0</constant>
-<constant cols="1" digits="1" name="EAEAWWCLTbins" rows="12" units="deg">
+        <constant digits="0" name="tsf_rpm" units="rpm">6000.0</constant>
+        <constant digits="1" name="tsf_kpa" units="kPa">100.0</constant>
+        <constant digits="1" name="tsf_tps" units="%">2.0</constant>
+        <constant digits="0" name="tss_rpm" units="rpm">6001.0</constant>
+        <constant digits="1" name="tss_kpa" units="kPa">100.1</constant>
+        <constant digits="1" name="tss_tps" units="%">2.0</constant>
+        <constant cols="1" digits="1" name="EAEAWWCLTbins" rows="12" units="deg">
          0.0 
          20.0 
          40.0 
@@ -990,7 +990,7 @@
          170.0 
          180.0 
       </constant>
-<constant cols="1" digits="1" name="EAESOWCLTbins" rows="12" units="deg">
+        <constant cols="1" digits="1" name="EAESOWCLTbins" rows="12" units="deg">
          0.0 
          20.0 
          40.0 
@@ -1004,30 +1004,30 @@
          170.0 
          180.0 
       </constant>
-<constant name="OvrRunC">"On"</constant>
-<constant name="f5_0_tsf">"Off"</constant>
-<constant name="f5_0_tsf_opt">"TPS"</constant>
-<constant name="f5_0_tss_opt">"TPS"</constant>
-<constant name="f5_0_tss">"Off"</constant>
-<constant digits="1" name="pwmidlecranktaper" units="s">5.0</constant>
-<constant name="pwmidleset_inv">"Normal, 0%=off"</constant>
-<constant name="pwmidleset_koeo">"Off"</constant>
-<constant digits="0" name="fc_rpm" units="rpm">1500.0</constant>
-<constant digits="1" name="fc_kpa" units="kPa">30.0</constant>
-<constant digits="1" name="fc_tps" units="%">3.0</constant>
-<constant digits="1" name="fc_clt" units="°F">90.0</constant>
-<constant digits="1" name="fc_delay" units="s">1.0</constant>
-<constant name="tacho_opt80">"Off"</constant>
-<constant name="tacho_opt40">"Normal"</constant>
-<constant name="tacho_opt3f">"IGN (JS10)"</constant>
-<constant name="EAElagsource">"TPSdot"</constant>
-<constant digits="0" name="EAElagthresh" units="unit/sec">50.0</constant>
-<constant digits="0" name="EAElagRPMmax" units="rpm">3000.0</constant>
-<constant digits="0" name="fc_ego_delay" units="s">1.0</constant>
-<constant digits="0" name="fc_rpm_lower" units="rpm">1400.0</constant>
-<constant digits="0" name="pwmidle_shift_lower_rpm" units="rpm">1500.0</constant>
-<constant digits="1" name="pwmidle_shift_open_time" units="s">3.0</constant>
-<constant cols="1" digits="0" name="rmt_psEnabled" rows="8" units="on/off">
+        <constant name="OvrRunC">"On"</constant>
+        <constant name="f5_0_tsf">"Off"</constant>
+        <constant name="f5_0_tsf_opt">"TPS"</constant>
+        <constant name="f5_0_tss_opt">"TPS"</constant>
+        <constant name="f5_0_tss">"Off"</constant>
+        <constant digits="1" name="pwmidlecranktaper" units="s">5.0</constant>
+        <constant name="pwmidleset_inv">"Normal, 0%=off"</constant>
+        <constant name="pwmidleset_koeo">"Off"</constant>
+        <constant digits="0" name="fc_rpm" units="rpm">1500.0</constant>
+        <constant digits="1" name="fc_kpa" units="kPa">30.0</constant>
+        <constant digits="1" name="fc_tps" units="%">3.0</constant>
+        <constant digits="1" name="fc_clt" units="°F">90.0</constant>
+        <constant digits="1" name="fc_delay" units="s">1.0</constant>
+        <constant name="tacho_opt80">"Off"</constant>
+        <constant name="tacho_opt40">"Normal"</constant>
+        <constant name="tacho_opt3f">"IGN (JS10)"</constant>
+        <constant name="EAElagsource">"TPSdot"</constant>
+        <constant digits="0" name="EAElagthresh" units="unit/sec">50.0</constant>
+        <constant digits="0" name="EAElagRPMmax" units="rpm">3000.0</constant>
+        <constant digits="0" name="fc_ego_delay" units="s">1.0</constant>
+        <constant digits="0" name="fc_rpm_lower" units="rpm">1400.0</constant>
+        <constant digits="0" name="pwmidle_shift_lower_rpm" units="rpm">1500.0</constant>
+        <constant digits="1" name="pwmidle_shift_open_time" units="s">3.0</constant>
+        <constant cols="1" digits="0" name="rmt_psEnabled" rows="8" units="on/off">
          0.0 
          0.0 
          0.0 
@@ -1037,11 +1037,11 @@
          0.0 
          0.0 
       </constant>
-<constant cols="8" digits="0" name="rmt_psCondition" rows="2">
+        <constant cols="8" digits="0" name="rmt_psCondition" rows="2">
          60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 
          60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 
       </constant>
-<constant cols="1" digits="0" name="rmt_psConnector" rows="8">
+        <constant cols="1" digits="0" name="rmt_psConnector" rows="8">
          32.0 
          32.0 
          32.0 
@@ -1051,7 +1051,7 @@
          32.0 
          32.0 
       </constant>
-<constant cols="1" digits="0" name="rmt_psInitValue" rows="8">
+        <constant cols="1" digits="0" name="rmt_psInitValue" rows="8">
          0.0 
          0.0 
          0.0 
@@ -1061,7 +1061,7 @@
          0.0 
          0.0 
       </constant>
-<constant cols="1" digits="0" name="rmt_psPortValue" rows="8">
+        <constant cols="1" digits="0" name="rmt_psPortValue" rows="8">
          0.0 
          0.0 
          0.0 
@@ -1071,25 +1071,25 @@
          0.0 
          0.0 
       </constant>
-<constant cols="8" digits="0" name="rmt_psOutSize" rows="2">
+        <constant cols="8" digits="0" name="rmt_psOutSize" rows="2">
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
       </constant>
-<constant cols="8" digits="0" name="rmt_psOutOffset" rows="2">
+        <constant cols="8" digits="0" name="rmt_psOutOffset" rows="2">
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
       </constant>
-<constant cols="8" digits="0" name="rmt_psThreshold" rows="2">
+        <constant cols="8" digits="0" name="rmt_psThreshold" rows="2">
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
       </constant>
-<constant cols="8" digits="0" name="rmt_psHysteresis" rows="2">
+        <constant cols="8" digits="0" name="rmt_psHysteresis" rows="2">
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
       </constant>
-</page>
-<page number="2" size="1024">
-<constant cols="12" digits="1" name="advanceTable1" rows="12" units="deg">
+    </page>
+    <page number="2" size="1024">
+        <constant cols="12" digits="1" name="advanceTable1" rows="12" units="deg">
          30.0 30.0 30.0 33.0 35.0 37.0 38.0 39.0 40.0 40.0 40.0 40.0 
          30.0 30.0 30.0 33.0 35.0 37.0 38.0 39.0 40.0 40.0 40.0 40.0 
          30.0 30.0 30.0 33.0 35.0 37.0 38.0 39.0 40.0 40.0 40.0 40.0 
@@ -1103,7 +1103,7 @@
          10.0 10.0 12.0 15.0 16.0 17.0 18.0 19.0 20.0 20.0 20.5 21.0 
          10.0 10.0 10.0 12.0 14.0 15.0 16.0 17.0 17.0 18.0 18.5 19.0 
       </constant>
-<constant cols="12" digits="1" name="advanceTable2" rows="12" units="deg">
+        <constant cols="12" digits="1" name="advanceTable2" rows="12" units="deg">
          15.7 17.5 20.0 28.6 32.8 37.5 37.0 37.5 38.0 38.0 38.0 38.0 
          15.7 17.8 20.1 28.2 32.4 37.0 37.0 37.0 37.5 38.0 38.0 38.0 
          15.6 18.0 20.2 27.8 32.4 36.8 37.0 37.5 37.5 38.0 38.0 38.0 
@@ -1117,7 +1117,7 @@
          15.1 17.2 19.5 22.8 29.5 34.3 36.0 36.0 36.0 36.0 36.0 36.0 
          14.8 16.8 19.0 21.6 28.2 33.5 36.0 36.0 36.0 36.0 36.0 36.0 
       </constant>
-<constant cols="1" digits="0" name="srpm_table1" rows="12" units="RPM">
+        <constant cols="1" digits="0" name="srpm_table1" rows="12" units="RPM">
          700.0 
          1000.0 
          1500.0 
@@ -1131,7 +1131,7 @@
          5500.0 
          6000.0 
       </constant>
-<constant cols="1" digits="0" name="srpm_table2" rows="12" units="RPM">
+        <constant cols="1" digits="0" name="srpm_table2" rows="12" units="RPM">
          702.0 
          900.0 
          1200.0 
@@ -1145,7 +1145,7 @@
          5400.0 
          6000.0 
       </constant>
-<constant cols="1" digits="1" name="smap_table1" rows="12" units="kPa">
+        <constant cols="1" digits="1" name="smap_table1" rows="12" units="kPa">
          20.0 
          30.0 
          40.0 
@@ -1159,7 +1159,7 @@
          260.0 
          300.0 
       </constant>
-<constant cols="1" digits="1" name="smap_table2" rows="12" units="%">
+        <constant cols="1" digits="1" name="smap_table2" rows="12" units="%">
          20.2 
          25.0 
          30.0 
@@ -1173,55 +1173,55 @@
          90.0 
          100.0 
       </constant>
-<constant name="feature3_1">"Off"</constant>
-<constant name="feature3_3">"Off"</constant>
-<constant name="feature3_matase">"On"</constant>
-<constant name="launch_opt_on">"Off"</constant>
-<constant name="launch_opt_pins">"PE0/JS7"</constant>
-<constant digits="0" name="launch_sft_zone" units="RPM">200.0</constant>
-<constant digits="2" name="launch_sft_deg" units="deg">1.0</constant>
-<constant digits="0" name="launch_hrd_lim" units="RPM">4000.0</constant>
-<constant digits="0" name="launch_tps" units="%">10.0</constant>
-<constant name="launchlimopt">"Spark Cut"</constant>
-<constant digits="0" name="flats_arm" units="RPM">3000.0</constant>
-<constant digits="2" name="flats_deg" units="deg">5.0</constant>
-<constant digits="0" name="flats_hrd" units="RPM">4800.0</constant>
-<constant digits="0" name="staged_pri_size" units="cc">630.0</constant>
-<constant digits="0" name="staged_sec_size" units="cc">0.0</constant>
-<constant name="staged_first_param">"Off"</constant>
-<constant name="staged_second_param">"Off"</constant>
-<constant name="staged_transition_on">"Off"</constant>
-<constant name="staged_second_logic">"OR"</constant>
-<constant digits="0" name="staged_transition_events" units="ign events">0.0</constant>
-<constant digits="0" name="staged_param_1" units="units">0.0</constant>
-<constant digits="0" name="staged_param_2" units="units">0.0</constant>
-<constant digits="0" name="staged_hyst_1" units="units">0.0</constant>
-<constant digits="0" name="staged_hyst_2" units="units">0.0</constant>
-<constant name="N2Oopt_01">"Bank1"</constant>
-<constant name="N2Oopt_2">"Off"</constant>
-<constant name="N2Oopt_3">"Off"</constant>
-<constant digits="0" name="N2ORpm" units="RPM">3000.0</constant>
-<constant digits="0" name="N2ORpmMax" units="RPM">6000.0</constant>
-<constant digits="1" name="N2OTps" units="%">80.0</constant>
-<constant digits="1" name="N2OClt" units="°F">150.0</constant>
-<constant digits="2" name="N2OAngle" units="deg">10.0</constant>
-<constant digits="3" name="N2OPWLo" units="ms">6.0</constant>
-<constant digits="3" name="N2OPWHi" units="ms">3.0</constant>
-<constant digits="2" name="N2Odel_launch" units="s">0.0</constant>
-<constant digits="2" name="N2Odel_flat" units="s">0.0</constant>
-<constant digits="2" name="N2Oholdon" units="s">0.0</constant>
-<constant digits="0" name="N2O2Rpm" units="RPM">5000.0</constant>
-<constant digits="0" name="N2O2RpmMax" units="RPM">6000.0</constant>
-<constant digits="2" name="N2O2delay" units="s">0.1</constant>
-<constant digits="2" name="N2O2Angle" units="deg">5.0</constant>
-<constant digits="3" name="N2O2PWLo" units="ms">1.998</constant>
-<constant digits="3" name="N2O2PWHi" units="ms">0.999</constant>
-<constant digits="0" name="user_value1">0.0</constant>
-<constant digits="0" name="user_value2">0.0</constant>
-<constant name="user_conf0">"Off"</constant>
-<constant name="user_conf1">"Mode 0"</constant>
-<constant digits="3" name="staged_secondary_enrichment" units="ms">0.0</constant>
-<constant cols="6" digits="0" name="staged_percents" rows="6" units="%">
+        <constant name="feature3_1">"Off"</constant>
+        <constant name="feature3_3">"Off"</constant>
+        <constant name="feature3_matase">"On"</constant>
+        <constant name="launch_opt_on">"Off"</constant>
+        <constant name="launch_opt_pins">"PE0/JS7"</constant>
+        <constant digits="0" name="launch_sft_zone" units="RPM">200.0</constant>
+        <constant digits="2" name="launch_sft_deg" units="deg">1.0</constant>
+        <constant digits="0" name="launch_hrd_lim" units="RPM">4000.0</constant>
+        <constant digits="0" name="launch_tps" units="%">10.0</constant>
+        <constant name="launchlimopt">"Spark Cut"</constant>
+        <constant digits="0" name="flats_arm" units="RPM">3000.0</constant>
+        <constant digits="2" name="flats_deg" units="deg">5.0</constant>
+        <constant digits="0" name="flats_hrd" units="RPM">4800.0</constant>
+        <constant digits="0" name="staged_pri_size" units="cc">630.0</constant>
+        <constant digits="0" name="staged_sec_size" units="cc">0.0</constant>
+        <constant name="staged_first_param">"Off"</constant>
+        <constant name="staged_second_param">"Off"</constant>
+        <constant name="staged_transition_on">"Off"</constant>
+        <constant name="staged_second_logic">"OR"</constant>
+        <constant digits="0" name="staged_transition_events" units="ign events">0.0</constant>
+        <constant digits="0" name="staged_param_1" units="units">0.0</constant>
+        <constant digits="0" name="staged_param_2" units="units">0.0</constant>
+        <constant digits="0" name="staged_hyst_1" units="units">0.0</constant>
+        <constant digits="0" name="staged_hyst_2" units="units">0.0</constant>
+        <constant name="N2Oopt_01">"Bank1"</constant>
+        <constant name="N2Oopt_2">"Off"</constant>
+        <constant name="N2Oopt_3">"Off"</constant>
+        <constant digits="0" name="N2ORpm" units="RPM">3000.0</constant>
+        <constant digits="0" name="N2ORpmMax" units="RPM">6000.0</constant>
+        <constant digits="1" name="N2OTps" units="%">80.0</constant>
+        <constant digits="1" name="N2OClt" units="°F">150.0</constant>
+        <constant digits="2" name="N2OAngle" units="deg">10.0</constant>
+        <constant digits="3" name="N2OPWLo" units="ms">6.0</constant>
+        <constant digits="3" name="N2OPWHi" units="ms">3.0</constant>
+        <constant digits="2" name="N2Odel_launch" units="s">0.0</constant>
+        <constant digits="2" name="N2Odel_flat" units="s">0.0</constant>
+        <constant digits="2" name="N2Oholdon" units="s">0.0</constant>
+        <constant digits="0" name="N2O2Rpm" units="RPM">5000.0</constant>
+        <constant digits="0" name="N2O2RpmMax" units="RPM">6000.0</constant>
+        <constant digits="2" name="N2O2delay" units="s">0.1</constant>
+        <constant digits="2" name="N2O2Angle" units="deg">5.0</constant>
+        <constant digits="3" name="N2O2PWLo" units="ms">1.998</constant>
+        <constant digits="3" name="N2O2PWHi" units="ms">0.999</constant>
+        <constant digits="0" name="user_value1">0.0</constant>
+        <constant digits="0" name="user_value2">0.0</constant>
+        <constant name="user_conf0">"Off"</constant>
+        <constant name="user_conf1">"Mode 0"</constant>
+        <constant digits="3" name="staged_secondary_enrichment" units="ms">0.0</constant>
+        <constant cols="6" digits="0" name="staged_percents" rows="6" units="%">
          0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 5.0 5.0 10.0 20.0 30.0 
          0.0 5.0 10.0 20.0 30.0 40.0 
@@ -1229,7 +1229,7 @@
          0.0 20.0 30.0 40.0 50.0 60.0 
          0.0 30.0 50.0 70.0 90.0 100.0 
       </constant>
-<constant cols="1" digits="0" name="staged_rpms" rows="6" units="rpm">
+        <constant cols="1" digits="0" name="staged_rpms" rows="6" units="rpm">
          3000.0 
          4000.0 
          5000.0 
@@ -1237,7 +1237,7 @@
          6000.0 
          7000.0 
       </constant>
-<constant cols="1" digits="0" name="staged_loads" rows="6" units="%">
+        <constant cols="1" digits="0" name="staged_loads" rows="6" units="%">
          50.0 
          60.0 
          70.0 
@@ -1245,8 +1245,8 @@
          90.0 
          100.0 
       </constant>
-<constant digits="1" name="dwelltime_trl" units="ms">3.0</constant>
-<constant cols="8" digits="1" name="RotarySplitTable" rows="8" units="deg">
+        <constant digits="1" name="dwelltime_trl" units="ms">3.0</constant>
+        <constant cols="8" digits="1" name="RotarySplitTable" rows="8" units="deg">
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
@@ -1256,7 +1256,7 @@
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
       </constant>
-<constant cols="1" digits="0" name="RotarySplitLoad" rows="8" units="kPa">
+        <constant cols="1" digits="0" name="RotarySplitLoad" rows="8" units="kPa">
          30.0 
          40.0 
          50.0 
@@ -1266,7 +1266,7 @@
          90.0 
          100.0 
       </constant>
-<constant cols="1" digits="0" name="RotarySplitRPM" rows="8" units="RPM">
+        <constant cols="1" digits="0" name="RotarySplitRPM" rows="8" units="RPM">
          800.0 
          1200.0 
          2000.0 
@@ -1276,51 +1276,51 @@
          6000.0 
          7000.0 
       </constant>
-<constant name="RotarySplitModeFD">"FC mode"</constant>
-<constant name="RotarySplitModeNeg">"Not Allowed"</constant>
-<constant cols="1" digits="0" name="NoiseFilterRpm" rows="4" units="RPM">
+        <constant name="RotarySplitModeFD">"FC mode"</constant>
+        <constant name="RotarySplitModeNeg">"Not Allowed"</constant>
+        <constant cols="1" digits="0" name="NoiseFilterRpm" rows="4" units="RPM">
          500.0 
          2500.0 
          5500.0 
          7500.0 
       </constant>
-<constant cols="1" digits="1" name="NoiseFilterLen" rows="4" units="usec">
+        <constant cols="1" digits="1" name="NoiseFilterLen" rows="4" units="usec">
          0.0 
          0.0 
          0.0 
          0.0 
       </constant>
-<constant digits="0" name="staged_primary_delay" units="ign events">0.0</constant>
-<constant cols="1" digits="0" name="VariableLagTPSBins" rows="4" units="%/sec">
+        <constant digits="0" name="staged_primary_delay" units="ign events">0.0</constant>
+        <constant cols="1" digits="0" name="VariableLagTPSBins" rows="4" units="%/sec">
          3.0 
          10.0 
          20.0 
          50.0 
       </constant>
-<constant cols="1" digits="0" name="VariableLagMapLags" rows="4" units="Lag">
+        <constant cols="1" digits="0" name="VariableLagMapLags" rows="4" units="Lag">
          50.0 
          50.0 
          50.0 
          50.0 
       </constant>
-<constant digits="0" name="trig_init">1.0</constant>
-<constant digits="0" name="inj_time_mask">0.0</constant>
-</page>
-<page number="3" size="1024">
-<constant name="pwm_testio">"78Hz"</constant>
-<constant digits="1" name="duty_testio" units="%">25.0</constant>
-<constant digits="0" name="testop_0">0.0</constant>
-<constant name="testop_coil">"Off"</constant>
-<constant name="testop_fp">"Off"</constant>
-<constant name="testop_inj">"Off"</constant>
-<constant name="testop_pwm">"Standard"</constant>
-<constant digits="1" name="testdwell" units="ms">4.0</constant>
-<constant digits="1" name="testint" units="ms">199.936</constant>
-<constant digits="0" name="testrpm" units="RPM">600.1920615</constant>
-<constant digits="3" name="testpw" units="ms">0.0</constant>
-<constant name="testsel_inj">"Inj1"</constant>
-<constant name="testsel_coil">"CoilA"</constant>
-<constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
+        <constant digits="0" name="trig_init">1.0</constant>
+        <constant digits="0" name="inj_time_mask">0.0</constant>
+    </page>
+    <page number="3" size="1024">
+        <constant name="pwm_testio">"78Hz"</constant>
+        <constant digits="1" name="duty_testio" units="%">25.0</constant>
+        <constant digits="0" name="testop_0">0.0</constant>
+        <constant name="testop_coil">"Off"</constant>
+        <constant name="testop_fp">"Off"</constant>
+        <constant name="testop_inj">"Off"</constant>
+        <constant name="testop_pwm">"Standard"</constant>
+        <constant digits="1" name="testdwell" units="ms">4.0</constant>
+        <constant digits="1" name="testint" units="ms">199.936</constant>
+        <constant digits="0" name="testrpm" units="RPM">600.1920615</constant>
+        <constant digits="3" name="testpw" units="ms">0.0</constant>
+        <constant name="testsel_inj">"Inj1"</constant>
+        <constant name="testsel_coil">"CoilA"</constant>
+        <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
          20.0 20.0 18.0 28.0 28.7 36.9 40.9 40.9 39.0 39.0 39.0 39.0 
          20.0 18.0 19.0 30.0 35.0 37.0 37.0 38.0 41.8 41.8 41.8 41.8 
          22.0 20.0 19.0 30.0 35.0 37.0 37.0 38.0 41.5 41.5 41.5 41.5 
@@ -1334,7 +1334,7 @@
          11.3 10.1 14.0 14.0 14.9 15.4 15.7 17.8 20.0 20.0 21.3 22.0 
          11.0 9.7 14.1 14.1 14.0 15.0 16.0 17.0 18.0 17.5 18.5 19.5 
       </constant>
-<constant cols="1" digits="0" name="srpm_table3" rows="12" units="RPM">
+        <constant cols="1" digits="0" name="srpm_table3" rows="12" units="RPM">
          800.0 
          900.0 
          1200.0 
@@ -1348,7 +1348,7 @@
          5400.0 
          6000.0 
       </constant>
-<constant cols="1" digits="1" name="smap_table3" rows="12" units="kPa">
+        <constant cols="1" digits="1" name="smap_table3" rows="12" units="kPa">
          20.0 
          35.0 
          50.0 
@@ -1362,10 +1362,10 @@
          250.0 
          300.0 
       </constant>
-<constant digits="1" name="testinjPwmT" units="ms">1.040384</constant>
-<constant digits="0" name="testinjPwmPd" units="us">66.0</constant>
-<constant digits="0" name="testinjPwmP" units="%">30.0</constant>
-<constant cols="1" digits="1" name="RevLimLookup" rows="8" units="°F">
+        <constant digits="1" name="testinjPwmT" units="ms">1.040384</constant>
+        <constant digits="0" name="testinjPwmPd" units="us">66.0</constant>
+        <constant digits="0" name="testinjPwmP" units="%">30.0</constant>
+        <constant cols="1" digits="1" name="RevLimLookup" rows="8" units="°F">
          32.0 
          68.0 
          100.0 
@@ -1375,7 +1375,7 @@
          180.0 
          200.0 
       </constant>
-<constant cols="1" digits="0" name="RevLimRpm1" rows="8" units="RPM">
+        <constant cols="1" digits="0" name="RevLimRpm1" rows="8" units="RPM">
          2500.0 
          3000.0 
          4000.0 
@@ -1385,30 +1385,30 @@
          6000.0 
          6000.0 
       </constant>
-<constant digits="0" name="iacpostest" units="steps">150.0</constant>
-<constant digits="0" name="iachometest" units="steps">160.0</constant>
-<constant name="flashlock">"Unlocked"</constant>
-<constant name="idleadvance_on">"Load"</constant>
-<constant name="idleadvance_adder">"Set Value"</constant>
-<constant name="idleadvance_cl_cond">"Manual"</constant>
-<constant digits="1" name="idleadvance_tps" units="%">2.0</constant>
-<constant digits="0" name="idleadvance_rpm" units="rpm">1500.0</constant>
-<constant digits="0" name="idleadvance_load" units="%">20.0</constant>
-<constant digits="1" name="idleadvance_clt" units="°F">120.0</constant>
-<constant digits="0" name="idleadvance_delay" units="s">0.0</constant>
-<constant name="seq_inj">"Untimed injection"</constant>
-<constant name="extrainj">"Standard drivers"</constant>
-<constant name="injdualvalue">"Single value"</constant>
-<constant name="usevetrim">"Don't use VE Trim Tables"</constant>
-<constant name="injusetable">"Fixed Timing"</constant>
-<constant name="injtimingmode">"Start-of-pulse"</constant>
-<constant digits="1" name="injadv1" units="deg">90.0</constant>
-<constant digits="1" name="injadv2" units="deg">270.0</constant>
-<constant digits="1" name="injadv3" units="deg">90.0</constant>
-<constant digits="1" name="injstagedadv1" units="deg">90.0</constant>
-<constant digits="1" name="injstagedadv2" units="deg">270.0</constant>
-<constant digits="1" name="injstagedadv3" units="deg">90.0</constant>
-<constant cols="6" digits="1" name="injadvTable1" rows="6" units="deg">
+        <constant digits="0" name="iacpostest" units="steps">150.0</constant>
+        <constant digits="0" name="iachometest" units="steps">160.0</constant>
+        <constant name="flashlock">"Unlocked"</constant>
+        <constant name="idleadvance_on">"Load"</constant>
+        <constant name="idleadvance_adder">"Set Value"</constant>
+        <constant name="idleadvance_cl_cond">"Manual"</constant>
+        <constant digits="1" name="idleadvance_tps" units="%">2.0</constant>
+        <constant digits="0" name="idleadvance_rpm" units="rpm">1500.0</constant>
+        <constant digits="0" name="idleadvance_load" units="%">20.0</constant>
+        <constant digits="1" name="idleadvance_clt" units="°F">120.0</constant>
+        <constant digits="0" name="idleadvance_delay" units="s">0.0</constant>
+        <constant name="seq_inj">"Untimed injection"</constant>
+        <constant name="extrainj">"Standard drivers"</constant>
+        <constant name="injdualvalue">"Single value"</constant>
+        <constant name="usevetrim">"Don't use VE Trim Tables"</constant>
+        <constant name="injusetable">"Fixed Timing"</constant>
+        <constant name="injtimingmode">"Start-of-pulse"</constant>
+        <constant digits="1" name="injadv1" units="deg">90.0</constant>
+        <constant digits="1" name="injadv2" units="deg">270.0</constant>
+        <constant digits="1" name="injadv3" units="deg">90.0</constant>
+        <constant digits="1" name="injstagedadv1" units="deg">90.0</constant>
+        <constant digits="1" name="injstagedadv2" units="deg">270.0</constant>
+        <constant digits="1" name="injstagedadv3" units="deg">90.0</constant>
+        <constant cols="6" digits="1" name="injadvTable1" rows="6" units="deg">
          90.0 90.0 90.0 90.0 90.0 90.0 
          90.0 90.0 90.0 90.0 90.0 90.0 
          90.0 90.0 90.0 90.0 90.0 90.0 
@@ -1416,7 +1416,7 @@
          90.0 90.0 90.0 90.0 90.0 90.0 
          90.0 90.0 90.0 90.0 90.0 90.0 
       </constant>
-<constant cols="6" digits="1" name="injadvTable2" rows="6" units="deg">
+        <constant cols="6" digits="1" name="injadvTable2" rows="6" units="deg">
          270.0 270.0 270.0 270.0 270.0 270.0 
          270.0 270.0 270.0 270.0 270.0 270.0 
          270.0 270.0 270.0 270.0 270.0 270.0 
@@ -1424,7 +1424,7 @@
          270.0 270.0 270.0 270.0 270.0 270.0 
          270.0 270.0 270.0 270.0 270.0 270.0 
       </constant>
-<constant cols="1" digits="0" name="srpm_injadv1" rows="6" units="RPM">
+        <constant cols="1" digits="0" name="srpm_injadv1" rows="6" units="RPM">
          800.0 
          2000.0 
          4000.0 
@@ -1432,7 +1432,7 @@
          6000.0 
          7000.0 
       </constant>
-<constant cols="1" digits="0" name="srpm_injadv2" rows="6" units="RPM">
+        <constant cols="1" digits="0" name="srpm_injadv2" rows="6" units="RPM">
          800.0 
          2000.0 
          4000.0 
@@ -1440,7 +1440,7 @@
          6000.0 
          7000.0 
       </constant>
-<constant cols="1" digits="1" name="smap_injadv1" rows="6" units="kPa">
+        <constant cols="1" digits="1" name="smap_injadv1" rows="6" units="kPa">
          30.0 
          50.0 
          70.0 
@@ -1448,7 +1448,7 @@
          90.0 
          100.0 
       </constant>
-<constant cols="1" digits="1" name="smap_injadv2" rows="6" units="kPa">
+        <constant cols="1" digits="1" name="smap_injadv2" rows="6" units="kPa">
          30.0 
          50.0 
          70.0 
@@ -1456,15 +1456,15 @@
          90.0 
          100.0 
       </constant>
-<constant digits="1" name="injcrankadv1" units="deg">90.0</constant>
-<constant digits="1" name="injcrankadv2" units="deg">270.0</constant>
-<constant digits="0" name="hybrid_rpm" units="RPM">15000.0</constant>
-<constant digits="0" name="hybrid_hyst" units="RPM">100.0</constant>
-<constant digits="3" name="injOpen3" units="ms">1.0</constant>
-<constant digits="3" name="battFac3" units="ms/v">0.2000004</constant>
-<constant digits="3" name="injOpen4" units="ms">1.0</constant>
-<constant digits="3" name="battFac4" units="ms/v">0.2000004</constant>
-<constant cols="16" digits="1" name="veTrim1" rows="16" units="%">
+        <constant digits="1" name="injcrankadv1" units="deg">90.0</constant>
+        <constant digits="1" name="injcrankadv2" units="deg">270.0</constant>
+        <constant digits="0" name="hybrid_rpm" units="RPM">15000.0</constant>
+        <constant digits="0" name="hybrid_hyst" units="RPM">100.0</constant>
+        <constant digits="3" name="injOpen3" units="ms">1.0</constant>
+        <constant digits="3" name="battFac3" units="ms/v">0.2000004</constant>
+        <constant digits="3" name="injOpen4" units="ms">1.0</constant>
+        <constant digits="3" name="battFac4" units="ms/v">0.2000004</constant>
+        <constant cols="16" digits="1" name="veTrim1" rows="16" units="%">
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
@@ -1482,7 +1482,7 @@
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
       </constant>
-<constant cols="1" digits="0" name="frpm_trim1" rows="16" units="RPM">
+        <constant cols="1" digits="0" name="frpm_trim1" rows="16" units="RPM">
          501.0 
          801.0 
          1101.0 
@@ -1500,7 +1500,7 @@
          7200.0 
          7500.0 
       </constant>
-<constant cols="1" digits="1" name="fmap_trim1" rows="16" units="kPa">
+        <constant cols="1" digits="1" name="fmap_trim1" rows="16" units="kPa">
          30.1 
          35.0 
          40.0 
@@ -1518,7 +1518,7 @@
          98.0 
          100.0 
       </constant>
-<constant cols="12" digits="1" name="veTrim1dozen" rows="12" units="%">
+        <constant cols="12" digits="1" name="veTrim1dozen" rows="12" units="%">
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
@@ -1532,7 +1532,7 @@
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
       </constant>
-<constant cols="1" digits="0" name="frpm_trim1doz" rows="12" units="RPM">
+        <constant cols="1" digits="0" name="frpm_trim1doz" rows="12" units="RPM">
          501.0 
          801.0 
          1101.0 
@@ -1546,7 +1546,7 @@
          5400.0 
          6000.0 
       </constant>
-<constant cols="1" digits="1" name="fmap_trim1doz" rows="12" units="kPa">
+        <constant cols="1" digits="1" name="fmap_trim1doz" rows="12" units="kPa">
          30.1 
          35.0 
          40.0 
@@ -1560,42 +1560,42 @@
          80.0 
          85.0 
       </constant>
-<constant digits="0" name="can_outpc_msg">1520.0</constant>
-<constant name="can_outpc_gp00_master">"Off"</constant>
-<constant name="can_outpc_gp00">"Off"</constant>
-<constant name="can_outpc_gp01">"Off"</constant>
-<constant name="can_outpc_gp02">"Off"</constant>
-<constant name="can_outpc_gp03">"Off"</constant>
-<constant name="can_outpc_gp04">"Off"</constant>
-<constant name="can_outpc_gp05">"Off"</constant>
-<constant name="can_outpc_gp06">"Off"</constant>
-<constant name="can_outpc_gp07">"Off"</constant>
-<constant name="can_outpc_gp08">"Off"</constant>
-<constant name="can_outpc_gp09">"Off"</constant>
-<constant name="can_outpc_gp10">"Off"</constant>
-<constant name="can_outpc_gp11">"Off"</constant>
-<constant name="can_outpc_gp12">"Off"</constant>
-<constant name="can_outpc_gp13">"Off"</constant>
-<constant name="can_outpc_gp14">"Off"</constant>
-<constant name="can_outpc_gp15">"Off"</constant>
-<constant name="can_outpc_gp17">"Off"</constant>
-<constant name="can_outpc_gp18">"Off"</constant>
-<constant name="can_outpc_gp26">"Off"</constant>
-<constant name="can_outpc_gp27">"Off"</constant>
-<constant name="can_outpc_gp28">"Off"</constant>
-<constant name="can_outpc_gp29">"Off"</constant>
-<constant name="can_outpc_gp43">"Off"</constant>
-<constant name="can_outpc_gp46">"Off"</constant>
-<constant name="can_outpc_gp47">"Off"</constant>
-<constant name="can_outpc_gp51">"Off"</constant>
-<constant name="can_outpc_gp52">"Off"</constant>
-<constant name="can_outpc_gp55">"Off"</constant>
-<constant name="can_outpc_gp57">"Off"</constant>
-<constant name="can_outpc_gp58">"Off"</constant>
-<constant name="can_outpc_gp59">"Off"</constant>
-</page>
-<page number="4" size="1024">
-<constant cols="16" digits="0" name="veTable1" rows="16" units="%">
+        <constant digits="0" name="can_outpc_msg">1520.0</constant>
+        <constant name="can_outpc_gp00_master">"Off"</constant>
+        <constant name="can_outpc_gp00">"Off"</constant>
+        <constant name="can_outpc_gp01">"Off"</constant>
+        <constant name="can_outpc_gp02">"Off"</constant>
+        <constant name="can_outpc_gp03">"Off"</constant>
+        <constant name="can_outpc_gp04">"Off"</constant>
+        <constant name="can_outpc_gp05">"Off"</constant>
+        <constant name="can_outpc_gp06">"Off"</constant>
+        <constant name="can_outpc_gp07">"Off"</constant>
+        <constant name="can_outpc_gp08">"Off"</constant>
+        <constant name="can_outpc_gp09">"Off"</constant>
+        <constant name="can_outpc_gp10">"Off"</constant>
+        <constant name="can_outpc_gp11">"Off"</constant>
+        <constant name="can_outpc_gp12">"Off"</constant>
+        <constant name="can_outpc_gp13">"Off"</constant>
+        <constant name="can_outpc_gp14">"Off"</constant>
+        <constant name="can_outpc_gp15">"Off"</constant>
+        <constant name="can_outpc_gp17">"Off"</constant>
+        <constant name="can_outpc_gp18">"Off"</constant>
+        <constant name="can_outpc_gp26">"Off"</constant>
+        <constant name="can_outpc_gp27">"Off"</constant>
+        <constant name="can_outpc_gp28">"Off"</constant>
+        <constant name="can_outpc_gp29">"Off"</constant>
+        <constant name="can_outpc_gp43">"Off"</constant>
+        <constant name="can_outpc_gp46">"Off"</constant>
+        <constant name="can_outpc_gp47">"Off"</constant>
+        <constant name="can_outpc_gp51">"Off"</constant>
+        <constant name="can_outpc_gp52">"Off"</constant>
+        <constant name="can_outpc_gp55">"Off"</constant>
+        <constant name="can_outpc_gp57">"Off"</constant>
+        <constant name="can_outpc_gp58">"Off"</constant>
+        <constant name="can_outpc_gp59">"Off"</constant>
+    </page>
+    <page number="4" size="1024">
+        <constant cols="16" digits="0" name="veTable1" rows="16" units="%">
          24.0 41.0 55.0 64.0 65.0 64.0 65.0 65.0 61.0 62.0 65.0 66.0 66.0 66.0 66.0 66.0 
          67.0 64.0 64.0 66.0 66.0 65.0 61.0 61.0 62.0 65.0 65.0 64.0 66.0 66.0 66.0 66.0 
          55.0 57.0 58.0 63.0 68.0 67.0 66.0 64.0 63.0 66.0 68.0 69.0 66.0 66.0 66.0 66.0 
@@ -1613,7 +1613,7 @@
          39.0 51.0 60.0 69.0 77.0 81.0 91.0 104.0 108.0 114.0 117.0 117.0 117.0 117.0 117.0 115.0 
          37.0 50.0 59.0 68.0 76.0 81.0 92.0 106.0 107.0 113.0 117.0 117.0 117.0 117.0 117.0 117.0 
       </constant>
-<constant cols="16" digits="0" name="veTable2" rows="16" units="%">
+        <constant cols="16" digits="0" name="veTable2" rows="16" units="%">
          26.0 26.0 29.0 34.0 40.0 46.0 50.0 55.0 58.0 61.0 61.0 60.0 59.0 59.0 58.0 58.0 
          29.0 29.0 32.0 38.0 46.0 53.0 56.0 60.0 63.0 66.0 65.0 62.0 60.0 58.0 58.0 57.0 
          38.0 37.0 39.0 44.0 53.0 61.0 65.0 67.0 69.0 73.0 71.0 66.0 64.0 62.0 60.0 58.0 
@@ -1631,7 +1631,7 @@
          76.0 84.0 89.0 94.0 98.0 100.0 103.0 108.0 114.0 117.0 116.0 111.0 109.0 107.0 105.0 103.0 
          78.0 85.0 90.0 95.0 99.0 101.0 104.0 109.0 115.0 118.0 117.0 112.0 110.0 108.0 106.0 104.0 
       </constant>
-<constant cols="16" digits="0" name="veTable3" rows="16" units="%">
+        <constant cols="16" digits="0" name="veTable3" rows="16" units="%">
          38.0 63.0 63.0 38.0 36.0 27.0 14.0 11.0 11.0 16.0 23.0 23.0 21.0 20.0 22.0 22.0 
          41.0 63.0 63.0 42.0 38.0 31.0 17.0 13.0 13.0 13.0 22.0 26.0 30.0 28.0 30.0 30.0 
          67.0 60.0 61.0 56.0 54.0 50.0 36.0 33.0 27.0 23.0 29.0 29.0 31.0 31.0 31.0 31.0 
@@ -1649,7 +1649,7 @@
          55.0 72.0 81.0 90.0 97.0 100.0 104.0 115.0 114.0 112.0 106.0 106.0 101.0 97.0 93.0 89.0 
          52.0 69.0 78.0 88.0 98.0 101.0 106.0 116.0 116.0 114.0 109.0 107.0 102.0 98.0 95.0 91.0 
       </constant>
-<constant cols="1" digits="0" name="frpm_table1" rows="16" units="RPM">
+        <constant cols="1" digits="0" name="frpm_table1" rows="16" units="RPM">
          500.0 
          1000.0 
          1250.0 
@@ -1667,7 +1667,7 @@
          6500.0 
          7000.0 
       </constant>
-<constant cols="1" digits="0" name="frpm_table2" rows="16" units="RPM">
+        <constant cols="1" digits="0" name="frpm_table2" rows="16" units="RPM">
          502.0 
          801.0 
          1101.0 
@@ -1685,7 +1685,7 @@
          7200.0 
          7500.0 
       </constant>
-<constant cols="1" digits="0" name="frpm_table3" rows="16" units="RPM">
+        <constant cols="1" digits="0" name="frpm_table3" rows="16" units="RPM">
          700.0 
          1100.0 
          1400.0 
@@ -1703,7 +1703,7 @@
          6500.0 
          7000.0 
       </constant>
-<constant cols="1" digits="1" name="fmap_table1" rows="16" units="kPa">
+        <constant cols="1" digits="1" name="fmap_table1" rows="16" units="kPa">
          20.0 
          30.0 
          40.0 
@@ -1721,7 +1721,7 @@
          280.0 
          300.0 
       </constant>
-<constant cols="1" digits="1" name="fmap_table2" rows="16" units="%">
+        <constant cols="1" digits="1" name="fmap_table2" rows="16" units="%">
          30.2 
          35.0 
          40.0 
@@ -1739,7 +1739,7 @@
          98.0 
          100.0 
       </constant>
-<constant cols="1" digits="1" name="fmap_table3" rows="16" units="kPa">
+        <constant cols="1" digits="1" name="fmap_table3" rows="16" units="kPa">
          18.0 
          25.0 
          30.0 
@@ -1757,7 +1757,7 @@
          265.0 
          300.0 
       </constant>
-<constant cols="12" digits="0" name="veTable1dozen" rows="12" units="%">
+        <constant cols="12" digits="0" name="veTable1dozen" rows="12" units="%">
          24.0 41.0 55.0 64.0 65.0 64.0 65.0 65.0 61.0 62.0 65.0 66.0 
          66.0 66.0 66.0 66.0 67.0 64.0 64.0 66.0 66.0 65.0 61.0 61.0 
          62.0 65.0 65.0 64.0 66.0 66.0 66.0 66.0 55.0 57.0 58.0 63.0 
@@ -1771,7 +1771,7 @@
          112.0 112.0 112.0 111.0 111.0 111.0 110.0 112.0 54.0 59.0 63.0 67.0 
          70.0 71.0 86.0 112.0 112.0 112.0 113.0 113.0 113.0 113.0 111.0 112.0 
       </constant>
-<constant cols="12" digits="0" name="veTable2dozen" rows="12" units="%">
+        <constant cols="12" digits="0" name="veTable2dozen" rows="12" units="%">
          53.0 58.0 63.0 69.0 72.0 74.0 88.0 112.0 112.0 113.0 116.0 116.0 
          116.0 116.0 115.0 112.0 51.0 57.0 63.0 70.0 75.0 76.0 89.0 110.0 
          111.0 113.0 116.0 117.0 117.0 117.0 117.0 112.0 49.0 57.0 63.0 71.0 
@@ -1785,7 +1785,7 @@
          58.0 61.0 61.0 60.0 59.0 59.0 58.0 58.0 29.0 29.0 32.0 38.0 
          46.0 53.0 56.0 60.0 63.0 66.0 65.0 62.0 60.0 58.0 58.0 57.0 
       </constant>
-<constant cols="12" digits="0" name="veTable3dozen" rows="12" units="%">
+        <constant cols="12" digits="0" name="veTable3dozen" rows="12" units="%">
          38.0 37.0 39.0 44.0 53.0 61.0 65.0 67.0 69.0 73.0 71.0 66.0 
          64.0 62.0 60.0 58.0 43.0 42.0 43.0 45.0 54.0 63.0 66.0 69.0 
          71.0 75.0 73.0 67.0 65.0 63.0 61.0 59.0 48.0 46.0 48.0 50.0 
@@ -1799,7 +1799,7 @@
          94.0 98.0 97.0 93.0 91.0 89.0 87.0 85.0 72.0 77.0 82.0 87.0 
          90.0 93.0 95.0 100.0 105.0 109.0 108.0 103.0 101.0 99.0 97.0 95.0 
       </constant>
-<constant cols="1" digits="0" name="frpm_table1doz" rows="12" units="RPM">
+        <constant cols="1" digits="0" name="frpm_table1doz" rows="12" units="RPM">
          500.0 
          1000.0 
          1250.0 
@@ -1813,7 +1813,7 @@
          4500.0 
          5000.0 
       </constant>
-<constant cols="1" digits="0" name="frpm_table2doz" rows="12" units="RPM">
+        <constant cols="1" digits="0" name="frpm_table2doz" rows="12" units="RPM">
          5500.0 
          6000.0 
          6500.0 
@@ -1827,7 +1827,7 @@
          3101.0 
          3700.0 
       </constant>
-<constant cols="1" digits="0" name="frpm_table3doz" rows="12" units="RPM">
+        <constant cols="1" digits="0" name="frpm_table3doz" rows="12" units="RPM">
          4300.0 
          4900.0 
          5400.0 
@@ -1841,7 +1841,7 @@
          1400.0 
          1600.0 
       </constant>
-<constant cols="1" digits="1" name="fmap_table1doz" rows="12" units="kPa">
+        <constant cols="1" digits="1" name="fmap_table1doz" rows="12" units="kPa">
          20.0 
          30.0 
          40.0 
@@ -1855,7 +1855,7 @@
          200.0 
          220.0 
       </constant>
-<constant cols="1" digits="1" name="fmap_table2doz" rows="12" units="%">
+        <constant cols="1" digits="1" name="fmap_table2doz" rows="12" units="%">
          240.0 
          260.0 
          280.0 
@@ -1869,7 +1869,7 @@
          60.0 
          65.0 
       </constant>
-<constant cols="1" digits="1" name="fmap_table3doz" rows="12" units="kPa">
+        <constant cols="1" digits="1" name="fmap_table3doz" rows="12" units="kPa">
          70.0 
          75.0 
          80.0 
@@ -1883,7 +1883,7 @@
          30.0 
          40.0 
       </constant>
-<constant cols="1" digits="1" name="MAFFlow" rows="12" units="g/sec">
+        <constant cols="1" digits="1" name="MAFFlow" rows="12" units="g/sec">
          1.0 
          20.0 
          40.0 
@@ -1897,7 +1897,7 @@
          200.0 
          250.0 
       </constant>
-<constant cols="1" digits="0" name="MAFCor" rows="12" units="%">
+        <constant cols="1" digits="0" name="MAFCor" rows="12" units="%">
          100.0 
          100.0 
          100.0 
@@ -1911,7 +1911,7 @@
          100.0 
          100.0 
       </constant>
-<constant cols="1" digits="1" name="matclt_pct" rows="6" units="%">
+        <constant cols="1" digits="1" name="matclt_pct" rows="6" units="%">
          30.0 
          23.0 
          20.0 
@@ -1919,7 +1919,7 @@
          7.0 
          4.0 
       </constant>
-<constant cols="1" digits="0" name="matclt_flow" rows="6" units="load*rpm">
+        <constant cols="1" digits="0" name="matclt_flow" rows="6" units="load*rpm">
          30000.0 
          45000.0 
          100000.0 
@@ -1927,9 +1927,9 @@
          300000.0 
          350000.0 
       </constant>
-</page>
-<page number="5" size="1024">
-<constant cols="16" digits="1" name="veTrim2" rows="16" units="%">
+    </page>
+    <page number="5" size="1024">
+        <constant cols="16" digits="1" name="veTrim2" rows="16" units="%">
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
@@ -1947,7 +1947,7 @@
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
       </constant>
-<constant cols="16" digits="1" name="veTrim3" rows="16" units="%">
+        <constant cols="16" digits="1" name="veTrim3" rows="16" units="%">
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
@@ -1965,7 +1965,7 @@
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
       </constant>
-<constant cols="16" digits="1" name="veTrim4" rows="16" units="%">
+        <constant cols="16" digits="1" name="veTrim4" rows="16" units="%">
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
@@ -1983,7 +1983,7 @@
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
       </constant>
-<constant cols="1" digits="0" name="frpm_trim2" rows="16" units="RPM">
+        <constant cols="1" digits="0" name="frpm_trim2" rows="16" units="RPM">
          501.0 
          801.0 
          1101.0 
@@ -2001,7 +2001,7 @@
          7200.0 
          7500.0 
       </constant>
-<constant cols="1" digits="0" name="frpm_trim3" rows="16" units="RPM">
+        <constant cols="1" digits="0" name="frpm_trim3" rows="16" units="RPM">
          501.0 
          801.0 
          1101.0 
@@ -2019,7 +2019,7 @@
          7200.0 
          7500.0 
       </constant>
-<constant cols="1" digits="0" name="frpm_trim4" rows="16" units="RPM">
+        <constant cols="1" digits="0" name="frpm_trim4" rows="16" units="RPM">
          501.0 
          801.0 
          1101.0 
@@ -2037,7 +2037,7 @@
          7200.0 
          7500.0 
       </constant>
-<constant cols="1" digits="1" name="fmap_trim2" rows="16" units="kPa">
+        <constant cols="1" digits="1" name="fmap_trim2" rows="16" units="kPa">
          30.1 
          35.0 
          40.0 
@@ -2055,7 +2055,7 @@
          98.0 
          100.0 
       </constant>
-<constant cols="1" digits="1" name="fmap_trim3" rows="16" units="kPa">
+        <constant cols="1" digits="1" name="fmap_trim3" rows="16" units="kPa">
          30.1 
          35.0 
          40.0 
@@ -2073,7 +2073,7 @@
          98.0 
          100.0 
       </constant>
-<constant cols="1" digits="1" name="fmap_trim4" rows="16" units="kPa">
+        <constant cols="1" digits="1" name="fmap_trim4" rows="16" units="kPa">
          30.1 
          35.0 
          40.0 
@@ -2091,7 +2091,7 @@
          98.0 
          100.0 
       </constant>
-<constant cols="12" digits="1" name="veTrim2dozen" rows="12" units="%">
+        <constant cols="12" digits="1" name="veTrim2dozen" rows="12" units="%">
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
@@ -2105,7 +2105,7 @@
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
       </constant>
-<constant cols="12" digits="1" name="veTrim3dozen" rows="12" units="%">
+        <constant cols="12" digits="1" name="veTrim3dozen" rows="12" units="%">
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
@@ -2119,7 +2119,7 @@
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
       </constant>
-<constant cols="12" digits="1" name="veTrim4dozen" rows="12" units="%">
+        <constant cols="12" digits="1" name="veTrim4dozen" rows="12" units="%">
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
@@ -2133,7 +2133,7 @@
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
       </constant>
-<constant cols="1" digits="0" name="frpm_trim2doz" rows="12" units="RPM">
+        <constant cols="1" digits="0" name="frpm_trim2doz" rows="12" units="RPM">
          501.0 
          801.0 
          1101.0 
@@ -2147,7 +2147,7 @@
          5400.0 
          6000.0 
       </constant>
-<constant cols="1" digits="0" name="frpm_trim3doz" rows="12" units="RPM">
+        <constant cols="1" digits="0" name="frpm_trim3doz" rows="12" units="RPM">
          6500.0 
          7000.0 
          7200.0 
@@ -2161,7 +2161,7 @@
          3101.0 
          3700.0 
       </constant>
-<constant cols="1" digits="0" name="frpm_trim4doz" rows="12" units="RPM">
+        <constant cols="1" digits="0" name="frpm_trim4doz" rows="12" units="RPM">
          4300.0 
          4900.0 
          5400.0 
@@ -2175,7 +2175,7 @@
          1101.0 
          1401.0 
       </constant>
-<constant cols="1" digits="1" name="fmap_trim2doz" rows="12" units="kPa">
+        <constant cols="1" digits="1" name="fmap_trim2doz" rows="12" units="kPa">
          30.1 
          35.0 
          40.0 
@@ -2189,7 +2189,7 @@
          80.0 
          85.0 
       </constant>
-<constant cols="1" digits="1" name="fmap_trim3doz" rows="12" units="kPa">
+        <constant cols="1" digits="1" name="fmap_trim3doz" rows="12" units="kPa">
          90.0 
          95.0 
          98.0 
@@ -2203,7 +2203,7 @@
          60.0 
          65.0 
       </constant>
-<constant cols="1" digits="1" name="fmap_trim4doz" rows="12" units="kPa">
+        <constant cols="1" digits="1" name="fmap_trim4doz" rows="12" units="kPa">
          70.0 
          75.0 
          80.0 
@@ -2217,7 +2217,7 @@
          40.0 
          45.0 
       </constant>
-<constant cols="1" digits="1" name="ITB_load_loadvals" rows="10" units="%">
+        <constant cols="1" digits="1" name="ITB_load_loadvals" rows="10" units="%">
          90.0 
          84.6 
          79.1 
@@ -2229,7 +2229,7 @@
          35.4 
          30.0 
       </constant>
-<constant cols="1" digits="1" name="ITB_load_switchpoints" rows="10" units="%">
+        <constant cols="1" digits="1" name="ITB_load_switchpoints" rows="10" units="%">
          5.0 
          7.7 
          10.4 
@@ -2241,7 +2241,7 @@
          32.0 
          34.7 
       </constant>
-<constant cols="1" digits="0" name="ITB_load_rpms" rows="10" units="rpm">
+        <constant cols="1" digits="0" name="ITB_load_rpms" rows="10" units="rpm">
          800.0 
          1454.0 
          2109.0 
@@ -2253,53 +2253,53 @@
          7345.0 
          8000.0 
       </constant>
-</page>
-<page number="6" size="1024">
-<constant name="idle_up_options_input">"PE0/JS7"</constant>
-<constant name="idle_up_options">"Off"</constant>
-<constant name="ac_idleup_settings">"Off"</constant>
-<constant name="idle_up_options_inv">"Low"</constant>
-<constant digits="1" name="idle_up_duty" units="%">12.936</constant>
-<constant digits="0" name="idle_up_steps" units="steps">33.0</constant>
-<constant digits="1" name="ac_idleup_adder_duty" units="%">12.936</constant>
-<constant digits="0" name="ac_idleup_adder_steps" units="steps">33.0</constant>
-<constant digits="0" name="idle_up_targ_rpm" units="rpm">0.0</constant>
-<constant digits="0" name="ac_idleup_cl_targetadder" units="rpm">0.0</constant>
-<constant digits="0" name="ac_idleup_delay" units="ms">200.0</constant>
-<constant name="ClutchPIDEntry">"Off"</constant>
-<constant digits="0" name="pidrpm_window">0.0</constant>
-<constant name="ac_idleup_io_out">"Off"</constant>
-<constant name="pwmidle_cl_opts_initvaluetable">"Use last value"</constant>
-<constant name="pwmidle_cl_opts_initval_clt">"Use MAT"</constant>
-<constant cols="1" digits="1" name="idleadvance_curve" rows="5" units="deg">
+    </page>
+    <page number="6" size="1024">
+        <constant name="idle_up_options_input">"PE0/JS7"</constant>
+        <constant name="idle_up_options">"Off"</constant>
+        <constant name="ac_idleup_settings">"Off"</constant>
+        <constant name="idle_up_options_inv">"Low"</constant>
+        <constant digits="1" name="idle_up_duty" units="%">12.936</constant>
+        <constant digits="0" name="idle_up_steps" units="steps">33.0</constant>
+        <constant digits="1" name="ac_idleup_adder_duty" units="%">12.936</constant>
+        <constant digits="0" name="ac_idleup_adder_steps" units="steps">33.0</constant>
+        <constant digits="0" name="idle_up_targ_rpm" units="rpm">0.0</constant>
+        <constant digits="0" name="ac_idleup_cl_targetadder" units="rpm">0.0</constant>
+        <constant digits="0" name="ac_idleup_delay" units="ms">200.0</constant>
+        <constant name="ClutchPIDEntry">"Off"</constant>
+        <constant digits="0" name="pidrpm_window">0.0</constant>
+        <constant name="ac_idleup_io_out">"Off"</constant>
+        <constant name="pwmidle_cl_opts_initvaluetable">"Use last value"</constant>
+        <constant name="pwmidle_cl_opts_initval_clt">"Use MAT"</constant>
+        <constant cols="1" digits="1" name="idleadvance_curve" rows="5" units="deg">
          20.0 
          20.0 
          20.0 
          25.0 
          30.0 
       </constant>
-<constant cols="1" digits="1" name="idleadvance_loads" rows="5" units="%">
+        <constant cols="1" digits="1" name="idleadvance_loads" rows="5" units="%">
          20.0 
          25.0 
          30.0 
          35.0 
          40.0 
       </constant>
-<constant cols="1" digits="0" name="idleadvance_rpms" rows="5" units="rpms">
+        <constant cols="1" digits="0" name="idleadvance_rpms" rows="5" units="rpms">
          600.0 
          800.0 
          925.0 
          1000.0 
          1100.0 
       </constant>
-<constant cols="1" digits="0" name="idleadvance_rpmsdelta" rows="5" units="rpms">
+        <constant cols="1" digits="0" name="idleadvance_rpmsdelta" rows="5" units="rpms">
          600.0 
          800.0 
          925.0 
          1000.0 
          1100.0 
       </constant>
-<constant cols="1" digits="1" name="idle_voltage_comp_voltage" rows="6" units="V">
+        <constant cols="1" digits="1" name="idle_voltage_comp_voltage" rows="6" units="V">
          11.0 
          12.0 
          12.5 
@@ -2307,7 +2307,7 @@
          13.2 
          14.0 
       </constant>
-<constant cols="1" digits="1" name="idle_voltage_comp_voltagedelta" rows="6" units="V">
+        <constant cols="1" digits="1" name="idle_voltage_comp_voltagedelta" rows="6" units="V">
          11.0 
          12.0 
          12.5 
@@ -2315,7 +2315,7 @@
          13.2 
          14.0 
       </constant>
-<constant cols="1" digits="1" name="idle_voltage_comp_delta" rows="6" units="%">
+        <constant cols="1" digits="1" name="idle_voltage_comp_delta" rows="6" units="%">
          0.0 
          0.0 
          0.0 
@@ -2323,35 +2323,35 @@
          0.0 
          0.0 
       </constant>
-<constant cols="1" digits="0" name="pwmidle_cl_initialvalue_rpms" rows="5" units="rpm">
+        <constant cols="1" digits="0" name="pwmidle_cl_initialvalue_rpms" rows="5" units="rpm">
          800.0 
          900.0 
          1000.0 
          1100.0 
          1200.0 
       </constant>
-<constant cols="1" digits="1" name="pwmidle_cl_initialvalue_matorclt" rows="5" units="°F">
+        <constant cols="1" digits="1" name="pwmidle_cl_initialvalue_matorclt" rows="5" units="°F">
          0.0 
          50.0 
          100.0 
          150.0 
          212.0 
       </constant>
-<constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
+        <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
          27.44 31.36 35.28 39.2 43.12 
          27.44 31.36 35.28 39.2 43.12 
          27.44 31.36 35.28 39.2 43.12 
          27.44 31.36 35.28 39.2 43.12 
          27.44 31.36 35.28 39.2 43.12 
       </constant>
-<constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
+        <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
          70.0 80.0 90.0 100.0 110.0 
          70.0 80.0 90.0 100.0 110.0 
          70.0 80.0 90.0 100.0 110.0 
          70.0 80.0 90.0 100.0 110.0 
          70.0 80.0 90.0 100.0 110.0 
       </constant>
-<constant cols="1" digits="3" name="mafv" rows="64" units="V">
+        <constant cols="1" digits="3" name="mafv" rows="64" units="V">
          0.0 
          0.08 
          0.16 
@@ -2417,7 +2417,7 @@
          4.85 
          4.93 
       </constant>
-<constant cols="1" digits="2" name="mafflow" rows="64" units="g/sec">
+        <constant cols="1" digits="2" name="mafflow" rows="64" units="g/sec">
          0.0 
          0.5 
          1.0 
@@ -2483,7 +2483,7 @@
          245.56 
          261.22 
       </constant>
-<constant cols="1" digits="1" name="baroCorrVals" rows="9" units="kPa">
+        <constant cols="1" digits="1" name="baroCorrVals" rows="9" units="kPa">
          80.0 
          86.3 
          92.5 
@@ -2494,7 +2494,7 @@
          113.8 
          120.0 
       </constant>
-<constant cols="1" digits="1" name="matCorrTemps2" rows="9" units="°F">
+        <constant cols="1" digits="1" name="matCorrTemps2" rows="9" units="°F">
          -40.0 
          -4.0 
          32.0 
@@ -2505,7 +2505,7 @@
          194.0 
          248.0 
       </constant>
-<constant cols="1" digits="1" name="baroCorrDelta" rows="9" units="%">
+        <constant cols="1" digits="1" name="baroCorrDelta" rows="9" units="%">
          0.0 
          0.0 
          0.0 
@@ -2516,7 +2516,7 @@
          0.0 
          0.0 
       </constant>
-<constant cols="1" digits="1" name="matCorrDelta2" rows="9" units="%">
+        <constant cols="1" digits="1" name="matCorrDelta2" rows="9" units="%">
          125.7 
          115.8 
          107.3 
@@ -2527,7 +2527,7 @@
          91.3 
          80.0 
       </constant>
-<constant cols="1" digits="1" name="tpswot_tps" rows="6" units="%">
+        <constant cols="1" digits="1" name="tpswot_tps" rows="6" units="%">
          10.0 
          20.0 
          57.0 
@@ -2535,7 +2535,7 @@
          96.0 
          97.0 
       </constant>
-<constant cols="1" digits="0" name="tpswot_rpm" rows="6" units="RPM">
+        <constant cols="1" digits="0" name="tpswot_rpm" rows="6" units="RPM">
          0.0 
          1000.0 
          2427.0 
@@ -2543,7 +2543,7 @@
          4332.0 
          6311.0 
       </constant>
-<constant cols="1" digits="0" name="knock_rpms" rows="10" units="rpm">
+        <constant cols="1" digits="0" name="knock_rpms" rows="10" units="rpm">
          500.0 
          1000.0 
          1500.0 
@@ -2555,7 +2555,7 @@
          6000.0 
          7000.0 
       </constant>
-<constant cols="1" digits="1" name="knock_thresholds" rows="10" units="%">
+        <constant cols="1" digits="1" name="knock_thresholds" rows="10" units="%">
          50.0 
          50.0 
          50.0 
@@ -2567,18 +2567,18 @@
          50.0 
          50.0 
       </constant>
-<constant name="shift_cut_on">"Off"</constant>
-<constant name="shift_cut_in">"PE1"</constant>
-<constant name="shift_cut_out">"Off"</constant>
-<constant digits="0" name="shift_cut_rpm" units="RPM">8000.0</constant>
-<constant digits="0" name="shift_cut_tps" units="%">75.0</constant>
-<constant digits="2" name="shift_cut_delay" units="s">0.1024</constant>
-<constant digits="2" name="shift_cut_time" units="s">0.08192</constant>
-<constant digits="2" name="shift_cut_soldelay" units="s">0.1024</constant>
-<constant digits="2" name="shift_cut_reshift" units="s">0.512</constant>
-<constant digits="0" name="ac_idleup_min_rpm" units="rpm">300.0</constant>
-<constant digits="0" name="ac_delay_since_last_on" units="s">5.0</constant>
-<constant cols="8" digits="0" name="boost_ctl_cl_pwm_targs1" rows="8" units="%">
+        <constant name="shift_cut_on">"Off"</constant>
+        <constant name="shift_cut_in">"PE1"</constant>
+        <constant name="shift_cut_out">"Off"</constant>
+        <constant digits="0" name="shift_cut_rpm" units="RPM">8000.0</constant>
+        <constant digits="0" name="shift_cut_tps" units="%">75.0</constant>
+        <constant digits="2" name="shift_cut_delay" units="s">0.1024</constant>
+        <constant digits="2" name="shift_cut_time" units="s">0.08192</constant>
+        <constant digits="2" name="shift_cut_soldelay" units="s">0.1024</constant>
+        <constant digits="2" name="shift_cut_reshift" units="s">0.512</constant>
+        <constant digits="0" name="ac_idleup_min_rpm" units="rpm">300.0</constant>
+        <constant digits="0" name="ac_delay_since_last_on" units="s">5.0</constant>
+        <constant cols="8" digits="0" name="boost_ctl_cl_pwm_targs1" rows="8" units="%">
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
@@ -2588,7 +2588,7 @@
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
          100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
       </constant>
-<constant cols="1" digits="0" name="boost_ctl_cl_pwm_rpms1" rows="8" units="rpm">
+        <constant cols="1" digits="0" name="boost_ctl_cl_pwm_rpms1" rows="8" units="rpm">
          1500.0 
          2500.0 
          3500.0 
@@ -2598,7 +2598,7 @@
          6000.0 
          6500.0 
       </constant>
-<constant cols="1" digits="0" name="boost_ctl_cl_pwm_targboosts1" rows="8" units="%">
+        <constant cols="1" digits="0" name="boost_ctl_cl_pwm_targboosts1" rows="8" units="%">
          100.0 
          110.0 
          130.0 
@@ -2608,282 +2608,282 @@
          170.0 
          180.0 
       </constant>
-<constant digits="0" name="can_bcast_user_id">1234.0</constant>
-<constant digits="0" name="can_bcast_user_d0">4.0</constant>
-<constant digits="0" name="can_bcast_user_d1">0.0</constant>
-<constant digits="0" name="can_bcast_user_d2">0.0</constant>
-<constant digits="0" name="can_bcast_user_d3">0.0</constant>
-<constant digits="0" name="can_bcast_user_d4">0.0</constant>
-<constant digits="0" name="can_bcast_user_d5">0.0</constant>
-<constant digits="0" name="can_bcast_user_d6">0.0</constant>
-<constant digits="0" name="can_bcast_user_d7">0.0</constant>
-<constant digits="0" name="dashbcast_id1">1512.0</constant>
-<constant name="dashbcast_opta1">"Off"</constant>
-<constant name="dashbcast_opta1adv">"Automatic"</constant>
-<constant name="dashbcast_opta4outrate">"20Hz"</constant>
-<constant digits="0" name="outmsg1_offset01">0.0</constant>
-<constant digits="0" name="outmsg1_offset02">0.0</constant>
-<constant digits="0" name="outmsg1_offset03">0.0</constant>
-<constant digits="0" name="outmsg1_offset04">0.0</constant>
-<constant digits="0" name="outmsg1_offset05">0.0</constant>
-<constant digits="0" name="outmsg1_offset06">0.0</constant>
-<constant digits="0" name="outmsg1_offset07">0.0</constant>
-<constant digits="0" name="outmsg1_offset08">0.0</constant>
-<constant digits="0" name="outmsg1_offset09">0.0</constant>
-<constant digits="0" name="outmsg1_offset10">0.0</constant>
-<constant digits="0" name="outmsg1_offset11">0.0</constant>
-<constant digits="0" name="outmsg1_offset12">0.0</constant>
-<constant digits="0" name="outmsg1_offset13">0.0</constant>
-<constant digits="0" name="outmsg1_offset14">0.0</constant>
-<constant digits="0" name="outmsg1_offset15">0.0</constant>
-<constant digits="0" name="outmsg1_offset16">0.0</constant>
-<constant digits="0" name="outmsg1_size01">0.0</constant>
-<constant digits="0" name="outmsg1_size02">0.0</constant>
-<constant digits="0" name="outmsg1_size03">0.0</constant>
-<constant digits="0" name="outmsg1_size04">0.0</constant>
-<constant digits="0" name="outmsg1_size05">0.0</constant>
-<constant digits="0" name="outmsg1_size06">0.0</constant>
-<constant digits="0" name="outmsg1_size07">0.0</constant>
-<constant digits="0" name="outmsg1_size08">0.0</constant>
-<constant digits="0" name="outmsg1_size09">0.0</constant>
-<constant digits="0" name="outmsg1_size10">0.0</constant>
-<constant digits="0" name="outmsg1_size11">0.0</constant>
-<constant digits="0" name="outmsg1_size12">0.0</constant>
-<constant digits="0" name="outmsg1_size13">0.0</constant>
-<constant digits="0" name="outmsg1_size14">0.0</constant>
-<constant digits="0" name="outmsg1_size15">0.0</constant>
-<constant digits="0" name="outmsg1_size16">0.0</constant>
-<constant digits="0" name="outmsg2_offset01">0.0</constant>
-<constant digits="0" name="outmsg2_offset02">0.0</constant>
-<constant digits="0" name="outmsg2_offset03">0.0</constant>
-<constant digits="0" name="outmsg2_offset04">0.0</constant>
-<constant digits="0" name="outmsg2_offset05">0.0</constant>
-<constant digits="0" name="outmsg2_offset06">0.0</constant>
-<constant digits="0" name="outmsg2_offset07">0.0</constant>
-<constant digits="0" name="outmsg2_offset08">0.0</constant>
-<constant digits="0" name="outmsg2_offset09">0.0</constant>
-<constant digits="0" name="outmsg2_offset10">0.0</constant>
-<constant digits="0" name="outmsg2_offset11">0.0</constant>
-<constant digits="0" name="outmsg2_offset12">0.0</constant>
-<constant digits="0" name="outmsg2_offset13">0.0</constant>
-<constant digits="0" name="outmsg2_offset14">0.0</constant>
-<constant digits="0" name="outmsg2_offset15">0.0</constant>
-<constant digits="0" name="outmsg2_offset16">0.0</constant>
-<constant digits="0" name="outmsg2_size01">0.0</constant>
-<constant digits="0" name="outmsg2_size02">0.0</constant>
-<constant digits="0" name="outmsg2_size03">0.0</constant>
-<constant digits="0" name="outmsg2_size04">0.0</constant>
-<constant digits="0" name="outmsg2_size05">0.0</constant>
-<constant digits="0" name="outmsg2_size06">0.0</constant>
-<constant digits="0" name="outmsg2_size07">0.0</constant>
-<constant digits="0" name="outmsg2_size08">0.0</constant>
-<constant digits="0" name="outmsg2_size09">0.0</constant>
-<constant digits="0" name="outmsg2_size10">0.0</constant>
-<constant digits="0" name="outmsg2_size11">0.0</constant>
-<constant digits="0" name="outmsg2_size12">0.0</constant>
-<constant digits="0" name="outmsg2_size13">0.0</constant>
-<constant digits="0" name="outmsg2_size14">0.0</constant>
-<constant digits="0" name="outmsg2_size15">0.0</constant>
-<constant digits="0" name="outmsg2_size16">0.0</constant>
-<constant digits="0" name="outmsg3_offset01">0.0</constant>
-<constant digits="0" name="outmsg3_offset02">0.0</constant>
-<constant digits="0" name="outmsg3_offset03">0.0</constant>
-<constant digits="0" name="outmsg3_offset04">0.0</constant>
-<constant digits="0" name="outmsg3_offset05">0.0</constant>
-<constant digits="0" name="outmsg3_offset06">0.0</constant>
-<constant digits="0" name="outmsg3_offset07">0.0</constant>
-<constant digits="0" name="outmsg3_offset08">0.0</constant>
-<constant digits="0" name="outmsg3_offset09">0.0</constant>
-<constant digits="0" name="outmsg3_offset10">0.0</constant>
-<constant digits="0" name="outmsg3_offset11">0.0</constant>
-<constant digits="0" name="outmsg3_offset12">0.0</constant>
-<constant digits="0" name="outmsg3_offset13">0.0</constant>
-<constant digits="0" name="outmsg3_offset14">0.0</constant>
-<constant digits="0" name="outmsg3_offset15">0.0</constant>
-<constant digits="0" name="outmsg3_offset16">0.0</constant>
-<constant digits="0" name="outmsg3_size01">0.0</constant>
-<constant digits="0" name="outmsg3_size02">0.0</constant>
-<constant digits="0" name="outmsg3_size03">0.0</constant>
-<constant digits="0" name="outmsg3_size04">0.0</constant>
-<constant digits="0" name="outmsg3_size05">0.0</constant>
-<constant digits="0" name="outmsg3_size06">0.0</constant>
-<constant digits="0" name="outmsg3_size07">0.0</constant>
-<constant digits="0" name="outmsg3_size08">0.0</constant>
-<constant digits="0" name="outmsg3_size09">0.0</constant>
-<constant digits="0" name="outmsg3_size10">0.0</constant>
-<constant digits="0" name="outmsg3_size11">0.0</constant>
-<constant digits="0" name="outmsg3_size12">0.0</constant>
-<constant digits="0" name="outmsg3_size13">0.0</constant>
-<constant digits="0" name="outmsg3_size14">0.0</constant>
-<constant digits="0" name="outmsg3_size15">0.0</constant>
-<constant digits="0" name="outmsg3_size16">0.0</constant>
-<constant digits="0" name="outmsg4_offset01">0.0</constant>
-<constant digits="0" name="outmsg4_offset02">0.0</constant>
-<constant digits="0" name="outmsg4_offset03">0.0</constant>
-<constant digits="0" name="outmsg4_offset04">0.0</constant>
-<constant digits="0" name="outmsg4_offset05">0.0</constant>
-<constant digits="0" name="outmsg4_offset06">0.0</constant>
-<constant digits="0" name="outmsg4_offset07">0.0</constant>
-<constant digits="0" name="outmsg4_offset08">0.0</constant>
-<constant digits="0" name="outmsg4_offset09">0.0</constant>
-<constant digits="0" name="outmsg4_offset10">0.0</constant>
-<constant digits="0" name="outmsg4_offset11">0.0</constant>
-<constant digits="0" name="outmsg4_offset12">0.0</constant>
-<constant digits="0" name="outmsg4_offset13">0.0</constant>
-<constant digits="0" name="outmsg4_offset14">0.0</constant>
-<constant digits="0" name="outmsg4_offset15">0.0</constant>
-<constant digits="0" name="outmsg4_offset16">0.0</constant>
-<constant digits="0" name="outmsg4_size01">0.0</constant>
-<constant digits="0" name="outmsg4_size02">0.0</constant>
-<constant digits="0" name="outmsg4_size03">0.0</constant>
-<constant digits="0" name="outmsg4_size04">0.0</constant>
-<constant digits="0" name="outmsg4_size05">0.0</constant>
-<constant digits="0" name="outmsg4_size06">0.0</constant>
-<constant digits="0" name="outmsg4_size07">0.0</constant>
-<constant digits="0" name="outmsg4_size08">0.0</constant>
-<constant digits="0" name="outmsg4_size09">0.0</constant>
-<constant digits="0" name="outmsg4_size10">0.0</constant>
-<constant digits="0" name="outmsg4_size11">0.0</constant>
-<constant digits="0" name="outmsg4_size12">0.0</constant>
-<constant digits="0" name="outmsg4_size13">0.0</constant>
-<constant digits="0" name="outmsg4_size14">0.0</constant>
-<constant digits="0" name="outmsg4_size15">0.0</constant>
-<constant digits="0" name="outmsg4_size16">0.0</constant>
-<constant digits="0" name="outmsg5_offset01">0.0</constant>
-<constant digits="0" name="outmsg5_offset02">0.0</constant>
-<constant digits="0" name="outmsg5_offset03">0.0</constant>
-<constant digits="0" name="outmsg5_offset04">0.0</constant>
-<constant digits="0" name="outmsg5_offset05">0.0</constant>
-<constant digits="0" name="outmsg5_offset06">0.0</constant>
-<constant digits="0" name="outmsg5_offset07">0.0</constant>
-<constant digits="0" name="outmsg5_offset08">0.0</constant>
-<constant digits="0" name="outmsg5_offset09">0.0</constant>
-<constant digits="0" name="outmsg5_offset10">0.0</constant>
-<constant digits="0" name="outmsg5_offset11">0.0</constant>
-<constant digits="0" name="outmsg5_offset12">0.0</constant>
-<constant digits="0" name="outmsg5_offset13">0.0</constant>
-<constant digits="0" name="outmsg5_offset14">0.0</constant>
-<constant digits="0" name="outmsg5_offset15">0.0</constant>
-<constant digits="0" name="outmsg5_offset16">0.0</constant>
-<constant digits="0" name="outmsg5_size01">0.0</constant>
-<constant digits="0" name="outmsg5_size02">0.0</constant>
-<constant digits="0" name="outmsg5_size03">0.0</constant>
-<constant digits="0" name="outmsg5_size04">0.0</constant>
-<constant digits="0" name="outmsg5_size05">0.0</constant>
-<constant digits="0" name="outmsg5_size06">0.0</constant>
-<constant digits="0" name="outmsg5_size07">0.0</constant>
-<constant digits="0" name="outmsg5_size08">0.0</constant>
-<constant digits="0" name="outmsg5_size09">0.0</constant>
-<constant digits="0" name="outmsg5_size10">0.0</constant>
-<constant digits="0" name="outmsg5_size11">0.0</constant>
-<constant digits="0" name="outmsg5_size12">0.0</constant>
-<constant digits="0" name="outmsg5_size13">0.0</constant>
-<constant digits="0" name="outmsg5_size14">0.0</constant>
-<constant digits="0" name="outmsg5_size15">0.0</constant>
-<constant digits="0" name="outmsg5_size16">0.0</constant>
-<constant digits="0" name="outmsg6_offset01">0.0</constant>
-<constant digits="0" name="outmsg6_offset02">0.0</constant>
-<constant digits="0" name="outmsg6_offset03">0.0</constant>
-<constant digits="0" name="outmsg6_offset04">0.0</constant>
-<constant digits="0" name="outmsg6_offset05">0.0</constant>
-<constant digits="0" name="outmsg6_offset06">0.0</constant>
-<constant digits="0" name="outmsg6_offset07">0.0</constant>
-<constant digits="0" name="outmsg6_offset08">0.0</constant>
-<constant digits="0" name="outmsg6_offset09">0.0</constant>
-<constant digits="0" name="outmsg6_offset10">0.0</constant>
-<constant digits="0" name="outmsg6_offset11">0.0</constant>
-<constant digits="0" name="outmsg6_offset12">0.0</constant>
-<constant digits="0" name="outmsg6_offset13">0.0</constant>
-<constant digits="0" name="outmsg6_offset14">0.0</constant>
-<constant digits="0" name="outmsg6_offset15">0.0</constant>
-<constant digits="0" name="outmsg6_offset16">0.0</constant>
-<constant digits="0" name="outmsg6_size01">0.0</constant>
-<constant digits="0" name="outmsg6_size02">0.0</constant>
-<constant digits="0" name="outmsg6_size03">0.0</constant>
-<constant digits="0" name="outmsg6_size04">0.0</constant>
-<constant digits="0" name="outmsg6_size05">0.0</constant>
-<constant digits="0" name="outmsg6_size06">0.0</constant>
-<constant digits="0" name="outmsg6_size07">0.0</constant>
-<constant digits="0" name="outmsg6_size08">0.0</constant>
-<constant digits="0" name="outmsg6_size09">0.0</constant>
-<constant digits="0" name="outmsg6_size10">0.0</constant>
-<constant digits="0" name="outmsg6_size11">0.0</constant>
-<constant digits="0" name="outmsg6_size12">0.0</constant>
-<constant digits="0" name="outmsg6_size13">0.0</constant>
-<constant digits="0" name="outmsg6_size14">0.0</constant>
-<constant digits="0" name="outmsg6_size15">0.0</constant>
-<constant digits="0" name="outmsg6_size16">0.0</constant>
-<constant digits="0" name="outmsg7_offset01">0.0</constant>
-<constant digits="0" name="outmsg7_offset02">0.0</constant>
-<constant digits="0" name="outmsg7_offset03">0.0</constant>
-<constant digits="0" name="outmsg7_offset04">0.0</constant>
-<constant digits="0" name="outmsg7_offset05">0.0</constant>
-<constant digits="0" name="outmsg7_offset06">0.0</constant>
-<constant digits="0" name="outmsg7_offset07">0.0</constant>
-<constant digits="0" name="outmsg7_offset08">0.0</constant>
-<constant digits="0" name="outmsg7_offset09">0.0</constant>
-<constant digits="0" name="outmsg7_offset10">0.0</constant>
-<constant digits="0" name="outmsg7_offset11">0.0</constant>
-<constant digits="0" name="outmsg7_offset12">0.0</constant>
-<constant digits="0" name="outmsg7_offset13">0.0</constant>
-<constant digits="0" name="outmsg7_offset14">0.0</constant>
-<constant digits="0" name="outmsg7_offset15">0.0</constant>
-<constant digits="0" name="outmsg7_offset16">0.0</constant>
-<constant digits="0" name="outmsg7_size01">0.0</constant>
-<constant digits="0" name="outmsg7_size02">0.0</constant>
-<constant digits="0" name="outmsg7_size03">0.0</constant>
-<constant digits="0" name="outmsg7_size04">0.0</constant>
-<constant digits="0" name="outmsg7_size05">0.0</constant>
-<constant digits="0" name="outmsg7_size06">0.0</constant>
-<constant digits="0" name="outmsg7_size07">0.0</constant>
-<constant digits="0" name="outmsg7_size08">0.0</constant>
-<constant digits="0" name="outmsg7_size09">0.0</constant>
-<constant digits="0" name="outmsg7_size10">0.0</constant>
-<constant digits="0" name="outmsg7_size11">0.0</constant>
-<constant digits="0" name="outmsg7_size12">0.0</constant>
-<constant digits="0" name="outmsg7_size13">0.0</constant>
-<constant digits="0" name="outmsg7_size14">0.0</constant>
-<constant digits="0" name="outmsg7_size15">0.0</constant>
-<constant digits="0" name="outmsg7_size16">0.0</constant>
-<constant digits="0" name="outmsg8_offset01">0.0</constant>
-<constant digits="0" name="outmsg8_offset02">0.0</constant>
-<constant digits="0" name="outmsg8_offset03">0.0</constant>
-<constant digits="0" name="outmsg8_offset04">0.0</constant>
-<constant digits="0" name="outmsg8_offset05">0.0</constant>
-<constant digits="0" name="outmsg8_offset06">0.0</constant>
-<constant digits="0" name="outmsg8_offset07">0.0</constant>
-<constant digits="0" name="outmsg8_offset08">0.0</constant>
-<constant digits="0" name="outmsg8_offset09">0.0</constant>
-<constant digits="0" name="outmsg8_offset10">0.0</constant>
-<constant digits="0" name="outmsg8_offset11">0.0</constant>
-<constant digits="0" name="outmsg8_offset12">0.0</constant>
-<constant digits="0" name="outmsg8_offset13">0.0</constant>
-<constant digits="0" name="outmsg8_offset14">0.0</constant>
-<constant digits="0" name="outmsg8_offset15">0.0</constant>
-<constant digits="0" name="outmsg8_offset16">0.0</constant>
-<constant digits="0" name="outmsg8_size01">0.0</constant>
-<constant digits="0" name="outmsg8_size02">0.0</constant>
-<constant digits="0" name="outmsg8_size03">0.0</constant>
-<constant digits="0" name="outmsg8_size04">0.0</constant>
-<constant digits="0" name="outmsg8_size05">0.0</constant>
-<constant digits="0" name="outmsg8_size06">0.0</constant>
-<constant digits="0" name="outmsg8_size07">0.0</constant>
-<constant digits="0" name="outmsg8_size08">0.0</constant>
-<constant digits="0" name="outmsg8_size09">0.0</constant>
-<constant digits="0" name="outmsg8_size10">0.0</constant>
-<constant digits="0" name="outmsg8_size11">0.0</constant>
-<constant digits="0" name="outmsg8_size12">0.0</constant>
-<constant digits="0" name="outmsg8_size13">0.0</constant>
-<constant digits="0" name="outmsg8_size14">0.0</constant>
-<constant digits="0" name="outmsg8_size15">0.0</constant>
-<constant digits="0" name="outmsg8_size16">0.0</constant>
-</page>
-<settings Comment="These setting are only used if this msq is opened without a project.">
-<setting name="FAHRENHEIT" value="FAHRENHEIT"/>
-<setting name="EGTFULL_OFF" value="EGTFULL_OFF"/>
-<setting name="PORT_STATUS_OFF" value="PORT_STATUS_OFF"/>
-<setting name="OUTMSG_EDITING_OFF" value="OUTMSG_EDITING_OFF"/>
-<setting name="CAN_COMMANDS_OFF" value="CAN_COMMANDS_OFF"/>
-</settings>
-<userComments Comment="These are user comments that can be related to a particular setting or dialog."/>
+        <constant digits="0" name="can_bcast_user_id">1234.0</constant>
+        <constant digits="0" name="can_bcast_user_d0">4.0</constant>
+        <constant digits="0" name="can_bcast_user_d1">0.0</constant>
+        <constant digits="0" name="can_bcast_user_d2">0.0</constant>
+        <constant digits="0" name="can_bcast_user_d3">0.0</constant>
+        <constant digits="0" name="can_bcast_user_d4">0.0</constant>
+        <constant digits="0" name="can_bcast_user_d5">0.0</constant>
+        <constant digits="0" name="can_bcast_user_d6">0.0</constant>
+        <constant digits="0" name="can_bcast_user_d7">0.0</constant>
+        <constant digits="0" name="dashbcast_id1">1512.0</constant>
+        <constant name="dashbcast_opta1">"Off"</constant>
+        <constant name="dashbcast_opta1adv">"Automatic"</constant>
+        <constant name="dashbcast_opta4outrate">"20Hz"</constant>
+        <constant digits="0" name="outmsg1_offset01">0.0</constant>
+        <constant digits="0" name="outmsg1_offset02">0.0</constant>
+        <constant digits="0" name="outmsg1_offset03">0.0</constant>
+        <constant digits="0" name="outmsg1_offset04">0.0</constant>
+        <constant digits="0" name="outmsg1_offset05">0.0</constant>
+        <constant digits="0" name="outmsg1_offset06">0.0</constant>
+        <constant digits="0" name="outmsg1_offset07">0.0</constant>
+        <constant digits="0" name="outmsg1_offset08">0.0</constant>
+        <constant digits="0" name="outmsg1_offset09">0.0</constant>
+        <constant digits="0" name="outmsg1_offset10">0.0</constant>
+        <constant digits="0" name="outmsg1_offset11">0.0</constant>
+        <constant digits="0" name="outmsg1_offset12">0.0</constant>
+        <constant digits="0" name="outmsg1_offset13">0.0</constant>
+        <constant digits="0" name="outmsg1_offset14">0.0</constant>
+        <constant digits="0" name="outmsg1_offset15">0.0</constant>
+        <constant digits="0" name="outmsg1_offset16">0.0</constant>
+        <constant digits="0" name="outmsg1_size01">0.0</constant>
+        <constant digits="0" name="outmsg1_size02">0.0</constant>
+        <constant digits="0" name="outmsg1_size03">0.0</constant>
+        <constant digits="0" name="outmsg1_size04">0.0</constant>
+        <constant digits="0" name="outmsg1_size05">0.0</constant>
+        <constant digits="0" name="outmsg1_size06">0.0</constant>
+        <constant digits="0" name="outmsg1_size07">0.0</constant>
+        <constant digits="0" name="outmsg1_size08">0.0</constant>
+        <constant digits="0" name="outmsg1_size09">0.0</constant>
+        <constant digits="0" name="outmsg1_size10">0.0</constant>
+        <constant digits="0" name="outmsg1_size11">0.0</constant>
+        <constant digits="0" name="outmsg1_size12">0.0</constant>
+        <constant digits="0" name="outmsg1_size13">0.0</constant>
+        <constant digits="0" name="outmsg1_size14">0.0</constant>
+        <constant digits="0" name="outmsg1_size15">0.0</constant>
+        <constant digits="0" name="outmsg1_size16">0.0</constant>
+        <constant digits="0" name="outmsg2_offset01">0.0</constant>
+        <constant digits="0" name="outmsg2_offset02">0.0</constant>
+        <constant digits="0" name="outmsg2_offset03">0.0</constant>
+        <constant digits="0" name="outmsg2_offset04">0.0</constant>
+        <constant digits="0" name="outmsg2_offset05">0.0</constant>
+        <constant digits="0" name="outmsg2_offset06">0.0</constant>
+        <constant digits="0" name="outmsg2_offset07">0.0</constant>
+        <constant digits="0" name="outmsg2_offset08">0.0</constant>
+        <constant digits="0" name="outmsg2_offset09">0.0</constant>
+        <constant digits="0" name="outmsg2_offset10">0.0</constant>
+        <constant digits="0" name="outmsg2_offset11">0.0</constant>
+        <constant digits="0" name="outmsg2_offset12">0.0</constant>
+        <constant digits="0" name="outmsg2_offset13">0.0</constant>
+        <constant digits="0" name="outmsg2_offset14">0.0</constant>
+        <constant digits="0" name="outmsg2_offset15">0.0</constant>
+        <constant digits="0" name="outmsg2_offset16">0.0</constant>
+        <constant digits="0" name="outmsg2_size01">0.0</constant>
+        <constant digits="0" name="outmsg2_size02">0.0</constant>
+        <constant digits="0" name="outmsg2_size03">0.0</constant>
+        <constant digits="0" name="outmsg2_size04">0.0</constant>
+        <constant digits="0" name="outmsg2_size05">0.0</constant>
+        <constant digits="0" name="outmsg2_size06">0.0</constant>
+        <constant digits="0" name="outmsg2_size07">0.0</constant>
+        <constant digits="0" name="outmsg2_size08">0.0</constant>
+        <constant digits="0" name="outmsg2_size09">0.0</constant>
+        <constant digits="0" name="outmsg2_size10">0.0</constant>
+        <constant digits="0" name="outmsg2_size11">0.0</constant>
+        <constant digits="0" name="outmsg2_size12">0.0</constant>
+        <constant digits="0" name="outmsg2_size13">0.0</constant>
+        <constant digits="0" name="outmsg2_size14">0.0</constant>
+        <constant digits="0" name="outmsg2_size15">0.0</constant>
+        <constant digits="0" name="outmsg2_size16">0.0</constant>
+        <constant digits="0" name="outmsg3_offset01">0.0</constant>
+        <constant digits="0" name="outmsg3_offset02">0.0</constant>
+        <constant digits="0" name="outmsg3_offset03">0.0</constant>
+        <constant digits="0" name="outmsg3_offset04">0.0</constant>
+        <constant digits="0" name="outmsg3_offset05">0.0</constant>
+        <constant digits="0" name="outmsg3_offset06">0.0</constant>
+        <constant digits="0" name="outmsg3_offset07">0.0</constant>
+        <constant digits="0" name="outmsg3_offset08">0.0</constant>
+        <constant digits="0" name="outmsg3_offset09">0.0</constant>
+        <constant digits="0" name="outmsg3_offset10">0.0</constant>
+        <constant digits="0" name="outmsg3_offset11">0.0</constant>
+        <constant digits="0" name="outmsg3_offset12">0.0</constant>
+        <constant digits="0" name="outmsg3_offset13">0.0</constant>
+        <constant digits="0" name="outmsg3_offset14">0.0</constant>
+        <constant digits="0" name="outmsg3_offset15">0.0</constant>
+        <constant digits="0" name="outmsg3_offset16">0.0</constant>
+        <constant digits="0" name="outmsg3_size01">0.0</constant>
+        <constant digits="0" name="outmsg3_size02">0.0</constant>
+        <constant digits="0" name="outmsg3_size03">0.0</constant>
+        <constant digits="0" name="outmsg3_size04">0.0</constant>
+        <constant digits="0" name="outmsg3_size05">0.0</constant>
+        <constant digits="0" name="outmsg3_size06">0.0</constant>
+        <constant digits="0" name="outmsg3_size07">0.0</constant>
+        <constant digits="0" name="outmsg3_size08">0.0</constant>
+        <constant digits="0" name="outmsg3_size09">0.0</constant>
+        <constant digits="0" name="outmsg3_size10">0.0</constant>
+        <constant digits="0" name="outmsg3_size11">0.0</constant>
+        <constant digits="0" name="outmsg3_size12">0.0</constant>
+        <constant digits="0" name="outmsg3_size13">0.0</constant>
+        <constant digits="0" name="outmsg3_size14">0.0</constant>
+        <constant digits="0" name="outmsg3_size15">0.0</constant>
+        <constant digits="0" name="outmsg3_size16">0.0</constant>
+        <constant digits="0" name="outmsg4_offset01">0.0</constant>
+        <constant digits="0" name="outmsg4_offset02">0.0</constant>
+        <constant digits="0" name="outmsg4_offset03">0.0</constant>
+        <constant digits="0" name="outmsg4_offset04">0.0</constant>
+        <constant digits="0" name="outmsg4_offset05">0.0</constant>
+        <constant digits="0" name="outmsg4_offset06">0.0</constant>
+        <constant digits="0" name="outmsg4_offset07">0.0</constant>
+        <constant digits="0" name="outmsg4_offset08">0.0</constant>
+        <constant digits="0" name="outmsg4_offset09">0.0</constant>
+        <constant digits="0" name="outmsg4_offset10">0.0</constant>
+        <constant digits="0" name="outmsg4_offset11">0.0</constant>
+        <constant digits="0" name="outmsg4_offset12">0.0</constant>
+        <constant digits="0" name="outmsg4_offset13">0.0</constant>
+        <constant digits="0" name="outmsg4_offset14">0.0</constant>
+        <constant digits="0" name="outmsg4_offset15">0.0</constant>
+        <constant digits="0" name="outmsg4_offset16">0.0</constant>
+        <constant digits="0" name="outmsg4_size01">0.0</constant>
+        <constant digits="0" name="outmsg4_size02">0.0</constant>
+        <constant digits="0" name="outmsg4_size03">0.0</constant>
+        <constant digits="0" name="outmsg4_size04">0.0</constant>
+        <constant digits="0" name="outmsg4_size05">0.0</constant>
+        <constant digits="0" name="outmsg4_size06">0.0</constant>
+        <constant digits="0" name="outmsg4_size07">0.0</constant>
+        <constant digits="0" name="outmsg4_size08">0.0</constant>
+        <constant digits="0" name="outmsg4_size09">0.0</constant>
+        <constant digits="0" name="outmsg4_size10">0.0</constant>
+        <constant digits="0" name="outmsg4_size11">0.0</constant>
+        <constant digits="0" name="outmsg4_size12">0.0</constant>
+        <constant digits="0" name="outmsg4_size13">0.0</constant>
+        <constant digits="0" name="outmsg4_size14">0.0</constant>
+        <constant digits="0" name="outmsg4_size15">0.0</constant>
+        <constant digits="0" name="outmsg4_size16">0.0</constant>
+        <constant digits="0" name="outmsg5_offset01">0.0</constant>
+        <constant digits="0" name="outmsg5_offset02">0.0</constant>
+        <constant digits="0" name="outmsg5_offset03">0.0</constant>
+        <constant digits="0" name="outmsg5_offset04">0.0</constant>
+        <constant digits="0" name="outmsg5_offset05">0.0</constant>
+        <constant digits="0" name="outmsg5_offset06">0.0</constant>
+        <constant digits="0" name="outmsg5_offset07">0.0</constant>
+        <constant digits="0" name="outmsg5_offset08">0.0</constant>
+        <constant digits="0" name="outmsg5_offset09">0.0</constant>
+        <constant digits="0" name="outmsg5_offset10">0.0</constant>
+        <constant digits="0" name="outmsg5_offset11">0.0</constant>
+        <constant digits="0" name="outmsg5_offset12">0.0</constant>
+        <constant digits="0" name="outmsg5_offset13">0.0</constant>
+        <constant digits="0" name="outmsg5_offset14">0.0</constant>
+        <constant digits="0" name="outmsg5_offset15">0.0</constant>
+        <constant digits="0" name="outmsg5_offset16">0.0</constant>
+        <constant digits="0" name="outmsg5_size01">0.0</constant>
+        <constant digits="0" name="outmsg5_size02">0.0</constant>
+        <constant digits="0" name="outmsg5_size03">0.0</constant>
+        <constant digits="0" name="outmsg5_size04">0.0</constant>
+        <constant digits="0" name="outmsg5_size05">0.0</constant>
+        <constant digits="0" name="outmsg5_size06">0.0</constant>
+        <constant digits="0" name="outmsg5_size07">0.0</constant>
+        <constant digits="0" name="outmsg5_size08">0.0</constant>
+        <constant digits="0" name="outmsg5_size09">0.0</constant>
+        <constant digits="0" name="outmsg5_size10">0.0</constant>
+        <constant digits="0" name="outmsg5_size11">0.0</constant>
+        <constant digits="0" name="outmsg5_size12">0.0</constant>
+        <constant digits="0" name="outmsg5_size13">0.0</constant>
+        <constant digits="0" name="outmsg5_size14">0.0</constant>
+        <constant digits="0" name="outmsg5_size15">0.0</constant>
+        <constant digits="0" name="outmsg5_size16">0.0</constant>
+        <constant digits="0" name="outmsg6_offset01">0.0</constant>
+        <constant digits="0" name="outmsg6_offset02">0.0</constant>
+        <constant digits="0" name="outmsg6_offset03">0.0</constant>
+        <constant digits="0" name="outmsg6_offset04">0.0</constant>
+        <constant digits="0" name="outmsg6_offset05">0.0</constant>
+        <constant digits="0" name="outmsg6_offset06">0.0</constant>
+        <constant digits="0" name="outmsg6_offset07">0.0</constant>
+        <constant digits="0" name="outmsg6_offset08">0.0</constant>
+        <constant digits="0" name="outmsg6_offset09">0.0</constant>
+        <constant digits="0" name="outmsg6_offset10">0.0</constant>
+        <constant digits="0" name="outmsg6_offset11">0.0</constant>
+        <constant digits="0" name="outmsg6_offset12">0.0</constant>
+        <constant digits="0" name="outmsg6_offset13">0.0</constant>
+        <constant digits="0" name="outmsg6_offset14">0.0</constant>
+        <constant digits="0" name="outmsg6_offset15">0.0</constant>
+        <constant digits="0" name="outmsg6_offset16">0.0</constant>
+        <constant digits="0" name="outmsg6_size01">0.0</constant>
+        <constant digits="0" name="outmsg6_size02">0.0</constant>
+        <constant digits="0" name="outmsg6_size03">0.0</constant>
+        <constant digits="0" name="outmsg6_size04">0.0</constant>
+        <constant digits="0" name="outmsg6_size05">0.0</constant>
+        <constant digits="0" name="outmsg6_size06">0.0</constant>
+        <constant digits="0" name="outmsg6_size07">0.0</constant>
+        <constant digits="0" name="outmsg6_size08">0.0</constant>
+        <constant digits="0" name="outmsg6_size09">0.0</constant>
+        <constant digits="0" name="outmsg6_size10">0.0</constant>
+        <constant digits="0" name="outmsg6_size11">0.0</constant>
+        <constant digits="0" name="outmsg6_size12">0.0</constant>
+        <constant digits="0" name="outmsg6_size13">0.0</constant>
+        <constant digits="0" name="outmsg6_size14">0.0</constant>
+        <constant digits="0" name="outmsg6_size15">0.0</constant>
+        <constant digits="0" name="outmsg6_size16">0.0</constant>
+        <constant digits="0" name="outmsg7_offset01">0.0</constant>
+        <constant digits="0" name="outmsg7_offset02">0.0</constant>
+        <constant digits="0" name="outmsg7_offset03">0.0</constant>
+        <constant digits="0" name="outmsg7_offset04">0.0</constant>
+        <constant digits="0" name="outmsg7_offset05">0.0</constant>
+        <constant digits="0" name="outmsg7_offset06">0.0</constant>
+        <constant digits="0" name="outmsg7_offset07">0.0</constant>
+        <constant digits="0" name="outmsg7_offset08">0.0</constant>
+        <constant digits="0" name="outmsg7_offset09">0.0</constant>
+        <constant digits="0" name="outmsg7_offset10">0.0</constant>
+        <constant digits="0" name="outmsg7_offset11">0.0</constant>
+        <constant digits="0" name="outmsg7_offset12">0.0</constant>
+        <constant digits="0" name="outmsg7_offset13">0.0</constant>
+        <constant digits="0" name="outmsg7_offset14">0.0</constant>
+        <constant digits="0" name="outmsg7_offset15">0.0</constant>
+        <constant digits="0" name="outmsg7_offset16">0.0</constant>
+        <constant digits="0" name="outmsg7_size01">0.0</constant>
+        <constant digits="0" name="outmsg7_size02">0.0</constant>
+        <constant digits="0" name="outmsg7_size03">0.0</constant>
+        <constant digits="0" name="outmsg7_size04">0.0</constant>
+        <constant digits="0" name="outmsg7_size05">0.0</constant>
+        <constant digits="0" name="outmsg7_size06">0.0</constant>
+        <constant digits="0" name="outmsg7_size07">0.0</constant>
+        <constant digits="0" name="outmsg7_size08">0.0</constant>
+        <constant digits="0" name="outmsg7_size09">0.0</constant>
+        <constant digits="0" name="outmsg7_size10">0.0</constant>
+        <constant digits="0" name="outmsg7_size11">0.0</constant>
+        <constant digits="0" name="outmsg7_size12">0.0</constant>
+        <constant digits="0" name="outmsg7_size13">0.0</constant>
+        <constant digits="0" name="outmsg7_size14">0.0</constant>
+        <constant digits="0" name="outmsg7_size15">0.0</constant>
+        <constant digits="0" name="outmsg7_size16">0.0</constant>
+        <constant digits="0" name="outmsg8_offset01">0.0</constant>
+        <constant digits="0" name="outmsg8_offset02">0.0</constant>
+        <constant digits="0" name="outmsg8_offset03">0.0</constant>
+        <constant digits="0" name="outmsg8_offset04">0.0</constant>
+        <constant digits="0" name="outmsg8_offset05">0.0</constant>
+        <constant digits="0" name="outmsg8_offset06">0.0</constant>
+        <constant digits="0" name="outmsg8_offset07">0.0</constant>
+        <constant digits="0" name="outmsg8_offset08">0.0</constant>
+        <constant digits="0" name="outmsg8_offset09">0.0</constant>
+        <constant digits="0" name="outmsg8_offset10">0.0</constant>
+        <constant digits="0" name="outmsg8_offset11">0.0</constant>
+        <constant digits="0" name="outmsg8_offset12">0.0</constant>
+        <constant digits="0" name="outmsg8_offset13">0.0</constant>
+        <constant digits="0" name="outmsg8_offset14">0.0</constant>
+        <constant digits="0" name="outmsg8_offset15">0.0</constant>
+        <constant digits="0" name="outmsg8_offset16">0.0</constant>
+        <constant digits="0" name="outmsg8_size01">0.0</constant>
+        <constant digits="0" name="outmsg8_size02">0.0</constant>
+        <constant digits="0" name="outmsg8_size03">0.0</constant>
+        <constant digits="0" name="outmsg8_size04">0.0</constant>
+        <constant digits="0" name="outmsg8_size05">0.0</constant>
+        <constant digits="0" name="outmsg8_size06">0.0</constant>
+        <constant digits="0" name="outmsg8_size07">0.0</constant>
+        <constant digits="0" name="outmsg8_size08">0.0</constant>
+        <constant digits="0" name="outmsg8_size09">0.0</constant>
+        <constant digits="0" name="outmsg8_size10">0.0</constant>
+        <constant digits="0" name="outmsg8_size11">0.0</constant>
+        <constant digits="0" name="outmsg8_size12">0.0</constant>
+        <constant digits="0" name="outmsg8_size13">0.0</constant>
+        <constant digits="0" name="outmsg8_size14">0.0</constant>
+        <constant digits="0" name="outmsg8_size15">0.0</constant>
+        <constant digits="0" name="outmsg8_size16">0.0</constant>
+    </page>
+    <settings Comment="These setting are only used if this msq is opened without a project.">
+        <setting name="FAHRENHEIT" value="FAHRENHEIT"/>
+        <setting name="EGTFULL_OFF" value="EGTFULL_OFF"/>
+        <setting name="PORT_STATUS_OFF" value="PORT_STATUS_OFF"/>
+        <setting name="OUTMSG_EDITING_OFF" value="OUTMSG_EDITING_OFF"/>
+        <setting name="CAN_COMMANDS_OFF" value="CAN_COMMANDS_OFF"/>
+    </settings>
+    <userComments Comment="These are user comments that can be related to a particular setting or dialog."/>
 </msq>
