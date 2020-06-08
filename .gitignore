@@ -5,3 +5,5 @@ TunerStudioAppDebug.txt
 *ref/
 *.zip
 *~
+*.LOG
+*.MS3
